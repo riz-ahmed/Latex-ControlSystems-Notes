@@ -1,0 +1,92 @@
+%% Header
+\input{Header}
+%\addbibresource{References.bib}
+\begin{document}
+
+
+
+\parindent 0pt
+%% Title
+	%% Section with roman numbers
+	\setcounter{secnumdepth}{-1}
+	\pagenumbering{Roman}
+	\input{chapters/title}
+
+% 	\cleardoublepage
+% 	\thispagestyle{empty}
+% 	\mbox{}
+	\setcounter{page}{1}
+	
+%%	Decidation
+%% Section with arabic numbers
+	\setcounter{tocdepth}{4}
+	\addcontentsline{toc}{chapter}{Table of Contents}
+	\tableofcontents
+	\listoffigures
+	\listoftables
+	\printnomenclature
+	\input{chapters/DA_Symbole}
+	\cleardoublepage 
+
+
+	\setcounter{secnumdepth}{8} 
+	\pagenumbering{arabic}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\input{chapters/appendix}
+%	\input{chapters/Einleitung/einleitung}
+% 	\input{chapters/Ausblick/ausblick}
+	\input{chapters/part0_Newtonian_Mechanics}
+	\input{chapters/part0_ch0_Intro}
+	\input{chapters/part0_ch_2_ImpulsetorqueAM}
+%	\input{chapters/part0_ch_6_TorqueAndAngularMomentum}
+	\input{chapters/part0_ch_3_FictitiousForces}
+	\input{chapters/part0_ch_4_Deriving_EOMs}
+	\input{chapters/part0_ch_5_MassMomentOfInertia}
+	\input{chapters/13_Prelims}
+	\input{chapters/01_System_Modeling}
+	\input{chapters/02_Analysis}
+	\input{chapters/02_2_IntroToControl}
+
+	\input{chapters/05_EigenValueAnalysis}
+
+%	\input{Chapters/06_PID}
+	\input{chapters/07_ControlSpecifications}
+	\input{chapters/08_RootLocus}
+	\input{chapters/09_Frequency_Response}
+	\input{chapters/10_FrequencyResponseContollerDesign}
+	\input{chapters/11_IntroRobustControl}
+	\input{chapters/12_Fundamentals_ElectricCKTS}
+	\input{chapters/14_AdvancedControlArchitectures}
+	\input{chapters/Part2_Intro}
+	\input{chapters/03_State_space_representation}
+	\input{chapters/Part2_ModelingAutomotiveSystems}
+	\input{chapters/04_Linearizing}
+	\input{chapters/Part2_StateSpaceBehavior}
+	\input{chapters/Part2_StateFeedbackDesign}
+	\input{chapters/Part2_Tuning}
+	\input{chapters/Part2_Controllability_Observability}
+	\input{chapters/Part2_StateEstimation}
+	\input{chapters/Part2_ExamplesOfControlSystems}
+	\input{chapters/Part3_RobustControl_1.tex}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\cleardoublepage 
+	% BIBTEX Literaturverzeichnis
+	\bibliography{References.bib}
+	
+	\bibliographystyle{alphadin}	%package din1505 und germbib installieren
+	\addcontentsline{toc}{chapter}{Bibliography}
+
+%% Section with alphabetic numbers
+ 	\setcounter{secnumdepth}{0} 
+ 	\pagenumbering{Alph}
+	
+	\cleardoublepage
+
+
+%% Declaration
+%	\input{chapters/declaration}
+
+\end{document}

@@ -1,0 +1,227 @@
+% !TeX spellcheck = en_US
+\chapter{State space representation}
+
+\textit{This chapter deals with modeling linear systems using state space approach and linearization techniques for nonlinear systems}.
+
+LTI systems can be expressed in state space form in the following way:
+
+\begin{align}
+	\dot{\vec{x}}(t) &= \vec{A} x(t) + \vec{B} u(t) \\
+	\vec{y}(t) &= \vec{C} x(t) + \vec{D} u(t)
+\end{align}
+
+Here, matrix $B$ is due to the control variables and depends on the actuators used to actuate various states of the system. Matrix $B$ is also called control matrix or actuator matrix. Similarly, since matrix $C$ is used to sense the required states, matrix $C$ is called the sensor matrix and $D$ is called direct or feedthrough matrix.
+
+If the matrices $A$, $B$, $C$ and $D$ are constants and do not depend on time, then it is equivalent to the coefficients of linear differential equation \eqref{Eq_Prelim_LDE} beings constants. The system is this case is called Linear and time-invariant system.
+
+\section{Laplace transform from state-space model} \label{Sec_LT_of_StSpModel}
+
+Given a LTI system of the form
+\begin{align}\label{Eq_SS_StdForm}
+	\dot{\vec{x}}(t) &= \vec{A} x(t) + \vec{B} u(t) \\
+	\vec{y}(t) &= \vec{C} x(t) + \vec{D} u(t)
+\end{align}
+Taking LT of equation \eqref{Eq_SS_StdForm}
+\begin{align}
+	\mathcal{L} \{ \dot{x} = Ax + Bu \} &\implies s X(s) - x(0) = A X(s) + B U(s) \\
+	\mathcal{L} \{ y = C x + D u \} &\implies Y(s) = C X(s) + D U(s)
+\end{align}
+which gives,
+\begin{align}
+	(sI - A)X(s) = B U(s) + x(0) \implies X(s) = (sI - A)^{-1} B U(s) + (sI - A)^{-1} x(0) \\
+	Y(s) = [C(sI - A)^{-1} B + D] U(s) + C(sI - A)^{-1} x(0) \label{Eq_SS_responseEq}
+\end{align}
+Note that in equation \eqref{Eq_SS_responseEq} is the solution of the differential equation given by \eqref{Eq_SS_StdForm}, the first term is the particular solution and second term is the null solution. The part of the first term $C(sI - A)^{-1} B + D = G(s)$ is also the TF of the system, given that the initial state $x(0) = 0$ such that:
+\begin{equation*}
+	G(s) = \frac{Y(s)}{U(s)} = C(sI - A)^{-1} B + D
+\end{equation*}
+
+\section{Solution of State-space model}
+
+As described in section \ref{Sec_Prelim_LDE_Ex} Linear differential equation (LDE) written in scalar form \begin{equation}
+	\dot{x} = a x + b u
+\end{equation}
+the null solution, particular solution, and the complete solution are given as described by equations \eqref{Eq_Prelim_LDE_Ex_NullSolution}, \eqref{Eq_Prelim_LDE_Ex_ParticularSolution} and \eqref{Eq_Prelim_LDE_Ex_FullSolution} respectively also given here below for reference
+Null Solution:
+\begin{equation}
+	x_{n} = x_0 e^{at}
+\end{equation}
+Particular Solution using convolutional integral:
+\begin{equation}
+	x_p = \int_{0}^{t} g(t - \tau) u(\tau) d\tau = \int_{0}^{t} b e^{a(t - \tau)} u(\tau) d\tau
+\end{equation}
+Solution:
+\begin{equation}
+	x(t) = x_{n}(t) + x_{p}(t) = x_0 e^{at} + \int_{0}^{t} b e^{a(t - \tau)} u(\tau) d\tau
+\end{equation}
+
+Similarly, from the above results for a scalar equation, the solution is found similarly for a matrix equation like a StSp. For a matrix equation
+\begin{equation}
+	\dot{\vec{x}} = \vec{A}x + \vec{B}u
+\end{equation}
+Null Solution analogous to equation \ref{Eq_Prelim_LDE_Ex_NullSolution}
+\begin{equation}
+	\vec{x_{n}} = x_0 e^{\vec{A}t}
+\end{equation}
+Particular solution analogous to equation \ref{Eq_Prelim_LDE_Ex_ParticularSolution}
+\begin{equation}
+	\vec{x_p} = \int_{0}^{t} \vec{B} e^{\vec{A}(t - \tau)} u(\tau) d\tau
+\end{equation}
+Solution of StSp \eqref{Eq_SS_StdForm} analogous to equation \eqref{Eq_Prelim_LDE_Ex_FullSolution}
+\begin{equation}
+	\vec{x(t)} = \vec{x_{n}}(t) + \vec{x_{p}}(t) = x_0 e^{\vec{A}t} + \int_{0}^{t} \vec{B} e^{\vec{A}(t - \tau)} u(\tau) d\tau
+\end{equation}
+Also including output signal
+\begin{equation} \label{Eq_StSp_SolutionFromLDE}
+	\vec{y}(t) = \vec{C}e^{\vec{A}t}x_0 + \int_{0}^{t} \vec{B} e^{\vec{A}(t - \tau)} u(\tau) d\tau + \vec{D} u(t)
+\end{equation}
+
+\section{Transition Matrix or Matrix exponential} \label{Sec_StSp_TransitionMatrix}
+
+The special term $e^{\vec{A}t}$ is an exponential matrix which can in general be calculated using infinite time series expansion as described in section \ref{Sec_Prelim_EulersIdentity} of Euler's Identity. However, this term can also be determined by comparing already developed mathematics so far. By comparing the solutions from Laplace transform \eqref{Eq_SS_responseEq} and solution from LDE \eqref{Eq_StSp_SolutionFromLDE}, it can be seen that in both the equations the coefficients $e^{\vec{A}t}$ and $(sI - A)^{-1}$ are always same. Therefore $e^{\vec{A}t}$ in time domain can be calculated using inverse Laplace
+\begin{equation}
+	e^{\vec{A}t} = \mathcal{L}^{-1}\{(sI - A)^{-1}\}
+\end{equation}
+
+\section{Poles and zeros and Eigenvalues of State-space}
+
+From equation \eqref{Eq_SS_responseEq}, the transfer function of the state-space model was determined to be the term due to the input signal
+\begin{equation}
+	G(s) = C(sI - A)^{-1} B + D
+\end{equation}
+So, in order to determine the TF, the inverse of $(sI - A)$ should be calculated, this however, is rather difficult and hence an alternative proof from mathematics is used which calculates the TF in whole
+\begin{equation}
+	G(s) = C(sI - A)^{-1} B + D = \frac{det\left(\begin{bmatrix}
+		sI - A & -B \\ C & D
+		\end{bmatrix}\right)}{det(sI - A)}
+\end{equation}
+These determinants are actually the characteristic equations for the system, so the poles of the system are determined for the values of denominator that makes the denominator go to zero
+\begin{equation}
+	det(sI - A) = 0
+\end{equation}
+Similarly, zeros can be found from the solutions of numerator
+\begin{equation}
+	det\left(\begin{bmatrix}
+	sI - A & -B \\ C & D
+	\end{bmatrix}\right) = 0
+\end{equation}
+
+Furthermore, it can be seen that finding the poles using $det(sI - A) = 0$ is same as finding the Eigen values of $\vec{A}$ which is found using $det(\lambda I - A) = 0$, in which case only the $s$ term is replaced with a $\lambda$ term. Therefore, it can be concluded that since Eigen values determine the stability of the system, it is only sufficient to determine the Eigen values of $\vec{A}$ using $det(\lambda I - A) = 0$ which would in turn describe the stability of the system.
+
+Similar to stability of LDE using real values of $\sigma$, it can be said that the StSp model is asymptotically stable iff $\lambda_{i} < 0$. In all other cases the system is not asymptotically stable.
+
+\section{State-space transformations}
+
+A State-space representation is not unique. That is, for a given set of state variables chosen there is always a relationship with other state-variables that could have been chosen to represent the system model. In order to establish this transformation of the system model from one state to another state, consider a new state variable $z$ such that $x$ can be transformed to $z$ by using a transformation matrix $\vec{T}$
+\begin{equation}
+	\vec{x} = \vec{T} \vec{z}
+\end{equation}
+If $\vec{T}$ is invertible, then the new state-space model can be expressed with the new state variable $z$ using
+\begin{equation}
+	\dot{\vec{z}} = \vec{T}^{-1}(\vec{A}x + \vec{B}u) = \vec{T}^{-1}(\vec{A}\vec{T}z + \vec{B}u) = \vec{T}^{-1} \vec{A}\vec{T}z + \vec{T}^{-1} \vec{B}u = \tilde{\vec{A}}x + \tilde{\vec{B}}u
+\end{equation}
+and new response matrix
+\begin{equation}
+	\vec{y} = \vec{C}\vec{T}z + \vec{D}u = \tilde{\vec{C}}z + \tilde{\vec{D}}u
+\end{equation}
+
+\section{State space for a 2D particle}
+
+Consider a particle $p$, which can translate along two coordinates $x$ and $y$ and the motion is actuated due to the control inputs $u_x$ and $u_y$ which accelerate the particle along $x$ and $y$ coordinates, such that $\ddot{p}_{x} = u_x$ and $\ddot{p}_{y} = u_y$. The state space model can be formulated as given below:
+
+First states are recognized with variables:
+
+\begin{align*}
+	x_1 &= p_X \\
+	x_2 &= \dot{p}_{x} \\
+	x_3 &= p_y \\
+	x_4 &= \dot{p}_{y}
+\end{align*}
+
+We have two control inputs, therefore, two variable can be recognized:
+
+\begin{align*}
+	u_1 &= u_x \\
+	u_2 &= u_y
+\end{align*}
+
+There are two output variable:
+
+\begin{align*}
+	y_1 &= p_x \\
+	y_2 &= p_y
+\end{align*}
+
+The dynamics of the state variables is given by $\vec{\dot{x}}$:
+
+\begin{align*}
+	\vec{\dot{x}} = \begin{bmatrix}
+		\dot{x_1} \\
+		\dot{x_2} \\
+		\dot{x_3} \\
+		\dot{x_4}
+	\end{bmatrix} = \begin{bmatrix}
+		x_2 \\
+		u_1 \\
+		x_3 \\
+		u_2
+	\end{bmatrix}
+\end{align*}
+
+with states of the system $\vec{x} = [x_1 \quad x_2 \quad x_3 \quad x_4]^{T}$, the $A$ and $B$ matrices can be written as:
+
+\begin{equation*}
+	\vec{A} = \begin{bmatrix}
+		1 &0 &0 &0 \\
+		0 &0 &0 &0 \\
+		0 &0 &1 &0 \\
+		0 &0 &0 &0
+	\end{bmatrix} \begin{bmatrix}
+		x_1 \\ x_2 \\ x_3 \\ x_4
+	\end{bmatrix}
+\end{equation*}
+
+\begin{equation*}
+	\vec{B} = \begin{bmatrix}
+		0 &0 \\
+		1 &0 \\
+		0 &0 \\
+		0 &1	
+	\end{bmatrix} \begin{bmatrix}
+	u_1 \\ u_2
+	\end{bmatrix}
+\end{equation*}
+
+Such that $\vec{\dot{x}}$ can be written in the form $Ax + Bu$ in matrix form.
+
+Similarly, the output equation can be written in state space using sensor matrix $C$, $\vec{y}$ has to be written such that $\vec{y} = [x_1 \quad x_3]^{T}$:
+
+\begin{equation*}
+		\begin{bmatrix}
+			1 &0 &0 &0 \\
+			0 &0 &1 &0
+		\end{bmatrix} \begin{bmatrix}
+			y_1 \\ y_2
+		\end{bmatrix}
+\end{equation*}
+
+\section{Dimension check for matrices \cite[p.3.1.6]{CMR_Lec_ppt_3}}
+
+if $x \in \mathbb{R}^{n} \Longrightarrow \vec{A} : n \times n$
+
+if $u \in \mathbb{R}^{m} \Longrightarrow \vec{B} : n \times m$
+
+if $y \in \mathbb{R}^{p} \Longrightarrow \vec{C} : p \times n$
+
+It is important to see that the size of the matrix matches the algebriac equations $\vec{x} = Ax + Bu$ and $\vec{y} = Cx$.
+
+Also,
+
+\begin{align*}
+	x &: n \times 1 \\
+	u &: m \times 1 \\
+	y &: p \times 1
+\end{align*}
+
+Remembering the matrix dimensions in state space would help write the matrices more easily and also ensures the validity of the written matrices.
+

@@ -1,0 +1,50 @@
+\chapter{State space behavior}
+
+The state space model is generally described by
+\begin{align}
+	\vec{\dot{x}} &= \vec{A}x + \vec{B}u \\
+	\vec{y} &= \vec{C}x + \vec{D}u
+\end{align}
+This chapter focuses on how the behaviors are linked to the parameters in the matrices $\vec{A}$, $\vec{B}$, $\vec{C}$ and $\vec{D}$. As described in section \ref{Sec_LT_of_StSpModel}, the LT of the state-space model is expressed by equations given below, which represent the input/output behavior from the state-space model
+\begin{align}
+(sI - A)X(s) = B U(s) + x(0) &\implies X(s) = (sI - A)^{-1} B U(s) + (sI - A)^{-1} x(0) \label{StSp_Behavior_IP_LT} \\
+Y(s) = [C(sI - A)^{-1} B + D] U(s) + &(sI - A)^{-1} x(0) \label{StSp_Behavior_OP_LT}
+\end{align}
+Further, the TF of the system was expressed from the output transformation \eqref{StSp_Behavior_OP_LT} as
+\begin{equation}
+	G(s) = C(sI - A)^{-1} B + D
+\end{equation}
+It is important to note that this \textbf{\textit{TF is of the Open-Loop system}}, as using the state-space models, the concept of feedback is not yet been defined. Further, it was also noted that since the term $(sI - A)^{-1}$ in TF comes in the denominator due to the inverse, the poles of the system are defined by this characteristic equation
+\begin{equation}
+	det(sI - A) = 0
+\end{equation}
+Additionally, the Eigenvalues of matrix A are computed using the definition $|sI - A| = 0$ which is again same as the poles of the system. Therefore, the behavior of a system is defined by the Eigenvalues (poles) of the matrix A.
+
+\section{State-Transition matrix $e^{\vec{A}t}$}
+
+An introduction to state-transition matrix was defined in section \ref{Sec_StSp_TransitionMatrix} in which by comparing the coefficients from the output transform $\vec{Y}$ given by equation \eqref{Eq_SS_responseEq} with the solution of state-space given by equation \eqref{Eq_StSp_SolutionFromLDE} from an ODE, it was found that the state-transition matrix is expresses as
+\begin{equation}
+	e^{\vec{A}t} = \mathcal{L}^{-1}\{(sI - A)^{-1}\}
+\end{equation}
+From the solution of the differential of matrix exponential $e^{\vec{A}t}$ as described in section \ref{Sec_Prelims_solution_matrix_exp}, it was found that
+\begin{equation}
+	\frac{d}{dt} e^{\vec{At}} = \vec{A}e^{\vec{A}t}
+\end{equation}
+From this solution it can be seen that the solution contains the original state $\vec{x} = e^{\vec{A}t}$ itself. That is to say, that the solution \textbf{\textit{flows}} (the evolution of the states) as a function of the state $\vec{x} = e^{\vec{A}t}$ itself. Therefore, the states evolve about a certain vector field that is a function of the state $\vec{x} = e^{\vec{A}t}$. Therefore, the vector field is defined as
+\begin{equation}
+	\Phi(t) = f_D(e^{\vec{A}t})
+\end{equation}
+here $e^{\vec{A}t}$ is an invertible function, such that there is always a non-zero value at any given time $t$ and this solution can be assigned to the evolution of state if the initial value of the state $x_0$ is know. So that state $x_t$ at any time $t$ can be expressed as a function of
+\begin{equation}
+	x_t = e^{\vec{A}t} x_0
+\end{equation}
+therefore, the evolution of states can be expressed using the state-transition matrix $\Phi(t)$ as
+\begin{equation}
+	x(t) = \Phi(t)x(0)
+\end{equation}
+where
+\begin{equation}
+	\Phi(t) = \mathcal{L}^{-1}\{(sI - A)^{-1}\}
+\end{equation}
+
+In summary, given the state equation $\dot{x} = \vec{A}x$ can be solved using $x(t) = \Phi(t)x(0)$. Where $\Phi(t) = \mathcal{L}^{-1}\{(sI - A)^{-1}\}$

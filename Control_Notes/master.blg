@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: master.aux
+The style file: alphadin.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: References.bib
+Warning--entry type for "CTMS2019_Modeling" isn't style-file defined
+--line 5 of file References.bib
+Warning--entry type for "CTMS2019_Analysis" isn't style-file defined
+--line 19 of file References.bib
+Warning--entry type for "RickHill_11" isn't style-file defined
+--line 47 of file References.bib
+Warning--entry type for "RickHill_13" isn't style-file defined
+--line 61 of file References.bib
+Warning--entry type for "RickHill_14" isn't style-file defined
+--line 75 of file References.bib
+You've used 7 entries,
+            4793 wiz_defined-function locations,
+            924 strings with 7267 characters,
+and the built_in function-call counts, 3072 in all, are:
+= -- 298
+> -- 78
+< -- 63
++ -- 74
+- -- 22
+* -- 160
+:= -- 528
+add.period$ -- 12
+call.type$ -- 7
+change.case$ -- 30
+chr.to.int$ -- 4
+cite$ -- 7
+duplicate$ -- 104
+empty$ -- 239
+format.name$ -- 52
+if$ -- 636
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 37
+newline$ -- 51
+num.names$ -- 21
+pop$ -- 47
+preamble$ -- 1
+purify$ -- 44
+quote$ -- 0
+skip$ -- 186
+stack$ -- 0
+substring$ -- 133
+swap$ -- 15
+text.length$ -- 14
+text.prefix$ -- 5
+top$ -- 0
+type$ -- 70
+warning$ -- 0
+while$ -- 25
+width$ -- 8
+write$ -- 97
+(There were 5 warnings)

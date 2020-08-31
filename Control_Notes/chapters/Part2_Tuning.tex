@@ -1,0 +1,346 @@
+\chapter{Tuning of state feedback systems}
+
+There is always a way of pole-placements using the desired polynomial function. But this method is only suited for canonical systems and systems that are of low order. For complex systems there are other methods that are optimized for usage. One such method is the Ackermann's Formula.
+
+\section{Ackermann's Formula for pole placements}\label{Sec_AckermannsFormaula_ControllerTuning}
+
+The approach given here relies on clear definitions of two polynomials:
+\begin{enumerate}
+	\item Open-loop polynomial
+	\begin{itemize}
+		\item $p_0 = s^{n} + a_{n-1}s^{n-1} + ... + a_{1}s + a_{0}$
+	\end{itemize}
+	\item Closed-loop polynomial
+	\begin{itemize}
+		\item $p_c = s^{n} + \alpha_{n-1}s^{n-1} + ... + \alpha_{1}s + \alpha_{0}$
+	\end{itemize}
+\end{enumerate}
+A Cayley-Hamilton theorem is used which says that if a matrix A satisfies its own characteristic equation. Such as if a characteristic equation of a matrix A is given by
+\begin{equation}
+	|\lambda I - A| = 0 \implies \lambda^{n} + a_{n-1}\lambda^{n-1} + ... + a_{0} = 0
+\end{equation} 
+where $a_n$ are the coefficients of the matrix A. According to Catley-Hamilton theorem, if the scalar value $\lambda$ in the characteristic equation is replaced by the matrix A itself, it still leads to the characteristic equation to be satisfied (RHS is equal to zero).
+\begin{equation}
+	\vec{A}^{n} + a_{n-1}\vec{A}^{n-1} + ... + a_{0}\vec{A}^{0} = 0
+\end{equation}
+The above result leads to the following corollaries
+\begin{itemize}
+	\item if the open-loop polynomial is given by
+	\begin{itemize}
+		\item $p_0 = s^{n} + a_{n-1}s^{n-1} + ... + a_{1}s + a_{0}$, then substituting for system matrix A satisfies the equation:
+		\item $\vec{A}^{n} + a_{n-1}\vec{A}^{n-1} + ... + a_{0}\vec{I} = 0$
+	\end{itemize}
+	\item if the closed-loop polynomial is given by
+	\begin{itemize}
+		\item $p_c = s^{n} + \alpha_{n-1}s^{n-1} + ... + \alpha_{1}s + \alpha_{0}$, then substituting for system matrix (A - BK) satisfies the equation:
+		\item $\vec{(A - BK)}^{n} + a_{n-1}\vec{(A - BK)}^{n-1} + ... + a_{0}\vec{I} = 0$
+	\end{itemize}
+\end{itemize}
+The second result from the closed-loop polynomial is an important result as from this result it can be seen that there exists a values of $K$ for which the Cayley-Hamilton theorem is satisfied. In such a case, the closed-loop gain $K$ is determined in a mathematical way.
+
+\subsection{Ackermann's approach}
+
+The intention is to exploit the latter case of these identities and the full rank nature of the matrix. First using the later case identity, following definitions on closed-loop polynomials can be developed
+\begin{equation}
+	p_{c}(A - BK) = \vec{(A - BK)}^{n} + a_{n-1}\vec{(A - BK)}^{n-1} + ... + a_{0}\vec{I}
+\end{equation}
+there is another definition that is possible, in which case there is $K$ absent, such as
+\begin{equation}
+p_{c}(A) = \vec{A}^{n} + a_{n-1}\vec{A}^{n-1} + ... + a_{0}\vec{I}
+\end{equation}
+Now we have two polynomials $p_{c}(A - BK)$ and $p_{c}(A)$, by definition if there exists a closed-loop gain $K$ such that it satisfies the polynomial $p_{c}(A - BK) = 0$, then the absence of $K$ cannot make the same polynomial go to zero such as $p_{c}(A) \neq 0$.
+
+Since the result of Cayley-Hamilton's proof of closed-loop polynomial is established, we can unpack the terms of this polynomial and look at what we get. In general, a polynomial expansion of matrix is defined as
+\begin{equation}
+	(A - BK)^{n} = A^{n} - A^{n-1}BK + ... + (-1)^{n-1} A(BK)^{n-1} + (-1)^{n} b f_{n}(A,BK)
+\end{equation}
+using this definition, an example second order polynomial can be expanded as follows
+\begin{equation}
+	(A - BK)^{2} = A^{2} - A BK + BKA + (BK)^{2}
+\end{equation}
+Infact, the polynomial $(A - BK)^{n}$ can be written in terms of controllability matrix form as follows:
+\begin{equation} \label{Eq_Ack_1}
+	(A - BK)^{n} = A^{n} + [B, AB, ..., A^{n-2}B, A^{n-1}B] \begin{bmatrix}
+		(-1)^n f_{n}(A,BK) \\ (-1)^{n-1} K (BK)^{n-2} \\ . \\ . \\. \\ -K
+	\end{bmatrix}
+\end{equation}
+As an example, a cubic polynomial can be written in terms of controllability matrix as follows:
+\begin{equation}
+	(A - BK)^{3} = A^{3} - A^{2}BK + A(BK)^2 - Bf_{n}(A,BK)
+\end{equation}
+\begin{equation}
+	(A - BK)^{3} = A^{3} + [B,AB, A^{2}B] \begin{bmatrix}
+	(-1)^n f_{n}(A,BK) \\ K (BK) \\ -K
+	\end{bmatrix}
+\end{equation}
+In essence, the cubic polynomial is written in the form of $A^{3}+ M_{c}v_{3}$, where $M_{c}$is the controllability matrix and $v_{3}$ is some vector of 3 rows that multiplies $M_{c}$. In general, the matrix polynomial expansion can be written in the form:
+\begin{equation}
+	(A - BK)^{n} = A^{n}+ M_{c}v_{n}
+\end{equation}
+Following, this above result, the following polynomial expansion can also be defined
+\begin{align}
+	(A - BK)^{n} &= A^{n}+ M_{c}v_{n} \\
+	(A - BK)^{n-1} &= A^{n-1}+ M_{c}v_{n-1} \\
+				&. \\
+				&. \\
+				&. \\
+	(A - BK)^{2} &= A^{2}+ M_{c}v_{2} \\
+	(A - BK) &= A+ M_{c}v_{1}	
+\end{align}
+Substituting these results in the closed-loop polynomial itself
+\begin{align*}
+	p_{c}(A - BK) &= \vec{(A - BK)}^{n} + a_{n-1}\vec{(A - BK)}^{n-1} + ... + a_{0}\vec{I} \\
+	\implies p_{c}(A - BK) &= A^{n} + \alpha_{n-1}A^{n-1} + ... + \alpha A  + a_{0}\vec{I} + M_{c}[v_n + \alpha_{n-1}v_{n-1}+ ... + \alpha v_{1}]
+\end{align*}
+Using the previously derived results on closed-loop polynomials also given here
+\begin{align}
+	p_{c}(A - BK) &= 0 \\
+	p_{c}(A) &\neq 0
+\end{align}
+Also, note that there is a piece of $p_{c}(A)$ in the previous equation of $p_{c}(A - BK)$, which can be now written as:
+\begin{equation}
+	0 = p_{c}(A) + M_{c}[v_n + \alpha_{n-1}v_{n-1}+ ... + \alpha v_{1}]
+\end{equation}
+rearranging the above equation
+\begin{equation}\label{Eq_Ack_2}
+	M_{c}^{-1}p_{c}(A) = -[v_n + \alpha_{n-1}v_{n-1}+ ... + \alpha v_{1}]
+\end{equation}
+Note that from equation \eqref{Eq_Ack_1}, $K$ lies at the bottom of vector $v_n$, in order to extract this $K$, matrix $v_n$ has to be pre-multiplied with another matrix $[0 \quad 0 \quad 0 ... 1]$ such that 
+\begin{equation}
+	[0 \quad 0 \quad 0 ... 1]v_{n} = -K
+\end{equation}
+therefore, pre-multiplying both sides of equation \eqref{Eq_Ack_2} with $[0 \quad 0 \quad 0 ... 1]$ $K$ can be extracted as follows
+\begin{equation}
+[0 \quad 0 \quad 0 ... 1]M_{c}^{-1}p_{c}A = K
+\end{equation}
+Therefore, the state-feedback gain $K$ is now defined by mathematical definition and can be found in a precise way of using the definition of closed-loop polynomial $p_c$.
+
+In summary, if a desired closed-loop polynomial is defined as
+\begin{equation*}
+	p_c = s^{n} + \alpha_{n-1}s^{n-1} + ... + \alpha_{1}s + \alpha_{0}
+\end{equation*}
+the required feedback is given by the formula
+\begin{equation*}
+	[0 \quad 0 \quad 0 ... 1]M_{c}^{-1}p_{c}A = K
+\end{equation*}
+where $p_{c}(A)$ is defined by its definition $p_{c}(A) = A^{n} + \alpha_{n-1}A^{n-1} + ... + \alpha A  + a_{0}\vec{I}$
+
+\section{Example solving for K using Ackermann's formula}
+
+Consider a system given by matrices 
+$$ \vec{A} = \begin{bmatrix}
+	-1 & -2 \\ 1 & -0.4
+\end{bmatrix} $$
+$$ \vec{B} = \begin{bmatrix}
+1  \\ -2
+\end{bmatrix} $$
+$$ \vec{C} = [3 \quad 4] $$
+the goal is to chose $K$ such that the closed-loop poles are located at $(-1, -2)$. This leads to the desired polynomial to be
+$$ p_{c} = s^{2} + 3s + 2 $$
+In order to find closed-loop polynomial $p_{c}(A)$, we can replace matrix A with scalar s in the desired polynomial as follows
+\begin{equation}
+	p_{c}(A) = \begin{bmatrix}
+		-1 & -2 \\ 1 & -0.4
+	\end{bmatrix}^{2} + 3 \begin{bmatrix}
+	-1 & -2 \\ 1 & -0.4
+	\end{bmatrix} + \begin{bmatrix}
+	2 & 0 \\ 0 & 2
+	\end{bmatrix} = \begin{bmatrix}
+	-2 & -3.2 \\ 1.6 & -1.04
+	\end{bmatrix}
+\end{equation}
+further controllability matrix is
+\begin{equation}
+	M_{c} = [B \quad AB] = \begin{bmatrix}
+	1 & 3 \\ -2 & 1.8
+	\end{bmatrix}
+\end{equation}
+finally, use Ackermann's formula to find $K$
+\begin{equation}
+	[0 \quad 1]M_{c}^{-1}p_{c}(A) = K = [-0.31 \quad -0.95]
+\end{equation}
+
+\section{Example with Single track model}
+
+Using the example model of the single track model given in section \ref{Example_SingleTrackModel} also provided here
+\begin{align}
+\begin{bmatrix}
+\dot{x}_1 \\ \dot{x}_2
+\end{bmatrix} &= \begin{bmatrix}
+0 & v_0 \\ 0 & 0
+\end{bmatrix} \begin{bmatrix}
+{x}_1 \\ {x}_2
+\end{bmatrix} + \begin{bmatrix}
+a v_0/b \\ v_0 / b
+\end{bmatrix} u \\
+y &= [1 \quad 0] \begin{bmatrix}
+{x}_1 \\ {x}_2 \end{bmatrix} + [0] u
+\end{align}
+With the desired closed-loop characteristic polynomial
+\begin{equation}
+	p_{c}(s) = s^{2} + 2 \zeta \omega_{n} s + \omega_{n}^{2}
+\end{equation}
+finding closed-loop polynomial $p_{c}(A)$ by substituting scalar $s$ with matrix A:
+\begin{equation}
+	p_{c}(A) = \begin{bmatrix}
+	0 & v_0 \\ 0 & 0
+	\end{bmatrix}^{2} + 2 \zeta \omega_{n} \begin{bmatrix}
+	0 & v_0 \\ 0 & 0
+	\end{bmatrix} + \omega_{n}^{2} = \begin{bmatrix}
+	\omega_{n}^2 & 2 v_0 \zeta \\ 0 & \omega_{n}^{2}
+	\end{bmatrix}
+\end{equation}
+the controllability matrix:
+\begin{equation}
+	M_{c} = [B \quad AB] = \begin{bmatrix}
+	a v_{0}/b & v_{0}^{2}/b \\ v_{0}/b & 0
+	\end{bmatrix}
+\end{equation}
+using the Ackermann's formula to find $K$
+\begin{equation}
+	K = [0 \quad 1] M_{c}^{-1} p_{c}(A) = \left[\frac{b \omega_{n}^{2}}{v_{0}^{2}} \quad \frac{2 \zeta \omega_{n} b}{v_0} - \frac{a b \omega_{n}^{2}}{v_{0}^{2}}\right]
+\end{equation}
+
+\section{Linear Quadratic Regulator}
+
+For MiMo systems in general a LQR controller design method is used. LQR is an alternative method for pole placement so that the closed-loop system optimizes a cost function given by:
+\begin{equation} \label{Eq_LQR_CostFunction}
+	J = \int_{0}^{\infty} \left(x^{T} Q x + u^{T} R u\right) dt
+\end{equation}
+equation \eqref{Eq_LQR_CostFunction} is called the cost fucntion of the closed-loop system where $Q$ is a penalty matrix for the states costs and is symmetric and semi-positive definite $(Q \geq 0)$ and $R$ is also symmetric but positive definite $(R > 0)$. The penalties are chosen so as to minimize the area under the curve formed by the integration given by equation \eqref{Eq_LQR_CostFunction}. Also, note that the area under the curves formed by each of the fucntion $x^{T} Q x$ and $u^{T} R u$ is quadratic. This is done so as to form a definite minimum as a quadratic fucntion is parabolic and always has a definite minima compared to a first order polynomial.
+
+The optimization problem is defined as minimizing $J$ using control inputs $u \epsilon \mathbb{R}^{m}$, such that the system is subjected the dynamics (constraints) given by $\dot{x} = Ax + Bu$. Note that the constraint is minimized by determining some control law $u$ such that the problem is minimized. This can be explained as follows, suppose we have a non-zero system state $x(0) \neq 0$, such as a tilt of a satellite angle which will remain in this state for ever. Such a state may not be desirable and it needs to be driven back to zero such that the state evolves to $x(t) = 0$. For a state to be driven to some other state, it needs an input, in our case the input comes from the controls such that a positive definite control action needs to be provided. Therefore, the minimization problem is to find the control law $u(t)$ such that it drives the states to the required positions. Also note that some of the states may not be so important and some of the control actions may be very expensive. Therefore, penalty matrices Q and R are used to weigh-in their importance. As we have two knobs to turn using the penalty matrices Q and R, consider two cases
+\begin{enumerate}
+	\item if Q is bigger than R, then more importance is given to the states so the cost fucntion will penalize control action such that higher control action is provided using the control law $u(t)$ (aggressive controller)
+	\item if R is bigger than Q, then more importance is given to control such that the states evolution will be penalized. The states will evolve slowly (conservative controller)
+\end{enumerate}
+
+\subsection{Solution to the optimization problem}
+
+To the solution to minimizing the problem $J$ given by:
+\begin{equation}
+	J = \int_{0}^{\infty} \left(x^{T} Q x + u^{T} R u\right) dt
+\end{equation}
+subjected to the constraints:
+\begin{equation}
+	\dot{x} = Ax + Bu
+\end{equation}
+is a full state-feedback control given in standard from:
+\begin{equation}
+	u = -K x
+\end{equation}
+In other words, the optimal solution to minimize $J$ is to use a full state-feedback control. where the control matrix is given by:
+\begin{equation}
+	K = R^{-1} B^{T} S
+\end{equation}
+where $S$ is a positive definite, symmetric matrix given by solving algebraic-Riccati equation:
+\begin{equation}
+	A^{T}S + SA - SBR^{-1} B^{T} S + Q = 0
+\end{equation}
+the size of $S$ is $(n \times n)$
+
+In Summary, the procedure to solve the LQR problem is as follows:
+\begin{enumerate}
+	\item The state and the control matrices A and B are given 
+	\item Choose the penalty matrices Q and R
+	\item In order to find full state-feedback control gain $K$, the algebraic-Riccati equation has to be solved for $S$
+	\item Compute full state-feedback control gain $K$
+	\item There are multiple solutions to $S$, $K = R^{-1} B^{T} S$ is chosen for values of $S$ such that it yields a stable system. Which is found using Eigenvalues.
+\end{enumerate}
+
+\section{Examples on LQR}
+
+\subsubsection{Mass damper system}
+
+\textbf{Step1: }Consider a mass-damper system given by it state-space model:
+\begin{equation*}
+	\dot{\vec{x}} = \begin{bmatrix}
+		0 & 1 \\ 0 -c/m
+	\end{bmatrix} \vec{x} + \begin{bmatrix}
+	0 \\ 1
+	\end{bmatrix} u
+\end{equation*}
+choosing numeric values for the system to be solved using Matlab, such that $m = 1$ and $c = 0.2$
+\begin{equation*}
+\dot{\vec{x}} = \begin{bmatrix}
+0 & 1 \\ 0 -1/5
+\end{bmatrix} \vec{x} + \begin{bmatrix}
+0 \\ 1
+\end{bmatrix} u
+\end{equation*}
+\textbf{Step2: }choosing Q and R
+\begin{align*}
+	Q &= \begin{bmatrix}
+	1 & 0 \\ 0 1
+	\end{bmatrix} \\
+	R &= [0.01]
+\end{align*}
+to solve the algebraic-Riccati equation consider a symmetric solution matrix S given by
+\begin{equation*}
+	S = \begin{bmatrix}
+		s_{11} & s_{12} \\ s_{12} & s_{22}
+	\end{bmatrix}
+\end{equation*}
+Simplifying the algebraic-Riccati equation in Matlab yields:
+\begin{equation*}
+	A^{T}S + SA - SBR^{-1} B^{T} S + Q = \left(\begin{array}{cc} 1-100\,{s_{12}}^2 & s_{11}-\frac{s_{12}}{5}-100\,s_{12}\,s_{22}\\ s_{11}-\frac{s_{12}}{5}-100\,s_{12}\,s_{22} & -100\,{s_{22}}^2-\frac{2\,s_{22}}{5}+2\,s_{12}+1 \end{array}\right)
+\end{equation*}
+because the RHS of algebraic-Riccati equation is zero, that means that each of the elements of the above equation should go to zero, in Matlab solving for the above equation with each of the element equal to zero yields $SolS = solve(ARE(1,1)==0,ARE(1,2)==0,ARE(2,1)==0,ARE(2,2)==0,s11,s12,s22)$:
+\begin{align*}
+	s_{11} &= \left(\begin{array}{c} \frac{\sqrt{2001}}{50}\\ -\frac{\sqrt{2001}}{50}\\ -\frac{\sqrt{3001}}{50}\\ \frac{\sqrt{3001}}{50} \end{array}\right) \\
+	s_{12} &= \left(\begin{array}{c} -\frac{1}{10}\\ -\frac{1}{10}\\ \frac{1}{10}\\ \frac{1}{10} \end{array}\right) \\
+	s_{22} &= \left(\begin{array}{c} -\frac{\sqrt{2001}}{500}-\frac{1}{500}\\ \frac{\sqrt{2001}}{500}-\frac{1}{500}\\ -\frac{\sqrt{3001}}{500}-\frac{1}{500}\\ \frac{\sqrt{3001}}{500}-\frac{1}{500} \end{array}\right)	
+\end{align*}
+\textbf{Step4: } Compute $K = R^{-1} B^{T} S$
+Rearranging the solutions to be written in the form:
+\begin{equation*}
+	S = \begin{bmatrix}
+		s_{11} & s_{12} \\ s_{12} & s_{22}
+	\end{bmatrix}
+\end{equation*}
+\begin{align*}
+	S_{1} &= \begin{bmatrix}
+		\frac{\sqrt{2001}}{50} & -\frac{1}{10} \\ -\frac{1}{10} & -\frac{\sqrt{2001}}{500}-\frac{1}{500}
+	\end{bmatrix}\\
+	S_{2} &= \begin{bmatrix}
+		-\frac{\sqrt{2001}}{50} & -\frac{1}{10} \\ -\frac{1}{10} & \frac{\sqrt{2001}}{500}-\frac{1}{500}
+	\end{bmatrix} \\
+	S_{3} &= \begin{bmatrix}
+		-\frac{\sqrt{3001}}{50} & \frac{1}{10} \\ \frac{1}{10} & -\frac{\sqrt{3001}}{500}-\frac{1}{500}
+	\end{bmatrix}\\
+	S_{4} &= \begin{bmatrix}
+		\frac{\sqrt{3001}}{50} & \frac{1}{10} \\ \frac{1}{10} & \frac{\sqrt{3001}}{500}-\frac{1}{500}
+	\end{bmatrix}
+\end{align*}
+for each of the solutions, compute $K$
+\begin{align*}
+	K_{1} &= R^{-1}B^{T}S_{1} = [-10.0 \quad -9.14651] \\
+	K_{2} &= R^{-1}B^{T}S_{2} = [-10.0 \quad 8.74651] \\
+	K_{3} &= R^{-1}B^{T}S_{3} = [10.0 \quad -11.1563] \\
+	K_{4} &= R^{-1}B^{T}S_{4} = [10.0 \quad 10.7563] \\
+\end{align*}
+\textbf{Step5: }Compute Eigenvalues of the closed-loop system for each of the gains $K_{i}$ (lambda1 = eig(A - B*K1))
+\begin{align*}
+	\lambda_{1} &= det(\lambda I - A + B K1) = 0 \implies \lambda_{1} = [9.95 \quad -1.00] \\
+	\lambda_{2} &= det(\lambda I - A + B K2) = 0 \implies \lambda_{2} = [-9.95 \quad 1.00] \\
+	\lambda_{3} &= det(\lambda I - A + B K3) = 0 \implies \lambda_{3} = [9.95 \quad 1.00] \\
+	\lambda_{4} &= det(\lambda I - A + B K4) = 0 \implies \lambda_{4} = [-9.95 \quad -1.00] \\
+\end{align*}
+From the above results we an see that the the Eigenvalues of both negative for $\lambda_{4}$ therefore, the system is stable in this case and hence, the full state-feedback control gain $K$ is $K_{4}$. Doing this in Matlab just by using the "lqr(A,B,Q,R)" gives back the direct result of $K_4$. This procedure is only for demonstration purposes on how full state-feedback control gain $K$ is selected using the regorous algebraic procedure. In practice using only the command "lqr(A,B,Q,R)" the gains can be selected. Additionally, the solution to algebraic-Riccati equation as well as the Eigenvalues of the closed-loop system can be determined directly using Matlab command "[K,S,E] = lqr(A,B,Q,R)"
+
+\subsection{Choosing penalty matrices}
+
+The tuning of LQR is to choose the weighting matrices Q and R. To guarantee that the solution exists, the system much be controllable and that $Q \geq 0$ and $R > 0$.
+
+\begin{enumerate}
+	\item The simplest choice is using Identity matrices, such that $Q = I$ and $R = \rho I$. Here, the control weighting matrix is penalized based on the control expense. $\rho$ serves as the only variable that can be varied and the cost of controller can be minimized. This kind of choosing strategy reduces the choice to be applied equally to all states and control inputs. This strategy is a trade-off between states costs and control costs in whole, as increase $\rho$ will decrease the control action and vice-versa.
+	\item Output weighting: In this strategy, a state for which the output to be reduced is weighed individually such that if $z = C_{z}x$ be the output that is needed to be kept small. Choose $Q = C_{z}^{T}C_{z}$ and $R = \rho I$.
+	\item Diagonal weighting: In this strategy each of the individual states and control inputs can be weighted independently by diagonalizing the weighting matrices $Q$ and $R$ such that
+	$$ Q = \begin{bmatrix} q_{1} & 0 & 0 \\ 0 & q_{2} & 0\\ 0 & 0 & q_{3} \end{bmatrix} $$
+	$$ R = \begin{bmatrix} \rho_{1} & 0 & 0 \\ 0 & \rho_{2} & 0\\ 0 & 0 & \rho_{3} \end{bmatrix} $$
+	
+	Choose the individual diagonal elements based on how much each state or input signal should contribute to the overall cost. There is also a way to choose these individual weightings based on a rule called \textbf{\textit{Bryson's rule}} where the diagonal weights as $q_i = \alpha_{i}^{2} / x_{i,max}^{2}$ and $\rho = \beta_{i}^{2} / u_{i,max}^{2}$ where $x_{i,max}$ and $u_{i,max}$ represents the largest response. $\alpha$ and $\beta$ are used for additional individual weightings of the state and control cost
+	$$ \sum_{i = 1}^{n} \alpha_{i}^{2} = 1 \quad \sum_{i = 1}^{p} \beta_{i}^{2} = 1 $$
+	
+	\item Finally, a trial and error method can also be used.
+\end{enumerate}

@@ -1,0 +1,13 @@
+\chapter{PID - Regler}
+
+\section{P - regulator}
+
+Mathematisch kann das P - regulator beschreiben als:
+\begin{equation}
+	u = K e(t)
+\end{equation}
+Durch ein Pseudo-code kann das Regler beschreiben als:
+\begin{equation}
+	output := gain * error;
+\end{equation}
+Weil ein P-Regler ist immer durch der Fehler beschriebt deshalb, f\"uhrt es zu steady-state Fehler. Dies steady-state Fehler kann durch sequentielle Addition beseitigt (eliminate) werden. Die sequentielle Addition kann \"uber eine integrierte Regler erfolgen.

@@ -1,0 +1,120 @@
+%
+%
+% Headerdatei der Diplomarbeit
+%
+%
+\documentclass[12pt, pdftex, pointlessnumbers, twoside, openright]{scrreprt}
+
+
+\usepackage{a4}									% a4.sty Datei wird z. B. mit dem package ntgclass installiert. 
+% Man kann die a4.sty auch so herunterladen und in den Projektordner stellen
+\usepackage{ae}
+\usepackage{amsbsy}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}						% amssymb,amsmath: Viele zus?tzliche Mathesymbole, siehe Anleitung
+\usepackage{amsthm}
+\usepackage{array}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{bibgerm}
+\usepackage{color}
+\usepackage{epsfig}
+\usepackage{float}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage{latexsym}
+\usepackage{layout}
+\usepackage[german]{nomencl}		% nomencl package f?r Symbol- oder Formelverzeichnis
+\usepackage[<options>]{scrlayer-scrpage}
+\usepackage{subfigure}					% subfigure: Mehrere Unterbilder in einem Bild
+\usepackage{times}
+\usepackage{trfsigns}
+\usepackage{trsym}
+\usepackage[nice]{units}				% units: Setzt Zahlen mit Einheiten im Math- und im Textmodus nach Din 1338 verwenden mit 
+% \unit[Zahl]{Einheit} oder \unitfrac[Zahl]{Einheitz?hler}{Einheitnenner} oder 
+% \nicefrac[schrift]{z?hler}{nenner}
+\usepackage{url}
+
+\usepackage{listings}
+
+% \usepackage{epstopdf}
+%	\usepackage[dvips]{geometry}
+% \usepackage{pdflscape} 					% pdflscape: Einzelne Seiten im Querformat unter PDF
+% \usepackage[dvips]{rotating}		% rotating: Drehen von Text und Bildern
+
+
+\newcommand{\MB}[1]{{\mbox{\mathversion{bold}$#1$}}}					% Befehl schreibt griechische Buchstaben fett
+\newcommand*\parfr[2]{\frac{\partial {#1}}{\partial {#2}}}		% partielle Ableitung mit Bruch
+%\newcommand{\vec}[1]{\boldsymbol{#1}} 											  % Vektoren/Matizen fett - Variable
+\newcommand{\mat}[1]{\begin{pmatrix}#1\end{pmatrix}} 					% Matrix
+
+
+\renewcommand{\nomname}{Nomenclature}
+
+
+\allowdisplaybreaks
+
+
+\makenomenclature 							% makenomeclature: Verwenden zum Erstellen eines Symbolverzeichnisses, 
+% Kann z. B. mit Formelzeichen verwendet werden
+
+
+%-----------------------HYPERREF
+
+\usepackage[pdftex, colorlinks=false, plainpages=false, pdfpagelabels]{hyperref}
+\hypersetup{
+	pdftitle = {Unbekannter Titel},
+	pdfsubject = {Masterarbeit am Lehrstuhl f\"ur Regelungssysteme, Fachbereich EIT, TU Kaiserslautern},
+	pdfauthor = {Rizwan Ahmed Afzal},
+	pdfkeywords = {},
+	pdfcreator = {pdftex},
+	pdfproducer = {Rizwan Ahmed}
+}
+
+%------------------------END HYPERREF
+
+
+% Mit \Version kann das Datum eingef?gt werden
+% \newcommand{\VERSION}{\today}
+
+
+% Nach DIN 1338 m?ssen Gleichungen in Klammern zitiert werden, z.B: siehe Gleichung (2.15)
+% mit \eqref{ref} werden die Klammen automatisch gesetzt
+
+
+\setkomafont{sectioning}{\rmfamily\bfseries}		% Umschaltung auf ?berschriften mit Serifen
+
+
+% \theoremstyle{plain}
+% \theoremstyle{remark}
+% \theoremstyle{definition}
+\newtheorem{Def}{Definition}
+\newtheorem{lem}{Lemma}
+\newtheorem{satz}{Satz}
+\newtheorem{prob}{Problem}
+
+\newcommand{\norm}[1]{\lVert#1\rVert}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+%Image-related packages
+\usepackage{graphicx,subfigure}
+%\usepackage{subcaption}
+%\usepackage[utf8]{inputenc}
+\usepackage[export]{adjustbox}
+\usepackage{wrapfig,lipsum}
+
+\usepackage{graphicx} 
+\usepackage{color} 
+\usepackage{transparent}
+
+\usepackage{array}
+\usepackage{booktabs}
+
+\usepackage{mathtools}
+
+% \usepackage[toc,page]{appendix}             % For writing appendices
+
+\usepackage[dvipsnames]{xcolor}				% using text colors
+\definecolor{mygray}{gray}{0.4}

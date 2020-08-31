@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Inlage 5.0.0 Project File-->
+<InlageProject title="FBK Muster" profile="LaTeX &amp; BibTeX" language="de_DE_frami">
+  <MasterFile filename="master.tex" spellcheck="False" />
+  <Settings />
+  <File filename="master.tex" active="True" position="927" />
+  <File filename="header.tex" position="4541" />
+  <File filename="title.tex" position="1495" />
+  <File filename="chapter1.tex" position="0" />
+  <File filename="chapter2.tex" position="1700" />
+  <File filename="chapter3.tex" position="444" />
+  <File filename="chapter4.tex" position="84" />
+  <File filename="chapter5.tex" position="206" />
+  <File filename="chapter6.tex" position="25" />
+</InlageProject>

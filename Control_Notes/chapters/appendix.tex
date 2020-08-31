@@ -1,0 +1,30 @@
+\begin{appendix}
+\addchap{Appendix}
+
+\section*{Nutzung}
+Kompiliert wird die master.tex Datei. Sie stellt die Hauptdatei des Projektes dar und bestimmt die Gliederung. Alle Packages und Layouteinstellungen sind in der Datei header.tex festgelegt.\\
+
+Als Standardschriftart wurde Arial festgelegt, allerdings ist im header auch die etwas schönere kommerzielle Schriftart Helvetica vorgesehen. Änderungen am Layout können nach Absprache vorgenommen werden.
+
+\section*{Literaturverzeichnis}
+Einen an den FBK angepassten Zitationsstil gibt es momentan leider noch nicht. Am Besten einfach mit Citavi arbeiten und dessen Zitationsstil des FBK benutzen. Die generierte Seite dann in \LaTeX \ als PDF einbinden.
+
+Als Kürzel sollen die ersten vier Buchstaben des Autors, sowie die letzten beiden Ziffern des Jahrgang in eckige Klammern gesetzt und dementsprechend im Literaturverzeichnis angeben werden. Gibt es unterschiedliche Quellen eines Autors im gleichen Jahrgang, müssen die Quellen zur Unterscheidung fortlaufend mit kleinen Buchstaben gekennzeichnet werden. Für genauere Hinweise in den Zitierrichtlinien des FBK nachlesen.\\
+
+Update 22.04.2016 (T. Mayer):
+Schriftart PTSans wird nun verwendet.
+
+Der Biblatex-Standardstil alphabetic wurde den FBK-Richtlinien entsprechend in der header.tex Datei redefiniert. Damit das Literaturverzeichnis entsprechend aussieht müssen die vorgegebenen Eintragstypen verwendet werden (siehe header.tex). Nur diese wurden angepasst. Die Belegung der Felder ist der Beispielquellen.bib Datei zu entnehmen. Im \LaTeX Editor die Kodierung windwos-1252 oder die entsprechende Iso-Schriftart verwenden. Funktioniert für Deutsch und Englisch, Sprachen mit Sonderzeichen sehen alt aus. Zum Titieren das cite-Kommando verwenden. Es muss nur die Quellendatei angepasst bzw. ausgetauscht werden, alles andere ist schon fertig.
+
+Wer will kann das Paket Nomenclature zum Erstellen des Abkürzungsverzeichnisses verwenden. Einfach im header mal nachschauen, der Aufruf ist nmcl und die Reihenfolge der Anzeige wurde angepasst. Die Verwendung steht dort in einem Kommentar. Es muss ein Benutzerdefiniertes Kommando ausgeführt werden, bevor kompiliert wird: [makeindex -s nomencl.ist -t \%.nlg -o \%.nls \%.nlo]. Das Abkürzungsverzeichnis sieht jetzt so beschissen aus da auf Linux kompiliert wurde. Hier funktioniert das nicht richtig. Unter Windows wird es richtig dargestellt.
+
+
+Beispiele:
+
+\cite{Aurich10.11.2009}
+\cite{Aurich2009}
+\cite{DE24.03.2006}
+\cite{HansKoller2015}
+\cite{Pfeiler2011}
+
+\end{appendix}
