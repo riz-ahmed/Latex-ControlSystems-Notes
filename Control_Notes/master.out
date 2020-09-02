@@ -1,0 +1,304 @@
+\BOOKMARK [0][-]{Doc-Start}{Table of Contents}{}% 1
+\BOOKMARK [-1][-]{part.1}{Newtonian Mechanics}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Newtons Laws and Kinematics}{part.1}% 3
+\BOOKMARK [1][-]{section.1.1}{Method for solving Dynamics Problem}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Derivative Rule from vector geometry}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.2.1}{Framing derivative rule for unit vectors}{section.1.2}% 6
+\BOOKMARK [1][-]{section.1.3}{Velocity and Acceleration in moving reference frames}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.3.1}{Velocity of a vector in a moving frame}{section.1.3}% 8
+\BOOKMARK [2][-]{subsection.1.3.2}{Acceleration of a vector in a moving frame}{section.1.3}% 9
+\BOOKMARK [1][-]{section.1.4}{Velocity and acceleration w.r.t moving frame in polar coordinates}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.4.1}{Velocity in polar coordinates}{section.1.4}% 11
+\BOOKMARK [2][-]{subsection.1.4.2}{Acceleration in polar coordinates}{section.1.4}% 12
+\BOOKMARK [1][-]{section.1.5}{Rotation Problem 1}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.5.1}{Explaining Coriolis force using Law of conservation of angular momentum}{section.1.5}% 14
+\BOOKMARK [1][-]{section.1.6}{Rotation Problem 2}{chapter.1}% 15
+\BOOKMARK [1][-]{section.1.7}{Rotation Problem 3}{chapter.1}% 16
+\BOOKMARK [1][-]{section.1.8}{Derivative on angular velocity }{chapter.1}% 17
+\BOOKMARK [0][-]{chapter.2}{Impulse, Torque and Angular Momentum for a system of particles}{part.1}% 18
+\BOOKMARK [1][-]{section.2.1}{Linear Impulse and Momentum}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.1.1}{Problem on Impulse - Momentum}{section.2.1}% 20
+\BOOKMARK [1][-]{section.2.2}{Momentum for system of particles}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.1}{Problem on momentum on system of particles}{section.2.2}% 22
+\BOOKMARK [1][-]{section.2.3}{Angular Momentum of a particle}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.3.1}{Angular momentum and torque problem for a particle}{section.2.3}% 24
+\BOOKMARK [3][-]{subsubsection.2.3.1.1}{Angular momentum}{subsection.2.3.1}% 25
+\BOOKMARK [3][-]{subsubsection.2.3.1.2}{Torque}{subsection.2.3.1}% 26
+\BOOKMARK [1][-]{section.2.4}{Angular momentum and Torque for rigid bodies}{chapter.2}% 27
+\BOOKMARK [2][-]{subsection.2.4.1}{Torque and angular momentum Problem 2}{section.2.4}% 28
+\BOOKMARK [1][-]{section.2.5}{Exercise Problem}{chapter.2}% 29
+\BOOKMARK [2][-]{subsection.2.5.1}{Chose coordinates}{section.2.5}% 30
+\BOOKMARK [2][-]{subsection.2.5.2}{DOF}{section.2.5}% 31
+\BOOKMARK [2][-]{subsection.2.5.3}{Deriving EOM}{section.2.5}% 32
+\BOOKMARK [0][-]{chapter.3}{Fictitious Forces using Free Body Diagnrams}{part.1}% 33
+\BOOKMARK [0][-]{chapter.4}{Deriving Equations of Motion}{part.1}% 34
+\BOOKMARK [1][-]{section.4.1}{Method for deriving EOMs}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.2}{Exercise 1}{chapter.4}% 36
+\BOOKMARK [2][-]{subsubsection.4.2.0.1}{Assigning coordinates}{section.4.2}% 37
+\BOOKMARK [2][-]{subsection.4.2.1}{DOF}{section.4.2}% 38
+\BOOKMARK [2][-]{subsection.4.2.2}{Determine angular momentum the system}{section.4.2}% 39
+\BOOKMARK [2][-]{subsection.4.2.3}{External Forces and Moments}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.4}{Complete EOM}{section.4.2}% 41
+\BOOKMARK [1][-]{section.4.3}{Exercise 2 - self solved}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.3.1}{Choosing coordinates}{section.4.3}% 43
+\BOOKMARK [2][-]{subsection.4.3.2}{DOF}{section.4.3}% 44
+\BOOKMARK [2][-]{subsection.4.3.3}{Determining angular momentum}{section.4.3}% 45
+\BOOKMARK [2][-]{subsection.4.3.4}{Determining external moments}{section.4.3}% 46
+\BOOKMARK [2][-]{subsection.4.3.5}{Finishing EOM}{section.4.3}% 47
+\BOOKMARK [1][-]{section.4.4}{Exercise 3}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.4.1}{Choosing coordinates}{section.4.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.2}{DOF}{section.4.4}% 50
+\BOOKMARK [2][-]{subsection.4.4.3}{Determining external forces on the system}{section.4.4}% 51
+\BOOKMARK [2][-]{subsection.4.4.4}{Determining accelerations along x}{section.4.4}% 52
+\BOOKMARK [2][-]{subsection.4.4.5}{Finishing EOM}{section.4.4}% 53
+\BOOKMARK [1][-]{section.4.5}{Exercise 4}{chapter.4}% 54
+\BOOKMARK [2][-]{subsection.4.5.1}{Coordinates}{section.4.5}% 55
+\BOOKMARK [2][-]{subsection.4.5.2}{DOF}{section.4.5}% 56
+\BOOKMARK [2][-]{subsection.4.5.3}{External forces}{section.4.5}% 57
+\BOOKMARK [2][-]{subsection.4.5.4}{External moments}{section.4.5}% 58
+\BOOKMARK [2][-]{subsection.4.5.5}{Finishing the EOMs}{section.4.5}% 59
+\BOOKMARK [0][-]{chapter.5}{Mass Moment of Inertia}{part.1}% 60
+\BOOKMARK [1][-]{section.5.1}{Principal axes}{chapter.5}% 61
+\BOOKMARK [1][-]{section.5.2}{Angular momentum of rigid bodies}{chapter.5}% 62
+\BOOKMARK [1][-]{section.5.3}{Products of inertia}{chapter.5}% 63
+\BOOKMARK [1][-]{section.5.4}{Exercise 1: Cart and pendulum problem}{chapter.5}% 64
+\BOOKMARK [2][-]{subsection.5.4.1}{Coordinates}{section.5.4}% 65
+\BOOKMARK [2][-]{subsection.5.4.2}{DOF}{section.5.4}% 66
+\BOOKMARK [2][-]{subsection.5.4.3}{External forces}{section.5.4}% 67
+\BOOKMARK [1][-]{section.5.5}{Finishing EOM}{chapter.5}% 68
+\BOOKMARK [1][-]{section.5.6}{Exercise 2: Translating System}{chapter.5}% 69
+\BOOKMARK [2][-]{subsection.5.6.1}{Coordinate selection}{section.5.6}% 70
+\BOOKMARK [2][-]{subsection.5.6.2}{DOF}{section.5.6}% 71
+\BOOKMARK [2][-]{subsection.5.6.3}{External forces}{section.5.6}% 72
+\BOOKMARK [-1][-]{part.2}{Classical Control Theory}{}% 73
+\BOOKMARK [0][-]{chapter.6}{Preliminaries}{part.2}% 74
+\BOOKMARK [1][-]{section.6.1}{Euler's Identity}{chapter.6}% 75
+\BOOKMARK [1][-]{section.6.2}{Linear differential equations}{chapter.6}% 76
+\BOOKMARK [2][-]{subsection.6.2.1}{Null Solution}{section.6.2}% 77
+\BOOKMARK [3][-]{subsubsection.6.2.1.1}{Deriving characteristic equation for LDE}{subsection.6.2.1}% 78
+\BOOKMARK [2][-]{subsection.6.2.2}{Particular Solution}{section.6.2}% 79
+\BOOKMARK [2][-]{subsection.6.2.3}{Laplace transform}{section.6.2}% 80
+\BOOKMARK [1][-]{section.6.3}{Example of solving a LDE}{chapter.6}% 81
+\BOOKMARK [1][-]{section.6.4}{Basic definitions of Linear system}{chapter.6}% 82
+\BOOKMARK [1][-]{section.6.5}{Solution to differential of et}{chapter.6}% 83
+\BOOKMARK [1][-]{section.6.6}{Solution to differential of an exponential matrix eA t}{chapter.6}% 84
+\BOOKMARK [2][-]{subsection.6.6.1}{Defining eA t}{section.6.6}% 85
+\BOOKMARK [2][-]{subsection.6.6.2}{Time derivative of exponential matrix eA t}{section.6.6}% 86
+\BOOKMARK [2][-]{subsection.6.6.3}{State Transition Matrix}{section.6.6}% 87
+\BOOKMARK [2][-]{subsection.6.6.4}{Solutions to free and forced response of a system using results from State Transition Matrix}{section.6.6}% 88
+\BOOKMARK [3][-]{subsubsection.6.6.4.1}{Null Solution}{subsection.6.6.4}% 89
+\BOOKMARK [3][-]{subsubsection.6.6.4.2}{Particular Solution}{subsection.6.6.4}% 90
+\BOOKMARK [1][-]{section.6.7}{Newton's Law's for rotating bodies}{chapter.6}% 91
+\BOOKMARK [1][-]{section.6.8}{Harmonic Oscillator}{chapter.6}% 92
+\BOOKMARK [0][-]{chapter.7}{System Modeling}{part.2}% 93
+\BOOKMARK [1][-]{section.7.1}{Three phase method of modeling}{chapter.7}% 94
+\BOOKMARK [2][-]{subsubsection.7.1.0.1}{Phase I: Subsysteming and choosing inputs and outputs}{section.7.1}% 95
+\BOOKMARK [3][-]{subsubsection.7.1.0.2}{Phase II: Mathematical modeling}{subsubsection.7.1.0.1}% 96
+\BOOKMARK [3][-]{subsubsection.7.1.0.3}{Phase III: Writing State-space form}{subsubsection.7.1.0.1}% 97
+\BOOKMARK [1][-]{section.7.2}{Model verification and validation}{chapter.7}% 98
+\BOOKMARK [1][-]{section.7.3}{Mathematical Modeling}{chapter.7}% 99
+\BOOKMARK [2][-]{subsection.7.3.1}{State Space Representation}{section.7.3}% 100
+\BOOKMARK [1][-]{section.7.4}{Transfer function representation}{chapter.7}% 101
+\BOOKMARK [1][-]{section.7.5}{General form of Second order System}{chapter.7}% 102
+\BOOKMARK [1][-]{section.7.6}{Non-Canonical Systems}{chapter.7}% 103
+\BOOKMARK [2][-]{subsection.7.6.1}{Higher order systems}{section.7.6}% 104
+\BOOKMARK [3][-]{subsubsection.7.6.1.1}{Model reduction}{subsection.7.6.1}% 105
+\BOOKMARK [2][-]{subsection.7.6.2}{Effect of zeros}{section.7.6}% 106
+\BOOKMARK [3][-]{subsubsection.7.6.2.1}{Effect 1: Contribution of each pole to the transfer function}{subsection.7.6.2}% 107
+\BOOKMARK [3][-]{subsubsection.7.6.2.2}{Effect 2: Increases the overshoot}{subsection.7.6.2}% 108
+\BOOKMARK [3][-]{subsubsection.7.6.2.3}{Effect 3: Non-minimum Phase Behavior}{subsection.7.6.2}% 109
+\BOOKMARK [3][-]{subsubsection.7.6.2.4}{Effect 4: Canceling poles that are near them}{subsection.7.6.2}% 110
+\BOOKMARK [2][-]{subsection.7.6.3}{Nonlinear Systems}{section.7.6}% 111
+\BOOKMARK [0][-]{chapter.8}{System Analysis}{part.2}% 112
+\BOOKMARK [1][-]{section.8.1}{Time-domain analysis}{chapter.8}% 113
+\BOOKMARK [1][-]{section.8.2}{Frequency domain analysis}{chapter.8}% 114
+\BOOKMARK [1][-]{section.8.3}{Analysis of first order systems}{chapter.8}% 115
+\BOOKMARK [2][-]{subsection.8.3.1}{Impulse response}{section.8.3}% 116
+\BOOKMARK [2][-]{subsection.8.3.2}{General first order responses}{section.8.3}% 117
+\BOOKMARK [3][-]{subsubsection.8.3.2.1}{u\(t\) = 0, non-zero initial condition}{subsection.8.3.2}% 118
+\BOOKMARK [3][-]{subsubsection.8.3.2.2}{Step response}{subsection.8.3.2}% 119
+\BOOKMARK [3][-]{subsubsection.8.3.2.3}{step response with non-zero initial condition}{subsection.8.3.2}% 120
+\BOOKMARK [1][-]{section.8.4}{Stability analysis of PT-2 systems}{chapter.8}% 121
+\BOOKMARK [2][-]{subsection.8.4.1}{Stability in linear systems}{section.8.4}% 122
+\BOOKMARK [2][-]{subsection.8.4.2}{Stability Analysis in Non-linear systems}{section.8.4}% 123
+\BOOKMARK [2][-]{subsection.8.4.3}{Solving / Analysing PT-2 using Laplace transform}{section.8.4}% 124
+\BOOKMARK [3][-]{subsubsection.8.4.3.1}{Determining the system behavior}{subsection.8.4.3}% 125
+\BOOKMARK [2][-]{subsection.8.4.4}{Poles determine the system behavior}{section.8.4}% 126
+\BOOKMARK [2][-]{subsection.8.4.5}{Solving / Analysis PT-2 using characteristic polynomial}{section.8.4}% 127
+\BOOKMARK [2][-]{subsection.8.4.6}{Numerical solution for PT-2 systems using Matlab}{section.8.4}% 128
+\BOOKMARK [0][-]{chapter.9}{Introduction to Control}{part.2}% 129
+\BOOKMARK [1][-]{section.9.1}{Control Architectures}{chapter.9}% 130
+\BOOKMARK [2][-]{subsection.9.1.1}{Open-loop control / Feedforward control}{section.9.1}% 131
+\BOOKMARK [2][-]{subsection.9.1.2}{Closed Loop Architecture / Feedback control}{section.9.1}% 132
+\BOOKMARK [1][-]{section.9.2}{Block diagram reduction}{chapter.9}% 133
+\BOOKMARK [1][-]{section.9.3}{Linearity and Principle of Superposition}{chapter.9}% 134
+\BOOKMARK [1][-]{section.9.4}{Cruise control example and drawbacks of proportional regulator}{chapter.9}% 135
+\BOOKMARK [2][-]{subsection.9.4.1}{Open-loop system model}{section.9.4}% 136
+\BOOKMARK [2][-]{subsection.9.4.2}{Closed Loop Model}{section.9.4}% 137
+\BOOKMARK [2][-]{subsection.9.4.3}{Effects of Noise with Proportional Regulator}{section.9.4}% 138
+\BOOKMARK [0][-]{chapter.10}{Eigen Value Analysis}{part.2}% 139
+\BOOKMARK [1][-]{section.10.1}{How Eigen Value Analysis Works}{chapter.10}% 140
+\BOOKMARK [0][-]{chapter.11}{Classical Control System Design}{part.2}% 141
+\BOOKMARK [1][-]{section.11.1}{Control Specifications}{chapter.11}% 142
+\BOOKMARK [1][-]{section.11.2}{Control Expectations \(Performance expectations\)}{chapter.11}% 143
+\BOOKMARK [1][-]{section.11.3}{Pole Placement}{chapter.11}% 144
+\BOOKMARK [1][-]{section.11.4}{Calculating steady-state error}{chapter.11}% 145
+\BOOKMARK [1][-]{section.11.5}{PID Control}{chapter.11}% 146
+\BOOKMARK [2][-]{subsection.11.5.1}{Understanding PID using a canonical system}{section.11.5}% 147
+\BOOKMARK [3][-]{subsubsection.11.5.1.1}{P Control}{subsection.11.5.1}% 148
+\BOOKMARK [3][-]{subsubsection.11.5.1.2}{D Control}{subsection.11.5.1}% 149
+\BOOKMARK [3][-]{subsubsection.11.5.1.3}{I Control}{subsection.11.5.1}% 150
+\BOOKMARK [2][-]{subsection.11.5.2}{PD Control}{section.11.5}% 151
+\BOOKMARK [3][-]{subsubsection.11.5.2.1}{PI Control}{subsection.11.5.2}% 152
+\BOOKMARK [3][-]{subsubsection.11.5.2.2}{Summarizing PID control actions}{subsection.11.5.2}% 153
+\BOOKMARK [1][-]{section.11.6}{System Type - Steady-state error}{chapter.11}% 154
+\BOOKMARK [0][-]{chapter.12}{Root Locus}{part.2}% 155
+\BOOKMARK [1][-]{section.12.1}{Theory on Root Locus}{chapter.12}% 156
+\BOOKMARK [2][-]{subsection.12.1.1}{OL, forward and CL TF}{section.12.1}% 157
+\BOOKMARK [2][-]{subsection.12.1.2}{Defining the constraint equation for the root locus}{section.12.1}% 158
+\BOOKMARK [3][-]{subsubsection.12.1.2.1}{Constraint 1}{subsection.12.1.2}% 159
+\BOOKMARK [3][-]{subsubsection.12.1.2.2}{Constraint 2}{subsection.12.1.2}% 160
+\BOOKMARK [2][-]{subsection.12.1.3}{Rules for drawing rot locus}{section.12.1}% 161
+\BOOKMARK [2][-]{subsection.12.1.4}{Root locus using Maltab}{section.12.1}% 162
+\BOOKMARK [1][-]{section.12.2}{Examples of control design with Root Locus}{chapter.12}% 163
+\BOOKMARK [2][-]{subsection.12.2.1}{Example: Using a simple P control}{section.12.2}% 164
+\BOOKMARK [2][-]{subsection.12.2.2}{Example: Altering root locus using I or D poles or zeros}{section.12.2}% 165
+\BOOKMARK [3][-]{subsubsection.12.2.2.1}{Case 1: Zero to the right of two poles}{subsection.12.2.2}% 166
+\BOOKMARK [3][-]{subsubsection.12.2.2.2}{Case 2: Zero in between two poles}{subsection.12.2.2}% 167
+\BOOKMARK [3][-]{subsubsection.12.2.2.3}{Case 3: Zero to the left of two poles}{subsection.12.2.2}% 168
+\BOOKMARK [2][-]{subsection.12.2.3}{General trends of adding a zero or a pole}{section.12.2}% 169
+\BOOKMARK [0][-]{chapter.13}{Frequecy Response Analysis}{part.2}% 170
+\BOOKMARK [1][-]{section.13.1}{Plotting bode plots}{chapter.13}% 171
+\BOOKMARK [2][-]{subsection.13.1.1}{Approach 1: Point-by-Point approach}{section.13.1}% 172
+\BOOKMARK [2][-]{subsection.13.1.2}{Straight line approximations}{section.13.1}% 173
+\BOOKMARK [3][-]{subsubsection.13.1.2.1}{Bode plot of Gain K}{subsection.13.1.2}% 174
+\BOOKMARK [3][-]{subsubsection.13.1.2.2}{Bode plot of Differentiator s}{subsection.13.1.2}% 175
+\BOOKMARK [3][-]{subsubsection.13.1.2.3}{Bode Plot of Integrator 1/s}{subsection.13.1.2}% 176
+\BOOKMARK [3][-]{subsubsection.13.1.2.4}{Bode Plot for simple Zero}{subsection.13.1.2}% 177
+\BOOKMARK [3][-]{subsubsection.13.1.2.5}{Bode Plot for simple Pole}{subsection.13.1.2}% 178
+\BOOKMARK [1][-]{section.13.2}{Stability analysis from Frequency response}{chapter.13}% 179
+\BOOKMARK [2][-]{subsection.13.2.1}{Relative Stability: How far is the system from going unstable}{section.13.2}% 180
+\BOOKMARK [3][-]{subsubsection.13.2.1.1}{Defining Relative stability}{subsection.13.2.1}% 181
+\BOOKMARK [1][-]{section.13.3}{Caclulation of gain and phase shifts}{chapter.13}% 182
+\BOOKMARK [2][-]{subsection.13.3.1}{System Indentification using Bode Plots}{section.13.3}% 183
+\BOOKMARK [1][-]{section.13.4}{Nyquist Diagram}{chapter.13}% 184
+\BOOKMARK [2][-]{subsection.13.4.1}{An example of plotting Nyquist plot for a simple system}{section.13.4}% 185
+\BOOKMARK [0][-]{chapter.14}{Frequency Response for Controller Design}{part.2}% 186
+\BOOKMARK [1][-]{section.14.1}{Relationship between domains}{chapter.14}% 187
+\BOOKMARK [1][-]{section.14.2}{Design with Frequency Response}{chapter.14}% 188
+\BOOKMARK [2][-]{subsection.14.2.1}{Design with a lead compensator}{section.14.2}% 189
+\BOOKMARK [2][-]{subsection.14.2.2}{Design with a PID controller}{section.14.2}% 190
+\BOOKMARK [3][-]{subsubsection.14.2.2.1}{Design with a PD regulator}{subsection.14.2.2}% 191
+\BOOKMARK [1][-]{section.14.3}{Comparison of Frequency based control design with Time based control design}{chapter.14}% 192
+\BOOKMARK [2][-]{subsection.14.3.1}{Advantages of Frequency based control design}{section.14.3}% 193
+\BOOKMARK [0][-]{chapter.15}{Introduction to Robust Control}{part.2}% 194
+\BOOKMARK [1][-]{section.15.1}{Robustness in a MIMO system}{chapter.15}% 195
+\BOOKMARK [2][-]{subsection.15.1.1}{Attempting a control design}{section.15.1}% 196
+\BOOKMARK [2][-]{subsection.15.1.2}{One solution from frequency response}{section.15.1}% 197
+\BOOKMARK [1][-]{section.15.2}{Pure Time Delay \(Transport Lag\)}{chapter.15}% 198
+\BOOKMARK [0][-]{chapter.16}{Fundamentals of Electric circuits}{part.2}% 199
+\BOOKMARK [1][-]{section.16.1}{Basics of Electricity}{chapter.16}% 200
+\BOOKMARK [1][-]{section.16.2}{Modeling Electrical System}{chapter.16}% 201
+\BOOKMARK [1][-]{section.16.3}{Principles of electrical systems}{chapter.16}% 202
+\BOOKMARK [2][-]{subsection.16.3.1}{Kirchhoff's Laws}{section.16.3}% 203
+\BOOKMARK [2][-]{subsection.16.3.2}{Modeling electrical circuits}{section.16.3}% 204
+\BOOKMARK [2][-]{subsection.16.3.3}{Modeling DC converter}{section.16.3}% 205
+\BOOKMARK [1][-]{section.16.4}{Modeling circuits in Laplace Domain}{chapter.16}% 206
+\BOOKMARK [2][-]{subsection.16.4.1}{TF example of voltage divider}{section.16.4}% 207
+\BOOKMARK [0][-]{chapter.17}{Advanced control architectures}{part.2}% 208
+\BOOKMARK [1][-]{section.17.1}{Two degrees of freedom control}{chapter.17}% 209
+\BOOKMARK [-1][-]{part.3}{Model Based Design of Control Systems}{}% 210
+\BOOKMARK [0][-]{chapter.18}{Introduction}{part.3}% 211
+\BOOKMARK [1][-]{section.18.1}{Adaptive cruise control example}{chapter.18}% 212
+\BOOKMARK [2][-]{subsection.18.1.1}{Open-loop control design}{section.18.1}% 213
+\BOOKMARK [1][-]{section.18.2}{Model Based Control Design general methodology}{chapter.18}% 214
+\BOOKMARK [1][-]{section.18.3}{Control design methods}{chapter.18}% 215
+\BOOKMARK [1][-]{section.18.4}{State-space control design methodology}{chapter.18}% 216
+\BOOKMARK [0][-]{chapter.19}{State space representation}{part.3}% 217
+\BOOKMARK [1][-]{section.19.1}{Laplace transform from state-space model}{chapter.19}% 218
+\BOOKMARK [1][-]{section.19.2}{Solution of State-space model}{chapter.19}% 219
+\BOOKMARK [1][-]{section.19.3}{Transition Matrix or Matrix exponential}{chapter.19}% 220
+\BOOKMARK [1][-]{section.19.4}{Poles and zeros and Eigenvalues of State-space}{chapter.19}% 221
+\BOOKMARK [1][-]{section.19.5}{State-space transformations}{chapter.19}% 222
+\BOOKMARK [1][-]{section.19.6}{State space for a 2D particle}{chapter.19}% 223
+\BOOKMARK [1][-]{section.19.7}{Dimension check for matrices [p.3.1.6]CMRLecppt3}{chapter.19}% 224
+\BOOKMARK [0][-]{chapter.20}{Modeling Automotive Systems}{part.3}% 225
+\BOOKMARK [1][-]{section.20.1}{Longitudinal vehicle dynamics model}{chapter.20}% 226
+\BOOKMARK [1][-]{section.20.2}{Modeling Drivetrain}{chapter.20}% 227
+\BOOKMARK [2][-]{subsection.20.2.1}{Phase I}{section.20.2}% 228
+\BOOKMARK [2][-]{subsection.20.2.2}{Phase II}{section.20.2}% 229
+\BOOKMARK [3][-]{subsubsection.20.2.2.1}{Equation for engine}{subsection.20.2.2}% 230
+\BOOKMARK [3][-]{subsubsection.20.2.2.2}{Equations for transmission}{subsection.20.2.2}% 231
+\BOOKMARK [3][-]{subsubsection.20.2.2.3}{Equations for drivetrain}{subsection.20.2.2}% 232
+\BOOKMARK [3][-]{subsubsection.20.2.2.4}{Equations for wheel and chassis}{subsection.20.2.2}% 233
+\BOOKMARK [2][-]{subsection.20.2.3}{Phase III}{section.20.2}% 234
+\BOOKMARK [1][-]{section.20.3}{Modeling suspension system}{chapter.20}% 235
+\BOOKMARK [2][-]{subsubsection.20.3.0.1}{Phase I}{section.20.3}% 236
+\BOOKMARK [3][-]{subsubsection.20.3.0.2}{Phase II}{subsubsection.20.3.0.1}% 237
+\BOOKMARK [3][-]{subsubsection.20.3.0.3}{Phase III}{subsubsection.20.3.0.1}% 238
+\BOOKMARK [1][-]{section.20.4}{Single track vehicle model}{chapter.20}% 239
+\BOOKMARK [2][-]{subsection.20.4.1}{Modeling assumptions}{section.20.4}% 240
+\BOOKMARK [2][-]{subsection.20.4.2}{Phase I}{section.20.4}% 241
+\BOOKMARK [2][-]{subsection.20.4.3}{Phase II}{section.20.4}% 242
+\BOOKMARK [2][-]{subsection.20.4.4}{Phase III}{section.20.4}% 243
+\BOOKMARK [2][-]{subsection.20.4.5}{Constructing State-Space equation}{section.20.4}% 244
+\BOOKMARK [1][-]{section.20.5}{Differential drive robot}{chapter.20}% 245
+\BOOKMARK [2][-]{subsection.20.5.1}{Part I: Deriving Equations of Motion for differential drive robot}{section.20.5}% 246
+\BOOKMARK [0][-]{chapter.21}{Linearization}{part.3}% 247
+\BOOKMARK [1][-]{section.21.1}{Linearizing EoM of a pendulum}{chapter.21}% 248
+\BOOKMARK [0][-]{chapter.22}{State space behavior}{part.3}% 249
+\BOOKMARK [1][-]{section.22.1}{State-Transition matrix eAt}{chapter.22}% 250
+\BOOKMARK [0][-]{chapter.23}{State Feedback Design}{part.3}% 251
+\BOOKMARK [1][-]{section.23.1}{Principles}{chapter.23}% 252
+\BOOKMARK [2][-]{subsection.23.1.1}{Poles of the closed loop system}{section.23.1}% 253
+\BOOKMARK [2][-]{subsection.23.1.2}{Reference tracking}{section.23.1}% 254
+\BOOKMARK [1][-]{section.23.2}{Integral control}{chapter.23}% 255
+\BOOKMARK [1][-]{section.23.3}{Example of State-feedback design}{chapter.23}% 256
+\BOOKMARK [1][-]{section.23.4}{Example of reaching non-controllability}{chapter.23}% 257
+\BOOKMARK [0][-]{chapter.24}{Tuning of state feedback systems}{part.3}% 258
+\BOOKMARK [1][-]{section.24.1}{Ackermann's Formula for pole placements}{chapter.24}% 259
+\BOOKMARK [2][-]{subsection.24.1.1}{Ackermann's approach}{section.24.1}% 260
+\BOOKMARK [1][-]{section.24.2}{Example solving for K using Ackermann's formula}{chapter.24}% 261
+\BOOKMARK [1][-]{section.24.3}{Example with Single track model}{chapter.24}% 262
+\BOOKMARK [1][-]{section.24.4}{Linear Quadratic Regulator}{chapter.24}% 263
+\BOOKMARK [2][-]{subsection.24.4.1}{Solution to the optimization problem}{section.24.4}% 264
+\BOOKMARK [1][-]{section.24.5}{Examples on LQR}{chapter.24}% 265
+\BOOKMARK [2][-]{subsubsection.24.5.0.1}{Mass damper system}{section.24.5}% 266
+\BOOKMARK [2][-]{subsection.24.5.1}{Choosing penalty matrices}{section.24.5}% 267
+\BOOKMARK [0][-]{chapter.25}{Controllability and Observability}{part.3}% 268
+\BOOKMARK [1][-]{section.25.1}{Stability of State-space systems}{chapter.25}% 269
+\BOOKMARK [2][-]{subsection.25.1.1}{Equilibrium}{section.25.1}% 270
+\BOOKMARK [2][-]{subsection.25.1.2}{Stable Equilibrium}{section.25.1}% 271
+\BOOKMARK [2][-]{subsection.25.1.3}{Asymptotic stability}{section.25.1}% 272
+\BOOKMARK [2][-]{subsection.25.1.4}{BIBO}{section.25.1}% 273
+\BOOKMARK [1][-]{section.25.2}{Defining controllabilty}{chapter.25}% 274
+\BOOKMARK [1][-]{section.25.3}{Controllability vs Trajectories}{chapter.25}% 275
+\BOOKMARK [0][-]{chapter.26}{State Estimation}{part.3}% 276
+\BOOKMARK [1][-]{section.26.1}{Principle of State estimation}{chapter.26}% 277
+\BOOKMARK [1][-]{section.26.2}{Goal of State estimation}{chapter.26}% 278
+\BOOKMARK [1][-]{section.26.3}{Observers design}{chapter.26}% 279
+\BOOKMARK [2][-]{subsection.26.3.1}{Theory}{section.26.3}% 280
+\BOOKMARK [2][-]{subsection.26.3.2}{Predictor-Corrector}{section.26.3}% 281
+\BOOKMARK [2][-]{subsection.26.3.3}{Example of observer design}{section.26.3}% 282
+\BOOKMARK [2][-]{subsection.26.3.4}{Example observer design fo Single Track Model}{section.26.3}% 283
+\BOOKMARK [2][-]{subsection.26.3.5}{Control using the estimated states}{section.26.3}% 284
+\BOOKMARK [2][-]{subsection.26.3.6}{Full System with Observer and Feedback controller}{section.26.3}% 285
+\BOOKMARK [2][-]{subsection.26.3.7}{Implementation - Digital Computer Language}{section.26.3}% 286
+\BOOKMARK [1][-]{section.26.4}{Observability}{chapter.26}% 287
+\BOOKMARK [2][-]{subsection.26.4.1}{Observability Theorem 1}{section.26.4}% 288
+\BOOKMARK [2][-]{subsection.26.4.2}{Observability Theorem 2}{section.26.4}% 289
+\BOOKMARK [1][-]{section.26.5}{Separation Principle}{chapter.26}% 290
+\BOOKMARK [2][-]{subsection.26.5.1}{Method of separation principle}{section.26.5}% 291
+\BOOKMARK [2][-]{subsection.26.5.2}{Choosing eigenvalues for controller and observer}{section.26.5}% 292
+\BOOKMARK [1][-]{section.26.6}{Kalman Filter}{chapter.26}% 293
+\BOOKMARK [2][-]{subsection.26.6.1}{Key points from Linear Algebra}{section.26.6}% 294
+\BOOKMARK [2][-]{subsection.26.6.2}{Kalman Filter Matrix Equations}{section.26.6}% 295
+\BOOKMARK [0][-]{chapter.27}{Example Systems with control applications}{part.3}% 296
+\BOOKMARK [1][-]{section.27.1}{Rotor of a Humanoid Robotic arm}{chapter.27}% 297
+\BOOKMARK [1][-]{section.27.2}{Full system control design for a single track model}{chapter.27}% 298
+\BOOKMARK [2][-]{subsection.27.2.1}{Linearizing single track model}{section.27.2}% 299
+\BOOKMARK [2][-]{subsection.27.2.2}{Controllability}{section.27.2}% 300
+\BOOKMARK [2][-]{subsection.27.2.3}{Feedback Control}{section.27.2}% 301
+\BOOKMARK [0][-]{chapter.28}{Robust Control}{part.3}% 302
+\BOOKMARK [1][-]{section.28.1}{Reason for a Robust control}{chapter.28}% 303
+\BOOKMARK [0][-]{chapter*.9}{Bibliography}{part.3}% 304
