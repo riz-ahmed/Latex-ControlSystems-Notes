@@ -81,7 +81,7 @@ Now, consider another system with feedback. Because feedback has earlier proven 
 \end{figure}
 In case of closed-loop observer design, the estimated output and the measured output are first compared $y - \hat{y}$ and then fed back into the observer design using a feedback gain $L$, so that $L$ can be adjusted to shift the eigenvalues towards the left half-plane. In this case now, the new observer can be modeled using figure \ref{fig_2_ch_26_ObserverDeisgn2} as following
 \begin{equation}\label{eq_2_ch_26_ObserverDesign_2}
-\dot{\hat{x}} = A {x} + Bu + L (y - \hat{y})
+\dot{\hat{x}} = A \hat{x} + Bu + L (y - \hat{y})
 \end{equation}
 now the system \eqref{eq_2_ch_26_ObserverDesign_2} is finally appearing to be modeled according to \eqref{eq_2_ch_26_ObserverDesign_prototype}. Further, analyzing error dynamics similar to the open-loop observer design,
 \begin{align*}
@@ -92,13 +92,23 @@ now the system \eqref{eq_2_ch_26_ObserverDesign_2} is finally appearing to be mo
 &= A\tilde{x} - LC\tilde{x} \\
 &= (A - LC)\tilde{x}
 \end{align*}
-from the above result, it can be seen that the closed-loop observer design give a possibility to tune the eigenvalues of the system which would otherwise be unstable because of the eigenvalues of A. Further, the response can be determined using the solution of the equation. The system $\dot{\tilde{x}} = (A - LC)\tilde{x}$ is in standard canonical form, the solution to which is expressed as $\tilde{x} = e^{(A-LC)t}(x(0) - \hat{x}(0))$.
+from the above result, it can be seen that the closed-loop observer design give a possibility to tune the eigenvalues of the system which would otherwise be unstable because of the eigenvalues of A. Further, the response can be determined using the solution of the equation. The system $\dot{\tilde{x}} = (A - LC)\tilde{x}$ is in standard canonical form, the solution to which is expressed as $\tilde{x} = e^{(A-LC)t}(x(0) - \hat{x}(0))$. With the system response given by
+\begin{equation}
+	y = \vec{C}\hat{x}
+\end{equation}
+
+\subsection{State estimation gain}
+
+The way to choose state estimator gain is similar to that used fo control design. Using the closed loop estimator, the error dynamics becomes
+\begin{equation}
+	\dot{\tilde{x}} = (A - LC)\tilde{x}
+\end{equation}
 
 Therefore, now using system \eqref{eq_2_ch_26_ObserverDesign_2} it is now possible to choose feedback gain $L$ such that the error dynamics converges to $\tilde{x} \rightarrow 0$ as $t \rightarrow \infty$, (if observable).
 
 In order to make the error dynamics go to zero, poles of the observer has to be selected such that the error states $\tilde{\dot{x}}$ go to zero. The closed-loop poles for this observer design can be found using,
 \begin{equation} \label{Eq_2_ch_26_ObseverGainPoles}
-	det(s - A + LC) = 0
+det(s - A + LC) = 0
 \end{equation}
 
 \subsection{Predictor-Corrector}
@@ -334,10 +344,9 @@ where $({t_{k+1} -t_{k} }) = h$ is the sampling time. In pseudo-code, the contro
 
 \textbf{\textit{Definition: }} A linear system is observable if for every $T > 0$, it is possible to determine the state of the system $x(t)$ through the measurements of $y(t)$ and $u(t)$ on the interval of $[0,T]$.
 
-Similar to Controllability not being able to control any arbitrary system, not all systems can also be completely observable. In most of such cases, a rich set of sensor skirt has be added additionally, such that it improves the output $y$ and from there $\hat{x}$ can be
-determined.
+Similar to Controllability not being able to control any arbitrary system, not all systems can also be completely observable. In most of such cases, a rich set of sensor skirt has to be added additionally, such that it improves the output $y$ and from there $\hat{x}$ can be determined.
 
-Consider a modest example or a discrete system with no input as given below, 
+Consider a modest example of a discrete system with no input as given below, 
 \begin{align}
 x_{k+1} &= A x_{k} \\
 y_{k} &= C x_{k}
@@ -353,7 +362,7 @@ iteration in matrix form,
 	\begin{bmatrix}y_{0} \\y_{1} \\ y_{2} \\ . \\ . \\. \\ y_{n-1}
 	\end{bmatrix} = \begin{bmatrix}C \\ CA \\ CA^{2} \\ . \\ . \\. \\ C A^{n-1} \end{bmatrix} x_{0}
 \end{equation}
-here the matrix on the RHS is called the Observability matrix $\Omega$, with the system being observable only when $\Omega$ has a full rank of $n$.
+here the matrix on the RHS is called the Observability matrix $\Omega$, with the system being observable only when $\Omega$ has a full rank of $n$. If it is the case that with enough number og outputs, the initial states can be tracked that means, that the each of the intermediate states from the current outputs upto the initial states can also be tracked.
 
 \subsection{Observability Theorem 1}
 
@@ -436,33 +445,7 @@ In general, as the controller is dependent on the correct prediction of the obse
 
 \section{Kalman Filter}
 
-\subsection{Key points from Linear Algebra}
-The linear algebraic equation $\dot{x} = Ax + Bu$ is not only limited for capturing state dynamics. This linear equation is also used as an update equation. Consider update equations for position and velocities as shown in the following. This update equation is a simplified filter used to measure and update the current position of a robot from sensor data.
-\begin{align*}
-	x_{t+1} &= x_{t} + \dot{x}\cdot\Delta t \\
-	y_{t+1} &= y_{t} + \dot{y}\cdot\Delta t \\
-	\dot{x} &= \dot{x} + u_{pedal} \\
-	\dot{y} &= \dot{y} + u_{steering}
-\end{align*}
-The above equation as it is a linear algebraic equation can therefore be written in matrix form as shown below:
-\begin{align*}
-	\vec{x}_{t} = \vec{A}x + \vec{B}u
-\end{align*}
-where
-\begin{align*}
-	\vec{x}_{t} &= \begin{bmatrix}
-	x_t \\ y_t \\ \dot{x} \\ \dot{y}
-	\end{bmatrix} \\
-	u &= \begin{bmatrix}
-	0 \\ 0 \\ u_{pedal} \\ u_{steering}
-	\end{bmatrix} \\
-	\vec{A} &= \begin{bmatrix}
-	1 & 0 & \Delta t & 0 \\
-	0 & 1 & 0 & \Delta t \\
-	0 & 0 & 1 & 0 \\
-	0 & 0 & 0 & 1
-	\end{bmatrix}
-\end{align*}
+
 
 \subsection{Kalman Filter Matrix Equations}
 

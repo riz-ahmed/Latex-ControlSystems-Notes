@@ -280,17 +280,18 @@
 \contentsline {section}{\numberline {26.2}Goal of State estimation}{280}{section.26.2}
 \contentsline {section}{\numberline {26.3}Observers design}{281}{section.26.3}
 \contentsline {subsection}{\numberline {26.3.1}Theory}{281}{subsection.26.3.1}
-\contentsline {subsection}{\numberline {26.3.2}Predictor-Corrector}{283}{subsection.26.3.2}
-\contentsline {subsection}{\numberline {26.3.3}Example of observer design}{284}{subsection.26.3.3}
-\contentsline {subsection}{\numberline {26.3.4}Example observer design fo Single Track Model}{285}{subsection.26.3.4}
-\contentsline {subsection}{\numberline {26.3.5}Control using the estimated states}{286}{subsection.26.3.5}
-\contentsline {subsection}{\numberline {26.3.6}Full System with Observer and Feedback controller}{287}{subsection.26.3.6}
-\contentsline {subsection}{\numberline {26.3.7}Implementation - Digital Computer Language}{287}{subsection.26.3.7}
+\contentsline {subsection}{\numberline {26.3.2}State estimation gain}{283}{subsection.26.3.2}
+\contentsline {subsection}{\numberline {26.3.3}Predictor-Corrector}{283}{subsection.26.3.3}
+\contentsline {subsection}{\numberline {26.3.4}Example of observer design}{284}{subsection.26.3.4}
+\contentsline {subsection}{\numberline {26.3.5}Example observer design fo Single Track Model}{285}{subsection.26.3.5}
+\contentsline {subsection}{\numberline {26.3.6}Control using the estimated states}{286}{subsection.26.3.6}
+\contentsline {subsection}{\numberline {26.3.7}Full System with Observer and Feedback controller}{287}{subsection.26.3.7}
+\contentsline {subsection}{\numberline {26.3.8}Implementation - Digital Computer Language}{288}{subsection.26.3.8}
 \contentsline {section}{\numberline {26.4}Observability}{288}{section.26.4}
 \contentsline {subsection}{\numberline {26.4.1}Observability Theorem 1}{289}{subsection.26.4.1}
 \contentsline {subsection}{\numberline {26.4.2}Observability Theorem 2}{289}{subsection.26.4.2}
 \contentsline {section}{\numberline {26.5}Separation Principle}{289}{section.26.5}
-\contentsline {subsection}{\numberline {26.5.1}Method of separation principle}{289}{subsection.26.5.1}
+\contentsline {subsection}{\numberline {26.5.1}Method of separation principle}{290}{subsection.26.5.1}
 \contentsline {subsection}{\numberline {26.5.2}Choosing eigenvalues for controller and observer}{291}{subsection.26.5.2}
 \contentsline {section}{\numberline {26.6}Kalman Filter}{291}{section.26.6}
 \contentsline {subsection}{\numberline {26.6.1}Key points from Linear Algebra}{291}{subsection.26.6.1}
