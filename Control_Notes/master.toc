@@ -294,8 +294,9 @@
 \contentsline {subsection}{\numberline {26.5.1}Method of separation principle}{290}{subsection.26.5.1}
 \contentsline {subsection}{\numberline {26.5.2}Choosing eigenvalues for controller and observer}{291}{subsection.26.5.2}
 \contentsline {section}{\numberline {26.6}Kalman Filter}{291}{section.26.6}
-\contentsline {subsection}{\numberline {26.6.1}Key points from Linear Algebra}{291}{subsection.26.6.1}
-\contentsline {subsection}{\numberline {26.6.2}Kalman Filter Matrix Equations}{292}{subsection.26.6.2}
+\contentsline {subsubsection}{\numberline {26.6.0.1}Kalman - Bucy Filter}{292}{subsubsection.26.6.0.1}
+\contentsline {subsection}{\numberline {26.6.1}Vehicle Steering Example}{292}{subsection.26.6.1}
+\contentsline {subsection}{\numberline {26.6.2}Kalman Filter Matrix Equations}{293}{subsection.26.6.2}
 \contentsline {chapter}{\numberline {27}Example Systems with control applications}{295}{chapter.27}
 \contentsline {section}{\numberline {27.1}Rotor of a Humanoid Robotic arm}{295}{section.27.1}
 \contentsline {section}{\numberline {27.2}Full system control design for a single track model}{295}{section.27.2}

@@ -445,7 +445,121 @@ In general, as the controller is dependent on the correct prediction of the obse
 
 \section{Kalman Filter}
 
+Consider again the linear time invariant system which is added with process disturbances and measurement noise given by:
+\begin{align}
+	\dot{x} &= Ax + Bu + v \\
+	y &= Cx + w
+\end{align}
+where $v$ and $w$ are stochastically added process disturbances and measurement noise, included into the system so as to define the use of a filter. Earlier, a feedback observer design was used which had the state estimator dynamics as \eqref{eq_2_ch_26_ObserverDesign_2}
+\begin{equation}
+	\dot{\hat{x}} = A\hat{x} + Bu + L(y - C\hat{x})
+\end{equation}
+as now the process disturbances and measurement noise are included into the system, the error $\tilde{x} = x - \hat{x}$ will be effected by these parameters and the error dynamics can be determined using the the equation
+\begin{equation}
+	\dot{\tilde{x}} = \dot{x} - \dot{\hat{x}}
+\end{equation}
+substituting for $\dot{x}$ and $y$ from the equations stated above, the following equation is derived
+\begin{align*}
+	\dot{\tilde{x}} &= Ax + Bu + v - A\hat{x} - Bu - L(Cx + w - C\hat{x}) \\
+					&= Ax + v - A\hat{x} - L(Cx + w - C\hat{x}) \\
+					&= Ax - A\hat{x} - LC(x - \hat{x}) + v - Lw \\
+					&= A\tilde{x} - LC\tilde{x} + v - Lw \\
+					&= (A - LC)\tilde{x} + v - Lw 
+\end{align*}
+From the above expression it can be seen that the error dynamics is characterized by the system matrix $(A - LC)$, therefore, if $(A - LC)$ is stable, then the estimation error becomes stable. In this case, since a stochastic process is included into the system, the error here becomes \textbf{\textit{stationary stochastic process}}. Using covariance, the error can be linearly transformed using $P_{\tilde{x}}$ = $\mathbb{E}(\tilde{x}(t)\tilde{x}^{T}(t))$, using this formulation, the covariance of the estimation error is given by the following equation
+\begin{equation}
+	0 = (A - LC)P_{\tilde{x}} + P_{\tilde{x}}(A - LC)^{T} + R_{v} + L R_{w}L^{T}
+\end{equation}
+the idea here is to minimize the covariance matrix ($P_{\tilde{x}}$) using matrix $L$. The optimal observer therefore, minimizes $P_{\tilde{x}}$.
 
+***Note*** If the system is time-varying, the system will also be time dependent.
+
+\subsubsection{Kalman - Bucy Filter}
+
+Kalman - Bucy discovered that when the system is observable, the optimal observer gain matrix $L$ is given by
+\begin{equation}
+	L = P_{\tilde{x}} C^{T} R_{w}^{-1}
+\end{equation}
+where $P_{\tilde{x}} = P^{T}_{\tilde{x}} \geq 0$ is the solution to the Riccati equation
+\begin{equation}
+	0 = A P_{\tilde{x}} + P_{\tilde{x}} A^{T} + R_{v} - P_{\tilde{x}}C^{T}R_{w}L^{-1}CP_{\tilde{x}}
+\end{equation}
+This observer is called the \textbf{\textit{Kalman - Bucy Filter}} which has the following characteristics
+\begin{itemize}
+	\item always stable
+	\item the optimal linear filter for state estimation
+	\item  $R_{v}$ and $R_{w}$ are regarded as the design parameters. $R_{v}$ can be decided using the sensor characteristics.
+\end{itemize}
+There are similarities between Kalman Filter and LQR, in-fact, using them both in the controller design \textbf{\textit{linear quadratic Gaussian controller}}.
+
+\subsection{Vehicle Steering Example}
+
+Consider the steering model which is modeled as per in section \ref{Sec_2_ch_26_SingleTrackModel}, added with stochastic processes $v$ and $w$
+\begin{equation}
+\begin{bmatrix}
+\dot{x}_{1} \\ \dot{x}_{2}
+\end{bmatrix} = \begin{bmatrix}
+0 & 12 \\ 0 & 0
+\end{bmatrix}\begin{bmatrix}
+{x}_{1} \\ {x}_{2}
+\end{bmatrix} + \begin{bmatrix}
+6 \\ 3
+\end{bmatrix}u + \begin{bmatrix}
+v_{1} \\ v_{2}
+\end{bmatrix}
+\end{equation}
+\begin{equation}
+y = [1 \quad 0] \begin{bmatrix}
+\dot{x}_{1} \\ \dot{x}_{2}
+\end{bmatrix} + w
+\end{equation}
+
+The process disturbance and the measurement noise are zero mean with covariance (linear transformation of disturbances)
+\begin{align}
+	R_{v} &= \begin{bmatrix}
+	1 \quad 0 \\ 0 \quad 1
+	\end{bmatrix} \\
+	R_{w} &= \rho
+\end{align}
+The idea is to design a Kalman filter to estimate the vehicles states, from the measurement of the lateral position. The standard state estimator equation is used ($\dot{\hat{x}} = A\hat{x} + Bu + L(y - C\hat{x})$) with $L$ as the optimal observer gain given by the Kalman filter equation $L = P_{\tilde{x}} C^{T} R_{w}^{-1}$. Where $P_{\tilde{x}} = P^{T}_{\tilde{x}} \geq 0$ is the solution to the Riccati equation
+\begin{equation}
+0 = A P_{\tilde{x}} + P_{\tilde{x}} A^{T} + R_{v} - P_{\tilde{x}}C^{T}R_{w}L^{-1}CP_{\tilde{x}}
+\end{equation}
+and, the solution to the Riccati equation is given by (for example)
+\begin{equation}
+	\begin{bmatrix}
+	p_{1} \quad p_{2} \\ p_{2} \quad p_{3}
+	\end{bmatrix}
+\end{equation}
+inserting the solution $P_{\tilde{x}}$ into the Riccati equation gives a non-linear matrix equality
+\begin{equation}
+	\begin{bmatrix}
+	0 \quad 0 \\ 0 \quad 0
+	\end{bmatrix} = \begin{bmatrix}
+	0 \quad 12 \\ 0 \quad 0
+	\end{bmatrix} \begin{bmatrix}
+	p_{1} \quad p_{2} \\ p_{2} \quad p_{3}
+	\end{bmatrix} + \begin{bmatrix}
+	p_{1} \quad p_{2} \\ p_{2} \quad p_{3}
+	\end{bmatrix} \begin{bmatrix}
+	0 \quad 0 \\ 12 \quad 0
+	\end{bmatrix} + \begin{bmatrix}
+	1 \quad 0 \\ 0 \quad 1
+	\end{bmatrix} + \rho^{-1} \begin{bmatrix}
+	p_{1} \quad p_{2} \\ p_{2} \quad p_{3}
+	\end{bmatrix} \begin{bmatrix}
+	1 \\ 0
+	\end{bmatrix} [1 \quad 0] \begin{bmatrix}
+	p_{1} \quad p_{2} \\ p_{2} \quad p_{3}
+	\end{bmatrix}
+\end{equation} 
+this Riccati equation can be solved using Matlab \textbf{[P,E,L] = care(A',C',[[1 \quad 0]; [0 \quad 1]], 1)}, choosing noise covariance of $\rho = 1$, gives the following result
+$$P_{\tilde{x}} = \begin{bmatrix}
+5.0 \quad 1.0 \\ 1.0 \quad 0.4167
+\end{bmatrix}$$ and
+$$\begin{bmatrix}
+5.0 \\ 1.0
+\end{bmatrix}$$
 
 \subsection{Kalman Filter Matrix Equations}
 
