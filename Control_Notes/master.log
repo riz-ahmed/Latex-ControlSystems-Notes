@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.26)  3 SEP 2020 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.26)  7 SEP 2020 21:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3390,8 +3390,12 @@ Overfull \hbox (50.85255pt too wide) in paragraph at lines 62--75
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[296 <./Bilder/FE_coordinate_system_intro.png>] [297] [298])
-(./chapters/Part3_RobustControl_1.tex [299] [300
+[296 <./Bilder/FE_coordinate_system_intro.png>]
+Overfull \hbox (21.51642pt too wide) detected at line 104
+[][]\OML/cmm/m/it/12 A \OT1/cmr/m/n/12 = [][]
+ []
+
+[297] [298]) (./chapters/Part3_RobustControl_1.tex [299] [300
 
 ]
 chapter 28.
@@ -3623,7 +3627,7 @@ onts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
 /urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on master.pdf (331 pages, 15811353 bytes).
+Output written on master.pdf (331 pages, 15811783 bytes).
 PDF statistics:
  6275 PDF objects out of 7423 (max. 8388607)
  5399 compressed objects within 54 object streams
