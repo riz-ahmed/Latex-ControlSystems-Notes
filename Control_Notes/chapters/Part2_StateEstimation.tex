@@ -575,13 +575,122 @@ A system is considered where the position of a vehicle is measured in 1D, which 
 	y_{k} &= C x_{k} + v_{k}
 \end{align}
 
-where $w_{k}$ and $v_{k}$ are introduced as process and sensor disturbances. These process disturbances are defined using a Gaussian distribution and represent as $v \approx N(0, R)$. Which means that all the sensor reading are distributed about the point $0$ with a co-variance of $R$. $R$ is the area under which $68.3ff\%$ of all the sensor readings are distributed about the point $0$. The graph pf which looks as follows \ref{fig_Gaussian_dist_v}
+where $w_{k}$ and $v_{k}$ are introduced as process and sensor disturbances. These process disturbances are defined using a Gaussian distribution and represent as $v \approx N(0, R)$. Which means that all the sensor reading are distributed about the point $0$ with a co-variance of $R$. $R$ is the area under which $68.3\%$ of all the sensor readings are distributed about the point $0$. The graph pf which looks as follows \ref{fig_Gaussian_dist_v}. Similarly, the process disturbance is modeled as a Gaussian distribution with a covariance of $Q$.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.5\linewidth]{Bilder/Gaussian_distrubution_v.PNG}
 	\caption{Gaussian distribution of sensor disturbances $v$}
 	\label{fig_Gaussian_dist_v}
 \end{figure}
+
+A mathematical estimator model would predict the current states based on the same inputs to estimator model as given to the real model. This estimator model can be modeled as follows:
+\begin{align}
+	x_{k} &= A \hat{x}_{k-1} + B u_{k} + w_{k} \label{Eq_discrete_ss_est_model} \\
+	y_{k} &= C \hat{x}_{k} + v_{k}
+\end{align}
+
+Theoretically, the estimator model cannot accurately estimate the exact current states of the system as the real system would be affected by the process disturbances which are not included in the estimator model as can be seen comparing \ref{Eq_discrete_ss_1D_sys} and \eqref{Eq_discrete_ss_est_model}. This is where a Kalman filter comes into play, where it combines the results of both the real system output $y_{k}$ and the estimated states $\hat{x}_{k}$ to find the optimal estimate of the vehicle's position.
+
+In order to under how this optimization works, consider figure \ref{fig_kal_filter_opt_frm_graph}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Bilder/Probabiity_density_fcn.png}
+	\caption{Understanding Kalman filter optimization using graph}
+	\label{fig_kal_filter_opt_frm_graph}
+\end{figure} 
+
+the initial estimate from the predictor model (mathematical model) is shown by the left blue graph, this graph says that the predicted position of the vehicle would be anywhere among that variance, by most likely at the center with zero variance (shown by the dotted line). From this initial state estimate, the predicted state estimate is shown by the right blue graph. Additionally, there is also the system output from the real system, which is also graphed, shown here by the orange graph to the right. Again, in this case, the predicted state (position) of the vehicle is anywhere among that variance, by most likely at the center with zero variance (shown by the dotted line). According to the theory of Kalman filter, the best estimate comes from combining the results of both the predictor model (mathematical model) as well as the the system output from the real system. 
+
+Note*** Also note that the area under this graph is minimized mathematically while solving for $P_{\tilde{x}}$ tuning with gain $L$.
+
+By combining, it means that both these graphs are multiplied, the result of which is that the resultant variance (shown by the gray graph) is smaller than either of the graphs it was generated from. Combining these two result is an optimal way of finding a solution between these two available results. The optimal state estimated is shown by the gray dotted line (most likely position) with variance as shown in the gray graph. (Note*** The results are combined by multiplying, then scaling (estimator gain) and finally computing the mean (dotted line) to obtain the optimal estimated state).
+
+The multiplication of these two probability density function relates to the discrete Kalman filter equation given by
+\begin{equation} \label{eq_kalman_filter_optimal_est_1}
+	\hat{x}_{k} = A \hat{x}_{k-1} + B u_{k} + K_{k}(y_{k} - C(A \hat{x}_{k-1} + B u_{k}))
+\end{equation}
+The left half of \eqref{eq_kalman_filter_optimal_est_1} $A \hat{x}_{k-1} + B u_{k}$ is the predictor model and the right half of \eqref{eq_kalman_filter_optimal_est_1} is the scaled (estimator gain) error feedback.Therefore, the summation of these two leads towards an optimal state estimate. \eqref{eq_kalman_filter_optimal_est_1} is same as the state observer equation given below
+\begin{equation}\label{eq_state_observer_det_system}
+	\hat{x}_{k+1} = A \hat{x}_{k} + B u_{k} + K(y_{k} - C\hat{x}_{k})
+\end{equation}
+infact Kalman filter is a type of state observer which is designed for stochastic systems with variance as shown in figure \ref{fig_kal_filter_opt_frm_graph} where as the state observer given by \eqref{eq_state_observer_det_system} is designed for the deterministic systems. 
+
+In \eqref{eq_kalman_filter_optimal_est_1}, the left half term $A \hat{x}_{k-1} + B u_{k}$ is a prior estimate based on the previous state and current inputs, this is denoted as $\hat{x}^{-}_{k} = A \hat{x}_{k-1} + B u_{k}$, therefore, \eqref{eq_kalman_filter_optimal_est_1} can now be re-written as
+\begin{equation}\label{eq_kalman_filter_optimal_est_2}
+	\hat{x}_{k} = \hat{x}^{-}_{k} + K_{k}(y_{k} - C\hat{x}^{-}_{k})
+\end{equation}
+in \eqref{eq_kalman_filter_optimal_est_2}, the part $ \hat{x}^{-}_{k}$ is called the predict and the part $K_{k}(y_{k} - C\hat{x}^{-}_{k})$ is called the update as it incorporates the measured values which are updated with the prior estimate $\hat{x}^{-}_{k}$, the sum of which is called a \textbf{\textit{A Posteriori Estimate}}:
+\begin{equation}
+	Posteriori Estimate = Predict + Update
+\end{equation}
+actually, there are sets of equations that describe the prediction and update as shown below:
+\textbf{Prediction}
+\begin{align}
+	\hat{x}^{-}_{k} &= A \hat{x}_{k-1} + B u_{k} \\
+	P^{-}_{k} &= A P_{k-1}A^{T} + Q
+\end{align}
+\textbf{Update}
+\begin{align}
+	K_{k} &= \frac{P^{-}_{k} C^{T}}{C P^{-}_{k} C^{T} + R} \\
+	\hat{x}_{k} &= \hat{x}^{-}_{k} + K_{k}(y_{k} - C\hat{x}^{-}_{k}) \\
+	P_{k} &= (I - K_{k}C)P^{-}_{k}
+\end{align}
+where $P_{k}$ is the error covariance matrix and $P^{-}_{k}$ is the variance of the prior estimate as shown in \ref{fig_Px_covaraince_matrix}. It can be considered as uncertainty in the measurement of the estimated states.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Bilder/Px_covaraince_matrix.png}
+	\caption{Definition of $P^{-}_{k}$}
+	\label{fig_Px_covaraince_matrix}
+\end{figure}
+the Kalman filter gain $K_{k}$ is calculated such that it minimizes this error covariance matrix $P_{k}$. Infact, the gain $K_{k}$ can be adjusted to either trust the measurements more or the predict model more, based on how these results deviate from the actual states. If the measured states have very little variance with the actual states due to low sensor disturbances, then the predict model is trusted more and gain tuning $K_{k}$ depends more on the measurement than the prediction model. This can be formulated mathematically by making the measurement disturbance go to zero and formulating the gain $K_{k}$
+\begin{align*}
+	\lim_{R\to \infty}K_{k} &= \lim_{R\to \infty}\frac{P^{-}_{k} C^{T}}{C P^{-}_{k} C^{T} + R} \\
+							&= \lim_{R\to \infty}\frac{P^{-}_{k} C^{T}}{C P^{-}_{k} C^{T} + 0} = C^{-1}
+\end{align*}
+for this particular system, the output matrix $C^{-1} = 1$. Further the update state equation becomes
+\begin{align*}
+	\hat{x}_{k} &= \hat{x}^{-}_{k} + C^{-1}(y_{k} - C\hat{x}^{-}_{k}) \\
+				&= \hat{x}^{-}_{k} + C^{-1}y_{k} - C^{-1}C\hat{x}^{-}_{k}
+\end{align*}
+\begin{equation}\label{eq_kalman_filter_trust_y}
+	\hat{x}_{k} = C^{-1}y_{k} = y_{k}
+\end{equation}
+therefore, as described in \eqref{eq_kalman_filter_trust_y}, the estimated states are only described by the measurements. The plot of such a estimated state on the density function can be seen as \ref{fig_kalman_filter_rust_y}, where the estimated states are reduced to a single line, as the measurement disturbance $R = 0$ or the measurement is most trusted.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Bilder/kalman_filter_rust_y.png}
+	\caption{Definition of $P^{-}_{k}$}
+	\label{fig_kalman_filter_rust_y}
+\end{figure}
+on the other hand, if the predict model is trusted more, it means that the prior state estimate covariance $P^{-}_{k} = 0$, therefore,
+\begin{align*}
+\lim_{P^{-}_{k}\to \infty}K_{k} &= \lim_{P^{-}_{k}\to \infty}\frac{P^{-}_{k} C^{T}}{C P^{-}_{k} C^{T} + R} \\
+&= \lim_{P^{-}_{k}\to \infty}\frac{0}{0 + R} = 0
+\end{align*}
+Further the update state equation becomes
+\begin{align*}
+	\hat{x}_{k} &= \hat{x}^{-}_{k} + 0(y_{k} - C\hat{x}^{-}_{k})
+\end{align*}
+\begin{equation}\label{eq_kalman_filter_trust_x-}
+	\hat{x}_{k} = \hat{x}^{-}_{k}
+\end{equation}
+from \eqref{eq_kalman_filter_trust_x-}, the estimated states are described only by the prior state predictions and the contribution of the measurements are ignored completely. On the graph, this is represented by \ref{fig_kalman_filter_rust_x-}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Bilder/kalman_filter_trust_x.png}
+	\caption{Definition of $P^{-}_{k}$}
+	\label{fig_kalman_filter_rust_x-}
+\end{figure}
+
+\subsubsection{Kalman filter for Sensor Fusion}
+If more than sensor is used in the system, the Kalman filter equation does not change much. The size of the matrices of $K$, $y$ and $C$ will be modified and the rest of the solution remains exactly the same. The only difference is that now more than two graphs in the probability density function is merged to optimize the estimation of the states as shown in figure \ref{fig_kalman_filter_sensor_fusion}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{Bilder/kalman_filter_sensor_fusion.png}
+	\caption{Definition of $P^{-}_{k}$}
+	\label{fig_kalman_filter_sensor_fusion}
+\end{figure}
+\newpage
 
 \subsection{Kalman Filter Matrix Equations}
 

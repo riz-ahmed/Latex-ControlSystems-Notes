@@ -296,14 +296,15 @@
 \BOOKMARK [2][-]{subsection.26.6.1}{Vehicle Steering Example}{section.26.6}% 296
 \BOOKMARK [2][-]{subsection.26.6.2}{Matlab's Kalman Filter}{section.26.6}% 297
 \BOOKMARK [3][-]{subsubsection.26.6.2.1}{Kalman filter for a single state system}{subsection.26.6.2}% 298
-\BOOKMARK [2][-]{subsection.26.6.3}{Kalman Filter Matrix Equations}{section.26.6}% 299
-\BOOKMARK [0][-]{chapter.27}{Example Systems with control applications}{part.3}% 300
-\BOOKMARK [1][-]{section.27.1}{Rotor of a Humanoid Robotic arm}{chapter.27}% 301
-\BOOKMARK [1][-]{section.27.2}{Full system control design for a single track model}{chapter.27}% 302
-\BOOKMARK [2][-]{subsection.27.2.1}{Linearizing single track model}{section.27.2}% 303
-\BOOKMARK [2][-]{subsection.27.2.2}{Controllability}{section.27.2}% 304
-\BOOKMARK [2][-]{subsection.27.2.3}{Feedback Control}{section.27.2}% 305
-\BOOKMARK [2][-]{subsection.27.2.4}{Estimator design using Kalman Filter}{section.27.2}% 306
-\BOOKMARK [0][-]{chapter.28}{Robust Control}{part.3}% 307
-\BOOKMARK [1][-]{section.28.1}{Reason for a Robust control}{chapter.28}% 308
-\BOOKMARK [0][-]{chapter*.9}{Bibliography}{part.3}% 309
+\BOOKMARK [3][-]{subsubsection.26.6.2.2}{Kalman filter for Sensor Fusion}{subsection.26.6.2}% 299
+\BOOKMARK [2][-]{subsection.26.6.3}{Kalman Filter Matrix Equations}{section.26.6}% 300
+\BOOKMARK [0][-]{chapter.27}{Example Systems with control applications}{part.3}% 301
+\BOOKMARK [1][-]{section.27.1}{Rotor of a Humanoid Robotic arm}{chapter.27}% 302
+\BOOKMARK [1][-]{section.27.2}{Full system control design for a single track model}{chapter.27}% 303
+\BOOKMARK [2][-]{subsection.27.2.1}{Linearizing single track model}{section.27.2}% 304
+\BOOKMARK [2][-]{subsection.27.2.2}{Controllability}{section.27.2}% 305
+\BOOKMARK [2][-]{subsection.27.2.3}{Feedback Control}{section.27.2}% 306
+\BOOKMARK [2][-]{subsection.27.2.4}{Estimator design using Kalman Filter}{section.27.2}% 307
+\BOOKMARK [0][-]{chapter.28}{Robust Control}{part.3}% 308
+\BOOKMARK [1][-]{section.28.1}{Reason for a Robust control}{chapter.28}% 309
+\BOOKMARK [0][-]{chapter*.9}{Bibliography}{part.3}% 310

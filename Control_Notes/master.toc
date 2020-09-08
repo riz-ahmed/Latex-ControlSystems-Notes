@@ -298,14 +298,15 @@
 \contentsline {subsection}{\numberline {26.6.1}Vehicle Steering Example}{292}{subsection.26.6.1}
 \contentsline {subsection}{\numberline {26.6.2}Matlab's Kalman Filter}{293}{subsection.26.6.2}
 \contentsline {subsubsection}{\numberline {26.6.2.1}Kalman filter for a single state system}{294}{subsubsection.26.6.2.1}
-\contentsline {subsection}{\numberline {26.6.3}Kalman Filter Matrix Equations}{294}{subsection.26.6.3}
-\contentsline {chapter}{\numberline {27}Example Systems with control applications}{297}{chapter.27}
-\contentsline {section}{\numberline {27.1}Rotor of a Humanoid Robotic arm}{297}{section.27.1}
-\contentsline {section}{\numberline {27.2}Full system control design for a single track model}{297}{section.27.2}
-\contentsline {subsection}{\numberline {27.2.1}Linearizing single track model}{299}{subsection.27.2.1}
-\contentsline {subsection}{\numberline {27.2.2}Controllability}{300}{subsection.27.2.2}
-\contentsline {subsection}{\numberline {27.2.3}Feedback Control}{301}{subsection.27.2.3}
-\contentsline {subsection}{\numberline {27.2.4}Estimator design using Kalman Filter}{302}{subsection.27.2.4}
-\contentsline {chapter}{\numberline {28}Robust Control}{303}{chapter.28}
-\contentsline {section}{\numberline {28.1}Reason for a Robust control}{303}{section.28.1}
+\contentsline {subsubsection}{\numberline {26.6.2.2}Kalman filter for Sensor Fusion}{298}{subsubsection.26.6.2.2}
+\contentsline {subsection}{\numberline {26.6.3}Kalman Filter Matrix Equations}{299}{subsection.26.6.3}
+\contentsline {chapter}{\numberline {27}Example Systems with control applications}{301}{chapter.27}
+\contentsline {section}{\numberline {27.1}Rotor of a Humanoid Robotic arm}{301}{section.27.1}
+\contentsline {section}{\numberline {27.2}Full system control design for a single track model}{301}{section.27.2}
+\contentsline {subsection}{\numberline {27.2.1}Linearizing single track model}{303}{subsection.27.2.1}
+\contentsline {subsection}{\numberline {27.2.2}Controllability}{304}{subsection.27.2.2}
+\contentsline {subsection}{\numberline {27.2.3}Feedback Control}{305}{subsection.27.2.3}
+\contentsline {subsection}{\numberline {27.2.4}Estimator design using Kalman Filter}{306}{subsection.27.2.4}
+\contentsline {chapter}{\numberline {28}Robust Control}{307}{chapter.28}
+\contentsline {section}{\numberline {28.1}Reason for a Robust control}{307}{section.28.1}
 \contentsline {chapter}{Bibliography}{A}{chapter*.9}
