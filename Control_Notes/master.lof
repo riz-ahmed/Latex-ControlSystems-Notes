@@ -195,14 +195,15 @@
 \contentsline {figure}{\numberline {26.5}{\ignorespaces Closed-loop observer design}}{282}{figure.26.5}
 \contentsline {figure}{\numberline {26.6}{\ignorespaces Control algorithm using estimated states}}{287}{figure.26.6}
 \contentsline {figure}{\numberline {26.7}{\ignorespaces Poles of controller and observer}}{291}{figure.26.7}
+\contentsline {figure}{\numberline {26.8}{\ignorespaces Gaussian distribution of sensor disturbances $v$}}{294}{figure.26.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {27.1}{\ignorespaces Global coordinate system for single track model}}{296}{figure.27.1}
+\contentsline {figure}{\numberline {27.1}{\ignorespaces Global coordinate system for single track model}}{298}{figure.27.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {28.1}{\ignorespaces Input/Output model of a plant}}{301}{figure.28.1}
-\contentsline {figure}{\numberline {28.2}{\ignorespaces Control system developed using the measurements from the input/output model}}{301}{figure.28.2}
-\contentsline {figure}{\numberline {28.3}{\ignorespaces Control system developed using the measurements from the input/output model}}{302}{figure.28.3}
-\contentsline {figure}{\numberline {28.4}{\ignorespaces open-loop margins of an example system}}{304}{figure.28.4}
-\contentsline {figure}{\numberline {28.5}{\ignorespaces adding gain to the example system}}{305}{figure.28.5}
-\contentsline {figure}{\numberline {28.6}{\ignorespaces adding phase to the example system}}{305}{figure.28.6}
-\contentsline {figure}{\numberline {28.7}{\ignorespaces adding phase to the example system}}{306}{figure.28.7}
-\contentsline {figure}{\numberline {28.8}{\ignorespaces adding phase to the example system}}{307}{figure.28.8}
+\contentsline {figure}{\numberline {28.1}{\ignorespaces Input/Output model of a plant}}{303}{figure.28.1}
+\contentsline {figure}{\numberline {28.2}{\ignorespaces Control system developed using the measurements from the input/output model}}{303}{figure.28.2}
+\contentsline {figure}{\numberline {28.3}{\ignorespaces Control system developed using the measurements from the input/output model}}{304}{figure.28.3}
+\contentsline {figure}{\numberline {28.4}{\ignorespaces open-loop margins of an example system}}{306}{figure.28.4}
+\contentsline {figure}{\numberline {28.5}{\ignorespaces adding gain to the example system}}{307}{figure.28.5}
+\contentsline {figure}{\numberline {28.6}{\ignorespaces adding phase to the example system}}{307}{figure.28.6}
+\contentsline {figure}{\numberline {28.7}{\ignorespaces adding phase to the example system}}{308}{figure.28.7}
+\contentsline {figure}{\numberline {28.8}{\ignorespaces adding phase to the example system}}{309}{figure.28.8}

@@ -149,8 +149,21 @@ The control design is proceeded as follows, the system is of fifth order, theref
 \end{equation}
 the faster poles $p_2$ are chosen at least 3 times faster than $p_1$. Here a simple pole-placement technique is used and Ackermann's formula is used to determine gain $K$ which is detailed in section \ref{Sec_AckermannsFormaula_ControllerTuning} of this book. Now since it is already established that poles $p_2$ should be atleast 3 times bigger than $p_1$, in order to find $p_{des}$ required by Ackermann's formula for controller tuning, there are many possibilities such as the poles being placed at locations as follows $\{p_1, p_2\} = \{ -1,-3 \}$, $\{p_1, p_2\} = \{ -2,-6 \}$, $\{p_1, p_2\} = \{ -3,-9 \}$ or at $\{p_1, p_2\} = \{ -4,-12 \}$. 
 
-Poles $p_1$ being the dominating poles, are selected based on the fact that the setting time as per the requirement should take 2 sec (settling time, here defined as from start of maneuver until the vehicle's position is within $5\%$ of its steady state level). The reference gain should be chosen such that the steady state gain is 1. From the previously listed possibilities of poles $\{p_1, p_2\}$, running simulations can determine the required placement of the poles.
+Poles $p_1$ being the dominating poles, are selected based on the fact that the setting time as per the requirement should take 2 sec (settling time, here defined as from start of maneuver until the vehicle's position is within $5\%$ of its steady state level). The reference gain should be chosen such that the steady state gain is 1. From the previously listed possibilities of poles $\{p_1, p_2\}$, running simulations can determine the required placement of the poles. (Model: \url{https://github.com/riz-ahmed/Autonomous-Vehile-Controls.git})
 
+Running simulations shows that the chosen poles at $\{p_1, p_2\} = \{ -3,-9 \}$ satisfies all the required control objectives. A square wave fucntion is used as a reference input signal as which simulates a periodic lane-changing of the vehicle. The controller satisfies the objectives when the simulation results are consistent with the settling time and the required steady-state performance.
+
+\subsection{Estimator design using Kalman Filter}
+
+An estimator design is employed using Kalman-Filter optimization for covariance $P_{\tilde{x}}$ using gain $L$, the resulting Riccati's equation for which $P_{\tilde{x}}$ is the solution is define as follows, considering that there are no process disturbances considered into the system:
+\begin{equation}
+	AP + P A^{T} - PC^{T}R^{-1}_{w}C P = 0
+\end{equation}
+The estimator gain that minimizes the state error covariance $P = E(\tilde{x}\tilde{x}^{T})$ is given by Kalman filter:
+\begin{equation}
+	L = P C^{T}R^{-1}_{w}
+\end{equation}
+A sensor disturbance with a covariance of $R_{w} = 0.01$ is considered. In Matlab, this Riccati's equation can be solves to find gain $L$ using the care function as \textbf{\textit{[P,E,L] = care(A', B', Rw)}}. Simulations seem to be stable even for the conditions when the model parameters are uncertain, such as varying mass and vehicle velocity does not modify the behavior of the controller.
 
 
 

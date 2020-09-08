@@ -561,6 +561,28 @@ $$ L = \begin{bmatrix}
 5.0 \\ 1.0
 \end{bmatrix}$$
 
+\subsection{Matlab's Kalman Filter}
+
+The whole idea of Kalman Filter is to used a measurement output to determine the internal states of the system. This is an idea of observing the external behavior to predict the internal states. The prediction in the control system happens using a combination of both a mathematical model which pre-predicts the next state as all the possible sates are mapped out mathematically in prior along with measurements (in most cases some in-direct variable is measured).
+
+The output from the mathematical model is compared with the output from the measurements, if both the outputs match, then the estimated states using the mathematical model is exactly same as the original states. If not there is certainly a discrepancy. This discrepancy is reduced using a feedback loop similar to a feedback control system, where the error is driven to zero using a feedback gain $K$. In this case, a feedback gain $L$ is used to drive the estimation error to zero. In both these cases, the eigenvalues of the estimator system are pushed the negative half plane, so as to drive the error exponentially to zero. 
+
+\subsubsection{Kalman filter for a single state system}
+
+A system is considered where the position of a vehicle is measured in 1D, which is expressed in discrete state space as
+\begin{align}
+	x_{k} &= A x_{k-1} + B u_{k} + w_{k} \label{Eq_discrete_ss_1D_sys} \\
+	y_{k} &= C x_{k} + v_{k}
+\end{align}
+
+where $w_{k}$ and $v_{k}$ are introduced as process and sensor disturbances. These process disturbances are defined using a Gaussian distribution and represent as $v \approx N(0, R)$. Which means that all the sensor reading are distributed about the point $0$ with a co-variance of $R$. $R$ is the area under which $68.3ff\%$ of all the sensor readings are distributed about the point $0$. The graph pf which looks as follows \ref{fig_Gaussian_dist_v}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\linewidth]{Bilder/Gaussian_distrubution_v.PNG}
+	\caption{Gaussian distribution of sensor disturbances $v$}
+	\label{fig_Gaussian_dist_v}
+\end{figure}
+
 \subsection{Kalman Filter Matrix Equations}
 
 The design of Kalman filter has five matrices as described below:
