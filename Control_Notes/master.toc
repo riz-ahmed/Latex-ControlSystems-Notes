@@ -90,223 +90,226 @@
 \contentsline {subsection}{\numberline {6.6.4}Solutions to free and forced response of a system using results from State Transition Matrix}{73}{subsection.6.6.4}
 \contentsline {subsubsection}{\numberline {6.6.4.1}Null Solution}{73}{subsubsection.6.6.4.1}
 \contentsline {subsubsection}{\numberline {6.6.4.2}Particular Solution}{74}{subsubsection.6.6.4.2}
-\contentsline {section}{\numberline {6.7}Newton's Law's for rotating bodies}{74}{section.6.7}
-\contentsline {section}{\numberline {6.8}Harmonic Oscillator}{75}{section.6.8}
-\contentsline {chapter}{\numberline {7}System Modeling}{77}{chapter.7}
-\contentsline {section}{\numberline {7.1}Three phase method of modeling}{78}{section.7.1}
-\contentsline {subsubsection}{\numberline {7.1.0.1}Phase I: Subsysteming and choosing inputs and outputs}{79}{subsubsection.7.1.0.1}
-\contentsline {subsubsection}{\numberline {7.1.0.2}Phase II: Mathematical modeling}{79}{subsubsection.7.1.0.2}
-\contentsline {subsubsection}{\numberline {7.1.0.3}Phase III: Writing State-space form}{80}{subsubsection.7.1.0.3}
-\contentsline {section}{\numberline {7.2}Model verification and validation}{80}{section.7.2}
-\contentsline {section}{\numberline {7.3}Mathematical Modeling}{81}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}State Space Representation}{81}{subsection.7.3.1}
-\contentsline {section}{\numberline {7.4}Transfer function representation}{81}{section.7.4}
-\contentsline {section}{\numberline {7.5}General form of Second order System}{82}{section.7.5}
-\contentsline {section}{\numberline {7.6}Non-Canonical Systems}{83}{section.7.6}
-\contentsline {subsection}{\numberline {7.6.1}Higher order systems}{83}{subsection.7.6.1}
-\contentsline {subsubsection}{\numberline {7.6.1.1}Model reduction}{83}{subsubsection.7.6.1.1}
-\contentsline {subsection}{\numberline {7.6.2}Effect of zeros}{88}{subsection.7.6.2}
-\contentsline {subsubsection}{\numberline {7.6.2.1}Effect 1: Contribution of each pole to the transfer function}{88}{subsubsection.7.6.2.1}
-\contentsline {subsubsection}{\numberline {7.6.2.2}Effect 2: Increases the overshoot}{88}{subsubsection.7.6.2.2}
-\contentsline {subsubsection}{\numberline {7.6.2.3}Effect 3: Non-minimum Phase Behavior}{91}{subsubsection.7.6.2.3}
-\contentsline {subsubsection}{\numberline {7.6.2.4}Effect 4: Canceling poles that are near them}{91}{subsubsection.7.6.2.4}
-\contentsline {subsection}{\numberline {7.6.3}Nonlinear Systems}{92}{subsection.7.6.3}
-\contentsline {chapter}{\numberline {8}System Analysis}{93}{chapter.8}
-\contentsline {section}{\numberline {8.1}Time-domain analysis}{93}{section.8.1}
-\contentsline {section}{\numberline {8.2}Frequency domain analysis}{93}{section.8.2}
-\contentsline {section}{\numberline {8.3}Analysis of first order systems}{94}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Impulse response}{94}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}General first order responses}{95}{subsection.8.3.2}
-\contentsline {subsubsection}{\numberline {8.3.2.1}$u(t) = 0$, non-zero initial condition}{96}{subsubsection.8.3.2.1}
-\contentsline {subsubsection}{\numberline {8.3.2.2}Step response}{97}{subsubsection.8.3.2.2}
-\contentsline {subsubsection}{\numberline {8.3.2.3}step response with non-zero initial condition}{98}{subsubsection.8.3.2.3}
-\contentsline {section}{\numberline {8.4}Stability analysis of PT-2 systems}{100}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Stability in linear systems}{100}{subsection.8.4.1}
-\contentsline {subsection}{\numberline {8.4.2}Stability Analysis in Non-linear systems}{101}{subsection.8.4.2}
-\contentsline {subsection}{\numberline {8.4.3}Solving / Analysing PT-2 using Laplace transform}{104}{subsection.8.4.3}
-\contentsline {subsubsection}{\numberline {8.4.3.1}Determining the system behavior}{104}{subsubsection.8.4.3.1}
-\contentsline {subsection}{\numberline {8.4.4}Poles determine the system behavior}{112}{subsection.8.4.4}
-\contentsline {subsection}{\numberline {8.4.5}Solving / Analysis PT-2 using characteristic polynomial}{112}{subsection.8.4.5}
-\contentsline {subsection}{\numberline {8.4.6}Numerical solution for PT-2 systems using Matlab}{113}{subsection.8.4.6}
-\contentsline {chapter}{\numberline {9}Introduction to Control}{115}{chapter.9}
-\contentsline {section}{\numberline {9.1}Control Architectures}{115}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.1}Open-loop control / Feedforward control}{115}{subsection.9.1.1}
-\contentsline {subsection}{\numberline {9.1.2}Closed Loop Architecture / Feedback control}{116}{subsection.9.1.2}
-\contentsline {section}{\numberline {9.2}Block diagram reduction}{119}{section.9.2}
-\contentsline {section}{\numberline {9.3}Linearity and Principle of Superposition}{121}{section.9.3}
-\contentsline {section}{\numberline {9.4}Cruise control example and drawbacks of proportional regulator}{121}{section.9.4}
-\contentsline {subsection}{\numberline {9.4.1}Open-loop system model}{121}{subsection.9.4.1}
-\contentsline {subsection}{\numberline {9.4.2}Closed Loop Model}{122}{subsection.9.4.2}
-\contentsline {subsection}{\numberline {9.4.3}Effects of Noise with Proportional Regulator}{122}{subsection.9.4.3}
-\contentsline {chapter}{\numberline {10}Eigen Value Analysis}{125}{chapter.10}
-\contentsline {section}{\numberline {10.1}How Eigen Value Analysis Works}{127}{section.10.1}
-\contentsline {chapter}{\numberline {11}Classical Control System Design}{129}{chapter.11}
-\contentsline {section}{\numberline {11.1}Control Specifications}{129}{section.11.1}
-\contentsline {section}{\numberline {11.2}Control Expectations (Performance expectations)}{129}{section.11.2}
-\contentsline {section}{\numberline {11.3}Pole Placement}{130}{section.11.3}
-\contentsline {section}{\numberline {11.4}Calculating steady-state error}{133}{section.11.4}
-\contentsline {section}{\numberline {11.5}PID Control}{134}{section.11.5}
-\contentsline {subsection}{\numberline {11.5.1}Understanding PID using a canonical system}{134}{subsection.11.5.1}
-\contentsline {subsubsection}{\numberline {11.5.1.1}P Control}{136}{subsubsection.11.5.1.1}
-\contentsline {subsubsection}{\numberline {11.5.1.2}D Control}{137}{subsubsection.11.5.1.2}
-\contentsline {subsubsection}{\numberline {11.5.1.3}I Control}{140}{subsubsection.11.5.1.3}
-\contentsline {subsection}{\numberline {11.5.2}PD Control}{142}{subsection.11.5.2}
-\contentsline {subsubsection}{\numberline {11.5.2.1}PI Control}{142}{subsubsection.11.5.2.1}
-\contentsline {subsubsection}{\numberline {11.5.2.2}Summarizing PID control actions}{143}{subsubsection.11.5.2.2}
-\contentsline {section}{\numberline {11.6}System Type - Steady-state error}{143}{section.11.6}
-\contentsline {chapter}{\numberline {12}Root Locus}{147}{chapter.12}
-\contentsline {section}{\numberline {12.1}Theory on Root Locus}{147}{section.12.1}
-\contentsline {subsection}{\numberline {12.1.1}OL, forward and CL TF}{148}{subsection.12.1.1}
-\contentsline {subsection}{\numberline {12.1.2}Defining the constraint equation for the root locus}{149}{subsection.12.1.2}
-\contentsline {subsubsection}{\numberline {12.1.2.1}Constraint 1}{149}{subsubsection.12.1.2.1}
-\contentsline {subsubsection}{\numberline {12.1.2.2}Constraint 2}{150}{subsubsection.12.1.2.2}
-\contentsline {subsection}{\numberline {12.1.3}Rules for drawing rot locus}{151}{subsection.12.1.3}
-\contentsline {subsection}{\numberline {12.1.4}Root locus using Maltab}{151}{subsection.12.1.4}
-\contentsline {section}{\numberline {12.2}Examples of control design with Root Locus}{152}{section.12.2}
-\contentsline {subsection}{\numberline {12.2.1}Example: Using a simple P control}{152}{subsection.12.2.1}
-\contentsline {subsection}{\numberline {12.2.2}Example: Altering root locus using I or D poles or zeros}{156}{subsection.12.2.2}
-\contentsline {subsubsection}{\numberline {12.2.2.1}Case 1: Zero to the right of two poles}{157}{subsubsection.12.2.2.1}
-\contentsline {subsubsection}{\numberline {12.2.2.2}Case 2: Zero in between two poles}{158}{subsubsection.12.2.2.2}
-\contentsline {subsubsection}{\numberline {12.2.2.3}Case 3: Zero to the left of two poles}{159}{subsubsection.12.2.2.3}
-\contentsline {subsection}{\numberline {12.2.3}General trends of adding a zero or a pole}{162}{subsection.12.2.3}
-\contentsline {chapter}{\numberline {13}Frequecy Response Analysis}{163}{chapter.13}
-\contentsline {section}{\numberline {13.1}Plotting bode plots}{164}{section.13.1}
-\contentsline {subsection}{\numberline {13.1.1}Approach 1: Point-by-Point approach}{165}{subsection.13.1.1}
-\contentsline {subsection}{\numberline {13.1.2}Straight line approximations}{165}{subsection.13.1.2}
-\contentsline {subsubsection}{\numberline {13.1.2.1}Bode plot of Gain $K$}{166}{subsubsection.13.1.2.1}
-\contentsline {subsubsection}{\numberline {13.1.2.2}Bode plot of Differentiator $s$}{167}{subsubsection.13.1.2.2}
-\contentsline {subsubsection}{\numberline {13.1.2.3}Bode Plot of Integrator $1/s$}{168}{subsubsection.13.1.2.3}
-\contentsline {subsubsection}{\numberline {13.1.2.4}Bode Plot for simple Zero}{170}{subsubsection.13.1.2.4}
-\contentsline {subsubsection}{\numberline {13.1.2.5}Bode Plot for simple Pole}{170}{subsubsection.13.1.2.5}
-\contentsline {section}{\numberline {13.2}Stability analysis from Frequency response}{172}{section.13.2}
-\contentsline {subsection}{\numberline {13.2.1}Relative Stability: How far is the system from going unstable}{173}{subsection.13.2.1}
-\contentsline {subsubsection}{\numberline {13.2.1.1}Defining Relative stability}{174}{subsubsection.13.2.1.1}
-\contentsline {section}{\numberline {13.3}Caclulation of gain and phase shifts}{176}{section.13.3}
-\contentsline {subsection}{\numberline {13.3.1}System Indentification using Bode Plots}{177}{subsection.13.3.1}
-\contentsline {section}{\numberline {13.4}Nyquist Diagram}{179}{section.13.4}
-\contentsline {subsection}{\numberline {13.4.1}An example of plotting Nyquist plot for a simple system}{180}{subsection.13.4.1}
-\contentsline {chapter}{\numberline {14}Frequency Response for Controller Design}{183}{chapter.14}
-\contentsline {section}{\numberline {14.1}Relationship between domains}{183}{section.14.1}
-\contentsline {section}{\numberline {14.2}Design with Frequency Response}{185}{section.14.2}
-\contentsline {subsection}{\numberline {14.2.1}Design with a lead compensator}{187}{subsection.14.2.1}
-\contentsline {subsection}{\numberline {14.2.2}Design with a PID controller}{191}{subsection.14.2.2}
-\contentsline {subsubsection}{\numberline {14.2.2.1}Design with a PD regulator}{191}{subsubsection.14.2.2.1}
-\contentsline {section}{\numberline {14.3}Comparison of Frequency based control design with Time based control design}{192}{section.14.3}
-\contentsline {subsection}{\numberline {14.3.1}Advantages of Frequency based control design}{192}{subsection.14.3.1}
-\contentsline {chapter}{\numberline {15}Introduction to Robust Control}{195}{chapter.15}
-\contentsline {section}{\numberline {15.1}Robustness in a MIMO system}{195}{section.15.1}
-\contentsline {subsection}{\numberline {15.1.1}Attempting a control design}{196}{subsection.15.1.1}
-\contentsline {subsection}{\numberline {15.1.2}One solution from frequency response}{197}{subsection.15.1.2}
-\contentsline {section}{\numberline {15.2}Pure Time Delay (Transport Lag)}{198}{section.15.2}
-\contentsline {chapter}{\numberline {16}Fundamentals of Electric circuits}{201}{chapter.16}
-\contentsline {section}{\numberline {16.1}Basics of Electricity}{201}{section.16.1}
-\contentsline {section}{\numberline {16.2}Modeling Electrical System}{202}{section.16.2}
-\contentsline {section}{\numberline {16.3}Principles of electrical systems}{204}{section.16.3}
-\contentsline {subsection}{\numberline {16.3.1}Kirchhoff's Laws}{204}{subsection.16.3.1}
-\contentsline {subsection}{\numberline {16.3.2}Modeling electrical circuits}{204}{subsection.16.3.2}
-\contentsline {subsection}{\numberline {16.3.3}Modeling DC converter}{205}{subsection.16.3.3}
-\contentsline {section}{\numberline {16.4}Modeling circuits in Laplace Domain}{210}{section.16.4}
-\contentsline {subsection}{\numberline {16.4.1}TF example of voltage divider}{211}{subsection.16.4.1}
-\contentsline {chapter}{\numberline {17}Advanced control architectures}{213}{chapter.17}
-\contentsline {section}{\numberline {17.1}Two degrees of freedom control}{213}{section.17.1}
-\contentsline {part}{\numberline {III}Model Based Design of Control Systems}{215}{part.3}
-\contentsline {chapter}{\numberline {18}Introduction}{217}{chapter.18}
-\contentsline {section}{\numberline {18.1}Adaptive cruise control example}{217}{section.18.1}
-\contentsline {subsection}{\numberline {18.1.1}Open-loop control design}{217}{subsection.18.1.1}
-\contentsline {section}{\numberline {18.2}Model Based Control Design general methodology}{219}{section.18.2}
-\contentsline {section}{\numberline {18.3}Control design methods}{220}{section.18.3}
-\contentsline {section}{\numberline {18.4}State-space control design methodology}{220}{section.18.4}
-\contentsline {chapter}{\numberline {19}State space representation}{223}{chapter.19}
-\contentsline {section}{\numberline {19.1}Laplace transform from state-space model}{223}{section.19.1}
-\contentsline {section}{\numberline {19.2}Solution of State-space model}{224}{section.19.2}
-\contentsline {section}{\numberline {19.3}Transition Matrix or Matrix exponential}{225}{section.19.3}
-\contentsline {section}{\numberline {19.4}Poles and zeros and Eigenvalues of State-space}{225}{section.19.4}
-\contentsline {section}{\numberline {19.5}State-space transformations}{226}{section.19.5}
-\contentsline {section}{\numberline {19.6}State space for a 2D particle}{226}{section.19.6}
-\contentsline {section}{\numberline {19.7}Dimension check for matrices \cite [p.3.1.6]{CMR_Lec_ppt_3}}{227}{section.19.7}
-\contentsline {chapter}{\numberline {20}Modeling Automotive Systems}{229}{chapter.20}
-\contentsline {section}{\numberline {20.1}Longitudinal vehicle dynamics model}{229}{section.20.1}
-\contentsline {section}{\numberline {20.2}Modeling Drivetrain}{232}{section.20.2}
-\contentsline {subsection}{\numberline {20.2.1}Phase I}{233}{subsection.20.2.1}
-\contentsline {subsection}{\numberline {20.2.2}Phase II}{233}{subsection.20.2.2}
-\contentsline {subsubsection}{\numberline {20.2.2.1}Equation for engine}{235}{subsubsection.20.2.2.1}
-\contentsline {subsubsection}{\numberline {20.2.2.2}Equations for transmission}{235}{subsubsection.20.2.2.2}
-\contentsline {subsubsection}{\numberline {20.2.2.3}Equations for drivetrain}{235}{subsubsection.20.2.2.3}
-\contentsline {subsubsection}{\numberline {20.2.2.4}Equations for wheel and chassis}{235}{subsubsection.20.2.2.4}
-\contentsline {subsection}{\numberline {20.2.3}Phase III}{236}{subsection.20.2.3}
-\contentsline {section}{\numberline {20.3}Modeling suspension system}{237}{section.20.3}
-\contentsline {subsubsection}{\numberline {20.3.0.1}Phase I}{237}{subsubsection.20.3.0.1}
-\contentsline {subsubsection}{\numberline {20.3.0.2}Phase II}{238}{subsubsection.20.3.0.2}
-\contentsline {subsubsection}{\numberline {20.3.0.3}Phase III}{239}{subsubsection.20.3.0.3}
-\contentsline {section}{\numberline {20.4}Single track vehicle model}{240}{section.20.4}
-\contentsline {subsection}{\numberline {20.4.1}Modeling assumptions}{240}{subsection.20.4.1}
-\contentsline {subsection}{\numberline {20.4.2}Phase I}{240}{subsection.20.4.2}
-\contentsline {subsection}{\numberline {20.4.3}Phase II}{241}{subsection.20.4.3}
-\contentsline {subsection}{\numberline {20.4.4}Phase III}{243}{subsection.20.4.4}
-\contentsline {subsection}{\numberline {20.4.5}Constructing State-Space equation}{244}{subsection.20.4.5}
-\contentsline {section}{\numberline {20.5}Differential drive robot}{245}{section.20.5}
-\contentsline {subsection}{\numberline {20.5.1}Part I: Deriving Equations of Motion for differential drive robot}{245}{subsection.20.5.1}
-\contentsline {chapter}{\numberline {21}Linearization}{249}{chapter.21}
-\contentsline {section}{\numberline {21.1}Linearizing EoM of a pendulum}{251}{section.21.1}
-\contentsline {chapter}{\numberline {22}State space behavior}{253}{chapter.22}
-\contentsline {section}{\numberline {22.1}State-Transition matrix $e^{\mathbf {A}t}$}{253}{section.22.1}
-\contentsline {chapter}{\numberline {23}State Feedback Design}{255}{chapter.23}
-\contentsline {section}{\numberline {23.1}Principles}{255}{section.23.1}
-\contentsline {subsection}{\numberline {23.1.1}Poles of the closed loop system}{257}{subsection.23.1.1}
-\contentsline {subsection}{\numberline {23.1.2}Reference tracking}{257}{subsection.23.1.2}
-\contentsline {section}{\numberline {23.2}Integral control}{258}{section.23.2}
-\contentsline {section}{\numberline {23.3}Example of State-feedback design}{259}{section.23.3}
-\contentsline {section}{\numberline {23.4}Example of reaching non-controllability}{262}{section.23.4}
-\contentsline {chapter}{\numberline {24}Tuning of state feedback systems}{263}{chapter.24}
-\contentsline {section}{\numberline {24.1}Ackermann's Formula for pole placements}{263}{section.24.1}
-\contentsline {subsection}{\numberline {24.1.1}Ackermann's approach}{264}{subsection.24.1.1}
-\contentsline {section}{\numberline {24.2}Example solving for K using Ackermann's formula}{266}{section.24.2}
-\contentsline {section}{\numberline {24.3}Example with Single track model}{267}{section.24.3}
-\contentsline {section}{\numberline {24.4}Linear Quadratic Regulator}{267}{section.24.4}
-\contentsline {subsection}{\numberline {24.4.1}Solution to the optimization problem}{268}{subsection.24.4.1}
-\contentsline {section}{\numberline {24.5}Examples on LQR}{269}{section.24.5}
-\contentsline {subsubsection}{\numberline {24.5.0.1}Mass damper system}{269}{subsubsection.24.5.0.1}
-\contentsline {subsection}{\numberline {24.5.1}Choosing penalty matrices}{271}{subsection.24.5.1}
-\contentsline {chapter}{\numberline {25}Controllability and Observability}{273}{chapter.25}
-\contentsline {section}{\numberline {25.1}Stability of State-space systems}{273}{section.25.1}
-\contentsline {subsection}{\numberline {25.1.1}Equilibrium}{273}{subsection.25.1.1}
-\contentsline {subsection}{\numberline {25.1.2}Stable Equilibrium}{273}{subsection.25.1.2}
-\contentsline {subsection}{\numberline {25.1.3}Asymptotic stability}{274}{subsection.25.1.3}
-\contentsline {subsection}{\numberline {25.1.4}BIBO}{274}{subsection.25.1.4}
-\contentsline {section}{\numberline {25.2}Defining controllabilty}{274}{section.25.2}
-\contentsline {section}{\numberline {25.3}Controllability vs Trajectories}{275}{section.25.3}
-\contentsline {chapter}{\numberline {26}State Estimation}{279}{chapter.26}
-\contentsline {section}{\numberline {26.1}Principle of State estimation}{279}{section.26.1}
-\contentsline {section}{\numberline {26.2}Goal of State estimation}{280}{section.26.2}
-\contentsline {section}{\numberline {26.3}Observers design}{281}{section.26.3}
-\contentsline {subsection}{\numberline {26.3.1}Theory}{281}{subsection.26.3.1}
-\contentsline {subsection}{\numberline {26.3.2}State estimation gain}{283}{subsection.26.3.2}
-\contentsline {subsection}{\numberline {26.3.3}Predictor-Corrector}{283}{subsection.26.3.3}
-\contentsline {subsection}{\numberline {26.3.4}Example of observer design}{284}{subsection.26.3.4}
-\contentsline {subsection}{\numberline {26.3.5}Example observer design fo Single Track Model}{285}{subsection.26.3.5}
-\contentsline {subsection}{\numberline {26.3.6}Control using the estimated states}{286}{subsection.26.3.6}
-\contentsline {subsection}{\numberline {26.3.7}Full System with Observer and Feedback controller}{287}{subsection.26.3.7}
-\contentsline {subsection}{\numberline {26.3.8}Implementation - Digital Computer Language}{288}{subsection.26.3.8}
-\contentsline {section}{\numberline {26.4}Observability}{288}{section.26.4}
-\contentsline {subsection}{\numberline {26.4.1}Observability Theorem 1}{289}{subsection.26.4.1}
-\contentsline {subsection}{\numberline {26.4.2}Observability Theorem 2}{289}{subsection.26.4.2}
-\contentsline {section}{\numberline {26.5}Separation Principle}{289}{section.26.5}
-\contentsline {subsection}{\numberline {26.5.1}Method of separation principle}{290}{subsection.26.5.1}
-\contentsline {subsection}{\numberline {26.5.2}Choosing eigenvalues for controller and observer}{291}{subsection.26.5.2}
-\contentsline {section}{\numberline {26.6}Kalman Filter}{291}{section.26.6}
-\contentsline {subsubsection}{\numberline {26.6.0.1}Kalman - Bucy Filter}{292}{subsubsection.26.6.0.1}
-\contentsline {subsection}{\numberline {26.6.1}Vehicle Steering Example}{292}{subsection.26.6.1}
-\contentsline {subsection}{\numberline {26.6.2}Matlab's Kalman Filter}{293}{subsection.26.6.2}
-\contentsline {subsubsection}{\numberline {26.6.2.1}Kalman filter for a single state system}{294}{subsubsection.26.6.2.1}
-\contentsline {subsubsection}{\numberline {26.6.2.2}Kalman filter for Sensor Fusion}{298}{subsubsection.26.6.2.2}
-\contentsline {subsection}{\numberline {26.6.3}Kalman Filter Matrix Equations}{299}{subsection.26.6.3}
-\contentsline {chapter}{\numberline {27}Example Systems with control applications}{301}{chapter.27}
-\contentsline {section}{\numberline {27.1}Rotor of a Humanoid Robotic arm}{301}{section.27.1}
-\contentsline {section}{\numberline {27.2}Full system control design for a single track model}{301}{section.27.2}
-\contentsline {subsection}{\numberline {27.2.1}Linearizing single track model}{303}{subsection.27.2.1}
-\contentsline {subsection}{\numberline {27.2.2}Controllability}{304}{subsection.27.2.2}
-\contentsline {subsection}{\numberline {27.2.3}Feedback Control}{305}{subsection.27.2.3}
-\contentsline {subsection}{\numberline {27.2.4}Estimator design using Kalman Filter}{306}{subsection.27.2.4}
-\contentsline {chapter}{\numberline {28}Robust Control}{307}{chapter.28}
-\contentsline {section}{\numberline {28.1}Reason for a Robust control}{307}{section.28.1}
+\contentsline {section}{\numberline {6.7}Why Eigenvalue Analysis}{74}{section.6.7}
+\contentsline {subsection}{\numberline {6.7.1}Eigenvalues and Eigenvectors}{75}{subsection.6.7.1}
+\contentsline {subsection}{\numberline {6.7.2}Mapping matrix exponential to diagonal exponential}{76}{subsection.6.7.2}
+\contentsline {section}{\numberline {6.8}Newton's Law's for rotating bodies}{77}{section.6.8}
+\contentsline {section}{\numberline {6.9}Harmonic Oscillator}{78}{section.6.9}
+\contentsline {chapter}{\numberline {7}System Modeling}{79}{chapter.7}
+\contentsline {section}{\numberline {7.1}Three phase method of modeling}{80}{section.7.1}
+\contentsline {subsubsection}{\numberline {7.1.0.1}Phase I: Subsysteming and choosing inputs and outputs}{81}{subsubsection.7.1.0.1}
+\contentsline {subsubsection}{\numberline {7.1.0.2}Phase II: Mathematical modeling}{81}{subsubsection.7.1.0.2}
+\contentsline {subsubsection}{\numberline {7.1.0.3}Phase III: Writing State-space form}{82}{subsubsection.7.1.0.3}
+\contentsline {section}{\numberline {7.2}Model verification and validation}{82}{section.7.2}
+\contentsline {section}{\numberline {7.3}Mathematical Modeling}{83}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}State Space Representation}{83}{subsection.7.3.1}
+\contentsline {section}{\numberline {7.4}Transfer function representation}{83}{section.7.4}
+\contentsline {section}{\numberline {7.5}General form of Second order System}{84}{section.7.5}
+\contentsline {section}{\numberline {7.6}Non-Canonical Systems}{85}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Higher order systems}{85}{subsection.7.6.1}
+\contentsline {subsubsection}{\numberline {7.6.1.1}Model reduction}{85}{subsubsection.7.6.1.1}
+\contentsline {subsection}{\numberline {7.6.2}Effect of zeros}{90}{subsection.7.6.2}
+\contentsline {subsubsection}{\numberline {7.6.2.1}Effect 1: Contribution of each pole to the transfer function}{90}{subsubsection.7.6.2.1}
+\contentsline {subsubsection}{\numberline {7.6.2.2}Effect 2: Increases the overshoot}{90}{subsubsection.7.6.2.2}
+\contentsline {subsubsection}{\numberline {7.6.2.3}Effect 3: Non-minimum Phase Behavior}{93}{subsubsection.7.6.2.3}
+\contentsline {subsubsection}{\numberline {7.6.2.4}Effect 4: Canceling poles that are near them}{93}{subsubsection.7.6.2.4}
+\contentsline {subsection}{\numberline {7.6.3}Nonlinear Systems}{94}{subsection.7.6.3}
+\contentsline {chapter}{\numberline {8}System Analysis}{95}{chapter.8}
+\contentsline {section}{\numberline {8.1}Time-domain analysis}{95}{section.8.1}
+\contentsline {section}{\numberline {8.2}Frequency domain analysis}{95}{section.8.2}
+\contentsline {section}{\numberline {8.3}Analysis of first order systems}{96}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Impulse response}{96}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}General first order responses}{97}{subsection.8.3.2}
+\contentsline {subsubsection}{\numberline {8.3.2.1}$u(t) = 0$, non-zero initial condition}{98}{subsubsection.8.3.2.1}
+\contentsline {subsubsection}{\numberline {8.3.2.2}Step response}{99}{subsubsection.8.3.2.2}
+\contentsline {subsubsection}{\numberline {8.3.2.3}step response with non-zero initial condition}{100}{subsubsection.8.3.2.3}
+\contentsline {section}{\numberline {8.4}Stability analysis of PT-2 systems}{102}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Stability in linear systems}{102}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Stability Analysis in Non-linear systems}{103}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Solving / Analysing PT-2 using Laplace transform}{106}{subsection.8.4.3}
+\contentsline {subsubsection}{\numberline {8.4.3.1}Determining the system behavior}{106}{subsubsection.8.4.3.1}
+\contentsline {subsection}{\numberline {8.4.4}Poles determine the system behavior}{114}{subsection.8.4.4}
+\contentsline {subsection}{\numberline {8.4.5}Solving / Analysis PT-2 using characteristic polynomial}{114}{subsection.8.4.5}
+\contentsline {subsection}{\numberline {8.4.6}Numerical solution for PT-2 systems using Matlab}{115}{subsection.8.4.6}
+\contentsline {chapter}{\numberline {9}Introduction to Control}{117}{chapter.9}
+\contentsline {section}{\numberline {9.1}Control Architectures}{117}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Open-loop control / Feedforward control}{117}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Closed Loop Architecture / Feedback control}{118}{subsection.9.1.2}
+\contentsline {section}{\numberline {9.2}Block diagram reduction}{121}{section.9.2}
+\contentsline {section}{\numberline {9.3}Linearity and Principle of Superposition}{123}{section.9.3}
+\contentsline {section}{\numberline {9.4}Cruise control example and drawbacks of proportional regulator}{123}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Open-loop system model}{123}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Closed Loop Model}{124}{subsection.9.4.2}
+\contentsline {subsection}{\numberline {9.4.3}Effects of Noise with Proportional Regulator}{124}{subsection.9.4.3}
+\contentsline {chapter}{\numberline {10}Eigen Value Analysis}{127}{chapter.10}
+\contentsline {section}{\numberline {10.1}How Eigen Value Analysis Works}{129}{section.10.1}
+\contentsline {chapter}{\numberline {11}Classical Control System Design}{131}{chapter.11}
+\contentsline {section}{\numberline {11.1}Control Specifications}{131}{section.11.1}
+\contentsline {section}{\numberline {11.2}Control Expectations (Performance expectations)}{131}{section.11.2}
+\contentsline {section}{\numberline {11.3}Pole Placement}{132}{section.11.3}
+\contentsline {section}{\numberline {11.4}Calculating steady-state error}{135}{section.11.4}
+\contentsline {section}{\numberline {11.5}PID Control}{136}{section.11.5}
+\contentsline {subsection}{\numberline {11.5.1}Understanding PID using a canonical system}{136}{subsection.11.5.1}
+\contentsline {subsubsection}{\numberline {11.5.1.1}P Control}{138}{subsubsection.11.5.1.1}
+\contentsline {subsubsection}{\numberline {11.5.1.2}D Control}{139}{subsubsection.11.5.1.2}
+\contentsline {subsubsection}{\numberline {11.5.1.3}I Control}{142}{subsubsection.11.5.1.3}
+\contentsline {subsection}{\numberline {11.5.2}PD Control}{144}{subsection.11.5.2}
+\contentsline {subsubsection}{\numberline {11.5.2.1}PI Control}{144}{subsubsection.11.5.2.1}
+\contentsline {subsubsection}{\numberline {11.5.2.2}Summarizing PID control actions}{145}{subsubsection.11.5.2.2}
+\contentsline {section}{\numberline {11.6}System Type - Steady-state error}{145}{section.11.6}
+\contentsline {chapter}{\numberline {12}Root Locus}{149}{chapter.12}
+\contentsline {section}{\numberline {12.1}Theory on Root Locus}{149}{section.12.1}
+\contentsline {subsection}{\numberline {12.1.1}OL, forward and CL TF}{150}{subsection.12.1.1}
+\contentsline {subsection}{\numberline {12.1.2}Defining the constraint equation for the root locus}{151}{subsection.12.1.2}
+\contentsline {subsubsection}{\numberline {12.1.2.1}Constraint 1}{151}{subsubsection.12.1.2.1}
+\contentsline {subsubsection}{\numberline {12.1.2.2}Constraint 2}{152}{subsubsection.12.1.2.2}
+\contentsline {subsection}{\numberline {12.1.3}Rules for drawing rot locus}{153}{subsection.12.1.3}
+\contentsline {subsection}{\numberline {12.1.4}Root locus using Maltab}{153}{subsection.12.1.4}
+\contentsline {section}{\numberline {12.2}Examples of control design with Root Locus}{154}{section.12.2}
+\contentsline {subsection}{\numberline {12.2.1}Example: Using a simple P control}{154}{subsection.12.2.1}
+\contentsline {subsection}{\numberline {12.2.2}Example: Altering root locus using I or D poles or zeros}{158}{subsection.12.2.2}
+\contentsline {subsubsection}{\numberline {12.2.2.1}Case 1: Zero to the right of two poles}{159}{subsubsection.12.2.2.1}
+\contentsline {subsubsection}{\numberline {12.2.2.2}Case 2: Zero in between two poles}{160}{subsubsection.12.2.2.2}
+\contentsline {subsubsection}{\numberline {12.2.2.3}Case 3: Zero to the left of two poles}{161}{subsubsection.12.2.2.3}
+\contentsline {subsection}{\numberline {12.2.3}General trends of adding a zero or a pole}{164}{subsection.12.2.3}
+\contentsline {chapter}{\numberline {13}Frequecy Response Analysis}{165}{chapter.13}
+\contentsline {section}{\numberline {13.1}Plotting bode plots}{166}{section.13.1}
+\contentsline {subsection}{\numberline {13.1.1}Approach 1: Point-by-Point approach}{167}{subsection.13.1.1}
+\contentsline {subsection}{\numberline {13.1.2}Straight line approximations}{167}{subsection.13.1.2}
+\contentsline {subsubsection}{\numberline {13.1.2.1}Bode plot of Gain $K$}{168}{subsubsection.13.1.2.1}
+\contentsline {subsubsection}{\numberline {13.1.2.2}Bode plot of Differentiator $s$}{169}{subsubsection.13.1.2.2}
+\contentsline {subsubsection}{\numberline {13.1.2.3}Bode Plot of Integrator $1/s$}{170}{subsubsection.13.1.2.3}
+\contentsline {subsubsection}{\numberline {13.1.2.4}Bode Plot for simple Zero}{172}{subsubsection.13.1.2.4}
+\contentsline {subsubsection}{\numberline {13.1.2.5}Bode Plot for simple Pole}{172}{subsubsection.13.1.2.5}
+\contentsline {section}{\numberline {13.2}Stability analysis from Frequency response}{174}{section.13.2}
+\contentsline {subsection}{\numberline {13.2.1}Relative Stability: How far is the system from going unstable}{175}{subsection.13.2.1}
+\contentsline {subsubsection}{\numberline {13.2.1.1}Defining Relative stability}{176}{subsubsection.13.2.1.1}
+\contentsline {section}{\numberline {13.3}Caclulation of gain and phase shifts}{178}{section.13.3}
+\contentsline {subsection}{\numberline {13.3.1}System Indentification using Bode Plots}{179}{subsection.13.3.1}
+\contentsline {section}{\numberline {13.4}Nyquist Diagram}{181}{section.13.4}
+\contentsline {subsection}{\numberline {13.4.1}An example of plotting Nyquist plot for a simple system}{182}{subsection.13.4.1}
+\contentsline {chapter}{\numberline {14}Frequency Response for Controller Design}{185}{chapter.14}
+\contentsline {section}{\numberline {14.1}Relationship between domains}{185}{section.14.1}
+\contentsline {section}{\numberline {14.2}Design with Frequency Response}{187}{section.14.2}
+\contentsline {subsection}{\numberline {14.2.1}Design with a lead compensator}{189}{subsection.14.2.1}
+\contentsline {subsection}{\numberline {14.2.2}Design with a PID controller}{193}{subsection.14.2.2}
+\contentsline {subsubsection}{\numberline {14.2.2.1}Design with a PD regulator}{193}{subsubsection.14.2.2.1}
+\contentsline {section}{\numberline {14.3}Comparison of Frequency based control design with Time based control design}{194}{section.14.3}
+\contentsline {subsection}{\numberline {14.3.1}Advantages of Frequency based control design}{194}{subsection.14.3.1}
+\contentsline {chapter}{\numberline {15}Introduction to Robust Control}{197}{chapter.15}
+\contentsline {section}{\numberline {15.1}Robustness in a MIMO system}{197}{section.15.1}
+\contentsline {subsection}{\numberline {15.1.1}Attempting a control design}{198}{subsection.15.1.1}
+\contentsline {subsection}{\numberline {15.1.2}One solution from frequency response}{199}{subsection.15.1.2}
+\contentsline {section}{\numberline {15.2}Pure Time Delay (Transport Lag)}{200}{section.15.2}
+\contentsline {chapter}{\numberline {16}Fundamentals of Electric circuits}{203}{chapter.16}
+\contentsline {section}{\numberline {16.1}Basics of Electricity}{203}{section.16.1}
+\contentsline {section}{\numberline {16.2}Modeling Electrical System}{204}{section.16.2}
+\contentsline {section}{\numberline {16.3}Principles of electrical systems}{206}{section.16.3}
+\contentsline {subsection}{\numberline {16.3.1}Kirchhoff's Laws}{206}{subsection.16.3.1}
+\contentsline {subsection}{\numberline {16.3.2}Modeling electrical circuits}{206}{subsection.16.3.2}
+\contentsline {subsection}{\numberline {16.3.3}Modeling DC converter}{207}{subsection.16.3.3}
+\contentsline {section}{\numberline {16.4}Modeling circuits in Laplace Domain}{212}{section.16.4}
+\contentsline {subsection}{\numberline {16.4.1}TF example of voltage divider}{213}{subsection.16.4.1}
+\contentsline {chapter}{\numberline {17}Advanced control architectures}{215}{chapter.17}
+\contentsline {section}{\numberline {17.1}Two degrees of freedom control}{215}{section.17.1}
+\contentsline {part}{\numberline {III}Model Based Design of Control Systems}{217}{part.3}
+\contentsline {chapter}{\numberline {18}Introduction}{219}{chapter.18}
+\contentsline {section}{\numberline {18.1}Adaptive cruise control example}{219}{section.18.1}
+\contentsline {subsection}{\numberline {18.1.1}Open-loop control design}{219}{subsection.18.1.1}
+\contentsline {section}{\numberline {18.2}Model Based Control Design general methodology}{221}{section.18.2}
+\contentsline {section}{\numberline {18.3}Control design methods}{222}{section.18.3}
+\contentsline {section}{\numberline {18.4}State-space control design methodology}{222}{section.18.4}
+\contentsline {chapter}{\numberline {19}State space representation}{225}{chapter.19}
+\contentsline {section}{\numberline {19.1}Laplace transform from state-space model}{225}{section.19.1}
+\contentsline {section}{\numberline {19.2}Solution of State-space model}{226}{section.19.2}
+\contentsline {section}{\numberline {19.3}Transition Matrix or Matrix exponential}{227}{section.19.3}
+\contentsline {section}{\numberline {19.4}Poles and zeros and Eigenvalues of State-space}{227}{section.19.4}
+\contentsline {section}{\numberline {19.5}State-space transformations}{228}{section.19.5}
+\contentsline {section}{\numberline {19.6}State space for a 2D particle}{228}{section.19.6}
+\contentsline {section}{\numberline {19.7}Dimension check for matrices \cite [p.3.1.6]{CMR_Lec_ppt_3}}{229}{section.19.7}
+\contentsline {chapter}{\numberline {20}Modeling Automotive Systems}{231}{chapter.20}
+\contentsline {section}{\numberline {20.1}Longitudinal vehicle dynamics model}{231}{section.20.1}
+\contentsline {section}{\numberline {20.2}Modeling Drivetrain}{234}{section.20.2}
+\contentsline {subsection}{\numberline {20.2.1}Phase I}{235}{subsection.20.2.1}
+\contentsline {subsection}{\numberline {20.2.2}Phase II}{235}{subsection.20.2.2}
+\contentsline {subsubsection}{\numberline {20.2.2.1}Equation for engine}{237}{subsubsection.20.2.2.1}
+\contentsline {subsubsection}{\numberline {20.2.2.2}Equations for transmission}{237}{subsubsection.20.2.2.2}
+\contentsline {subsubsection}{\numberline {20.2.2.3}Equations for drivetrain}{237}{subsubsection.20.2.2.3}
+\contentsline {subsubsection}{\numberline {20.2.2.4}Equations for wheel and chassis}{237}{subsubsection.20.2.2.4}
+\contentsline {subsection}{\numberline {20.2.3}Phase III}{238}{subsection.20.2.3}
+\contentsline {section}{\numberline {20.3}Modeling suspension system}{239}{section.20.3}
+\contentsline {subsubsection}{\numberline {20.3.0.1}Phase I}{239}{subsubsection.20.3.0.1}
+\contentsline {subsubsection}{\numberline {20.3.0.2}Phase II}{240}{subsubsection.20.3.0.2}
+\contentsline {subsubsection}{\numberline {20.3.0.3}Phase III}{241}{subsubsection.20.3.0.3}
+\contentsline {section}{\numberline {20.4}Single track vehicle model}{242}{section.20.4}
+\contentsline {subsection}{\numberline {20.4.1}Modeling assumptions}{242}{subsection.20.4.1}
+\contentsline {subsection}{\numberline {20.4.2}Phase I}{242}{subsection.20.4.2}
+\contentsline {subsection}{\numberline {20.4.3}Phase II}{243}{subsection.20.4.3}
+\contentsline {subsection}{\numberline {20.4.4}Phase III}{245}{subsection.20.4.4}
+\contentsline {subsection}{\numberline {20.4.5}Constructing State-Space equation}{246}{subsection.20.4.5}
+\contentsline {section}{\numberline {20.5}Differential drive robot}{247}{section.20.5}
+\contentsline {subsection}{\numberline {20.5.1}Part I: Deriving Equations of Motion for differential drive robot}{247}{subsection.20.5.1}
+\contentsline {chapter}{\numberline {21}Linearization}{251}{chapter.21}
+\contentsline {section}{\numberline {21.1}Linearizing EoM of a pendulum}{253}{section.21.1}
+\contentsline {chapter}{\numberline {22}State space behavior}{255}{chapter.22}
+\contentsline {section}{\numberline {22.1}State-Transition matrix $e^{\mathbf {A}t}$}{255}{section.22.1}
+\contentsline {chapter}{\numberline {23}State Feedback Design}{257}{chapter.23}
+\contentsline {section}{\numberline {23.1}Principles}{257}{section.23.1}
+\contentsline {subsection}{\numberline {23.1.1}Poles of the closed loop system}{259}{subsection.23.1.1}
+\contentsline {subsection}{\numberline {23.1.2}Reference tracking}{259}{subsection.23.1.2}
+\contentsline {section}{\numberline {23.2}Integral control}{260}{section.23.2}
+\contentsline {section}{\numberline {23.3}Example of State-feedback design}{261}{section.23.3}
+\contentsline {section}{\numberline {23.4}Example of reaching non-controllability}{264}{section.23.4}
+\contentsline {chapter}{\numberline {24}Tuning of state feedback systems}{265}{chapter.24}
+\contentsline {section}{\numberline {24.1}Ackermann's Formula for pole placements}{265}{section.24.1}
+\contentsline {subsection}{\numberline {24.1.1}Ackermann's approach}{266}{subsection.24.1.1}
+\contentsline {section}{\numberline {24.2}Example solving for K using Ackermann's formula}{268}{section.24.2}
+\contentsline {section}{\numberline {24.3}Example with Single track model}{269}{section.24.3}
+\contentsline {section}{\numberline {24.4}Linear Quadratic Regulator}{269}{section.24.4}
+\contentsline {subsection}{\numberline {24.4.1}Solution to the optimization problem}{270}{subsection.24.4.1}
+\contentsline {section}{\numberline {24.5}Examples on LQR}{271}{section.24.5}
+\contentsline {subsubsection}{\numberline {24.5.0.1}Mass damper system}{271}{subsubsection.24.5.0.1}
+\contentsline {subsection}{\numberline {24.5.1}Choosing penalty matrices}{273}{subsection.24.5.1}
+\contentsline {chapter}{\numberline {25}Controllability and Observability}{275}{chapter.25}
+\contentsline {section}{\numberline {25.1}Stability of State-space systems}{275}{section.25.1}
+\contentsline {subsection}{\numberline {25.1.1}Equilibrium}{275}{subsection.25.1.1}
+\contentsline {subsection}{\numberline {25.1.2}Stable Equilibrium}{275}{subsection.25.1.2}
+\contentsline {subsection}{\numberline {25.1.3}Asymptotic stability}{276}{subsection.25.1.3}
+\contentsline {subsection}{\numberline {25.1.4}BIBO}{276}{subsection.25.1.4}
+\contentsline {section}{\numberline {25.2}Defining controllabilty}{276}{section.25.2}
+\contentsline {section}{\numberline {25.3}Controllability vs Trajectories}{277}{section.25.3}
+\contentsline {chapter}{\numberline {26}State Estimation}{281}{chapter.26}
+\contentsline {section}{\numberline {26.1}Principle of State estimation}{281}{section.26.1}
+\contentsline {section}{\numberline {26.2}Goal of State estimation}{282}{section.26.2}
+\contentsline {section}{\numberline {26.3}Observers design}{283}{section.26.3}
+\contentsline {subsection}{\numberline {26.3.1}Theory}{283}{subsection.26.3.1}
+\contentsline {subsection}{\numberline {26.3.2}State estimation gain}{285}{subsection.26.3.2}
+\contentsline {subsection}{\numberline {26.3.3}Predictor-Corrector}{285}{subsection.26.3.3}
+\contentsline {subsection}{\numberline {26.3.4}Example of observer design}{286}{subsection.26.3.4}
+\contentsline {subsection}{\numberline {26.3.5}Example observer design fo Single Track Model}{287}{subsection.26.3.5}
+\contentsline {subsection}{\numberline {26.3.6}Control using the estimated states}{288}{subsection.26.3.6}
+\contentsline {subsection}{\numberline {26.3.7}Full System with Observer and Feedback controller}{289}{subsection.26.3.7}
+\contentsline {subsection}{\numberline {26.3.8}Implementation - Digital Computer Language}{290}{subsection.26.3.8}
+\contentsline {section}{\numberline {26.4}Observability}{290}{section.26.4}
+\contentsline {subsection}{\numberline {26.4.1}Observability Theorem 1}{291}{subsection.26.4.1}
+\contentsline {subsection}{\numberline {26.4.2}Observability Theorem 2}{291}{subsection.26.4.2}
+\contentsline {section}{\numberline {26.5}Separation Principle}{291}{section.26.5}
+\contentsline {subsection}{\numberline {26.5.1}Method of separation principle}{292}{subsection.26.5.1}
+\contentsline {subsection}{\numberline {26.5.2}Choosing eigenvalues for controller and observer}{293}{subsection.26.5.2}
+\contentsline {section}{\numberline {26.6}Kalman Filter}{293}{section.26.6}
+\contentsline {subsubsection}{\numberline {26.6.0.1}Kalman - Bucy Filter}{294}{subsubsection.26.6.0.1}
+\contentsline {subsection}{\numberline {26.6.1}Vehicle Steering Example}{294}{subsection.26.6.1}
+\contentsline {subsection}{\numberline {26.6.2}Matlab's Kalman Filter}{295}{subsection.26.6.2}
+\contentsline {subsubsection}{\numberline {26.6.2.1}Kalman filter for a single state system}{296}{subsubsection.26.6.2.1}
+\contentsline {subsubsection}{\numberline {26.6.2.2}Kalman filter for Sensor Fusion}{300}{subsubsection.26.6.2.2}
+\contentsline {subsection}{\numberline {26.6.3}Kalman Filter Matrix Equations}{301}{subsection.26.6.3}
+\contentsline {chapter}{\numberline {27}Example Systems with control applications}{303}{chapter.27}
+\contentsline {section}{\numberline {27.1}Rotor of a Humanoid Robotic arm}{303}{section.27.1}
+\contentsline {section}{\numberline {27.2}Full system control design for a single track model}{303}{section.27.2}
+\contentsline {subsection}{\numberline {27.2.1}Linearizing single track model}{305}{subsection.27.2.1}
+\contentsline {subsection}{\numberline {27.2.2}Controllability}{306}{subsection.27.2.2}
+\contentsline {subsection}{\numberline {27.2.3}Feedback Control}{307}{subsection.27.2.3}
+\contentsline {subsection}{\numberline {27.2.4}Estimator design using Kalman Filter}{308}{subsection.27.2.4}
+\contentsline {chapter}{\numberline {28}Robust Control}{309}{chapter.28}
+\contentsline {section}{\numberline {28.1}Reason for a Robust control}{309}{section.28.1}
 \contentsline {chapter}{Bibliography}{A}{chapter*.9}

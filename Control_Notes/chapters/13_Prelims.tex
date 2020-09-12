@@ -387,8 +387,87 @@ where $\Phi(t_{0}, t_{0}) = \vec{I}$ as established earlier and the term with in
 x(t) = \vec{I} x(t_{0})
 \end{equation}
 
-\textbf{\textit{Dynamics check}}
+\section{Why Eigenvalue Analysis}
 
+Consider a linear system of ODE $$\dot{x} = Ax$$ where $x$ is a vector in the space $\mathbb{R}^{n}$. The solution of this ODE is $$x(t) = e^{At}x(0)$$ The dynamics of this system is dependent on the solution of $e^{At}$ which needs to the solved analytically in order to determine the solution of this ODE. One of the solution is using Taylor series expansion of the exponential and then plugging the matrix $A$ into the expansion, the series is expressed as
+\begin{equation}
+	e^{At} = I + \frac{At}{1!} + \frac{A^{2}t^{2}}{2!} +  \frac{A^{3}t^{3}}{3!} + ...
+\end{equation}
+
+the problem with this solution is that since $A$ is a matrix computing this expression every time to determine the solution to the ODE would be a daunting task. Therefore, in mathematics, the solution was determined to use some-other arbitrary vector $\xi$ which is coordinate transformed from the actual vector $x$ such that computing the solution in that coordinate transformed vector $\xi$ would be fairly straight forward and easier.
+
+In actual practice, eigenvalues and Eigen vectors of $A$ are used to get a coordinate transformation from $x$ coordinate to some eigenvector coordinate where it is easier to write the solution to $e^{At}$.
+
+\subsection{Eigenvalues and Eigenvectors}
+
+In general, eigenvalues and eigenvectors satisfy the following relation
+\begin{equation}\label{eq_0_ch_0_ev_ev0}
+	A \xi = \lambda \xi
+\end{equation}
+where $\lambda$ is a scalar, this is because when $\xi$ is multiplied by $A$, it still remains the original vector $\xi$ pointing in the same direction though its length gets scaled or it might be flipped to negative direction. This is scaling of a vector and therefore, the above relationship that $\xi$ get scaled to a scalar quantity $\lambda$. 
+
+Note*** In general, a matrix coordinate transforms a vector and a scalar scales a vector.
+
+Note*** here $\xi$ is a special vector where this relationship is true that $A \xi = \lambda \xi$, this is possible for a limited special case, not every time.
+
+Lets denote a vector $T$ which contains all the $\xi$ such that $T = \xi$ and expressed as
+$$T = [\xi_1 \quad \xi_2 \quad \xi_3 \quad ... \xi_n]$$ and consider another $D$ which is a diagonal matrix of $\lambda$ such that
+$$\begin{bmatrix}
+\lambda_{1} & 0 & 0 \\ 0 & \lambda_{2} & 0 \\ 0 & 0 & \lambda_{3}
+\end{bmatrix}$$
+assume that the matrix $D$ is extended upto the dimension $(n\times n)$. Now using these defined matrices, the new definition of eigenvalues and eigenvectors can be expressed as
+\begin{equation}\label{eq_0_ch_0_ev_ev1}
+	AT = TD
+\end{equation}
+Now the reason for writing eigenvalues and eigenvectors is because using this system and using coordinate transform, the vector $x$ which is represented in some arbitrary coordinate system is transformed to the coordinate system when $\xi$ exists where things get simpler. The transformation is expressed as
+$$x = Tz$$ where $T$ is an invertible matrix which when multiplied by another arbitrary coordinate $z$ represents the coordinate transform of $x$. Therefore, the new dynamics in the $z$ coordinate can be expressed as
+\begin{equation}
+	\dot{x} = T\dot{z} \implies T\dot{z} = Ax \implies  T\dot{z} = ATz
+\end{equation}
+it follows that
+\begin{equation}\label{eq_0_ch_0_ev_ev2}
+	\dot{z} = T^{-1}ATz
+\end{equation}
+from equation \eqref{eq_0_ch_0_ev_ev1} it follows that
+\begin{equation}
+	T^{-1}AT = D
+\end{equation}
+therefore, using \eqref{eq_0_ch_0_ev_ev1} and \eqref{eq_0_ch_0_ev_ev2}
+\begin{equation}\label{eq_0_ch_0_ev_ev3}
+	\dot{z} = Dz
+\end{equation}
+here, \eqref{eq_0_ch_0_ev_ev3} is similar in form as \eqref{eq_0_ch_0_ev_ev0} which is also a linear dynamical system. The one thing that is nice about this new representation \eqref{eq_0_ch_0_ev_ev3} is that here, $D$ is a diagonal matrix instead of $A$ which was not. The advantage that a diagonal matrix $D$ has over a general matrix like $A$ is that with $D$ all the dynamics gets decoupled such that each term of the state dynamics $dot{z}_{i}$ is only related to each of the $z_{i}$ coordinate, so the dynamics have been unpacked to their most simplest form with their coordinates using this transformed coordinate $z$. Consider the following expression
+\begin{equation}
+	\frac{d}{dt}\begin{bmatrix}
+		z_{1} \\ z_{2} \\ . \\ . \\ . \\ z_{n}
+	\end{bmatrix} = \begin{bmatrix}
+		\lambda_{1} & 0 & 0 & ... & 0 \\ 0 & \lambda_{2} & 0 & ... & 0 \\ 0 & 0 & \lambda_{3} & ... & 0 \\ . \\. \\. \\ 0 & 0 & 0 & ... & \lambda_{n}
+	\end{bmatrix}\begin{bmatrix}
+	z_{1} \\ z_{2} \\ . \\ . \\ . \\ z_{n}
+	\end{bmatrix}
+\end{equation}
+The solution of this diagonal matrix is a special case in mathematics as each of the scalar diagonal terms have the following solution for the equation $\dot{z} = Dz$
+\begin{equation}
+	z(t) = e^{Dt}z(0) = \begin{bmatrix}
+		e^{\lambda_{1} t} & 0 & 0 & ... & 0 \\ 0 & e^{\lambda_{2} t} & 0 & ... & 0 \\ 0 & 0 & e^{\lambda_{4} t} & ... & 0 \\ . \\. \\. \\ 0 & 0 & 0 & ... & e^{\lambda_{n} t}
+	\end{bmatrix}z(0)
+\end{equation}
+such a solution is quite straight forward and simple compared to the solution of $e^{At}$ where the solution was given by a Taylor's series expansion. Using Matlab'S fucntion \textbf{\textit{[T,D] = eig(A);}} the transformation matrix $T$ and the diagonal matrix $D$ can be determined.
+
+\subsection{Mapping matrix exponential to diagonal exponential}
+
+From \eqref{eq_0_ch_0_ev_ev1}, matrix $A$ can be expressed as
+\begin{equation}
+	A = TDT^{-1}
+\end{equation}
+substituting this result in the Taylors expansion series
+\begin{align*}
+	e^{At} = e^{TDT^{-1}} &= TT^{-1} + TDT{-1}t + (TDT^{-1}TDT^{-1})\frac{t^{2}}{2!} + ... \\
+						  &= T[I + Dt + \frac{D^{2}t^{2}}{2!} + \frac{D^{3}t^{3}}{3!}+ ...]T^{-1}
+\end{align*}
+\begin{equation}
+	e^{At} = T e^{Dt} T^{-1}
+\end{equation}
 
 \section{Newton's Law's for rotating bodies}
 

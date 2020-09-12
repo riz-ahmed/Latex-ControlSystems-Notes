@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.26)  8 SEP 2020 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.26)  13 SEP 2020 01:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -880,16 +880,15 @@ l.34 ...{2.5.3}Deriving EOM}{31}{subsection.2.5.3}
 Underfull \vbox (badness 4403) has occurred while \output is active []
 
  [3]
-[4] [5]
-Overfull \hbox (2.99995pt too wide) detected at line 212
- \T1/ptm/b/n/14.4 215
+Underfull \vbox (badness 1127) has occurred while \output is active []
+
+ [4]
+[5]
+Overfull \hbox (2.99995pt too wide) detected at line 215
+ \T1/ptm/b/n/14.4 217
  []
 
-
-Underfull \vbox (badness 4543) has occurred while \output is active []
-
- [6]
-[7] [8])
+[6] [7] [8])
 \tf@toc=\write5
 \openout5 = `master.toc'.
 
@@ -901,7 +900,8 @@ Underfull \vbox (badness 4543) has occurred while \output is active []
 
  [15] [16
 
-] (./master.lot)
+]
+(./master.lot)
 \tf@lot=\write7
 \openout7 = `master.lot'.
 
@@ -947,7 +947,7 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
-<Bilder/01_DervativeRule.pdf, id=2075, 504.99153pt x 463.9397pt>
+<Bilder/01_DervativeRule.pdf, id=2090, 504.99153pt x 463.9397pt>
 File: Bilder/01_DervativeRule.pdf Graphic file (type pdf)
 <use Bilder/01_DervativeRule.pdf>
 Package pdftex.def Info: Bilder/01_DervativeRule.pdf  used on input line 33.
@@ -959,21 +959,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [3
 
 ] [4 <./Bilder/01_DervativeRule.pdf>]
-<Bilder/02_derivativeRule_derivation.pdf, id=2094, 400.34113pt x 434.0344pt>
+<Bilder/02_derivativeRule_derivation.pdf, id=2109, 400.34113pt x 434.0344pt>
 File: Bilder/02_derivativeRule_derivation.pdf Graphic file (type pdf)
 <use Bilder/02_derivativeRule_derivation.pdf>
 Package pdftex.def Info: Bilder/02_derivativeRule_derivation.pdf  used on input
  line 67.
 (pdftex.def)             Requested size: 205.96938pt x 223.30833pt.
  [5 <./Bilder/02_derivativeRule_derivation.pdf>]
-<Bilder/03_UnitVetors_Rotation.pdf, id=2104, 520.78598pt x 434.03433pt>
+<Bilder/03_UnitVetors_Rotation.pdf, id=2119, 520.78598pt x 434.03433pt>
 File: Bilder/03_UnitVetors_Rotation.pdf Graphic file (type pdf)
 <use Bilder/03_UnitVetors_Rotation.pdf>
 Package pdftex.def Info: Bilder/03_UnitVetors_Rotation.pdf  used on input line 
 79.
 (pdftex.def)             Requested size: 205.96938pt x 171.65692pt.
  [6 <./Bilder/03_UnitVetors_Rotation.pdf>] [7]
-<Bilder/04_vel_acc_movingFrames.pdf, id=2126, 325.43298pt x 273.74648pt>
+<Bilder/04_vel_acc_movingFrames.pdf, id=2141, 325.43298pt x 273.74648pt>
 File: Bilder/04_vel_acc_movingFrames.pdf Graphic file (type pdf)
 <use Bilder/04_vel_acc_movingFrames.pdf>
 Package pdftex.def Info: Bilder/04_vel_acc_movingFrames.pdf  used on input line
@@ -989,14 +989,14 @@ m/m/it/12 ![] \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ![] \OMS/c
 msy/m/n/12 ^^B \OML/cmm/m/it/12 r[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 g
  []
 
-<Bilder/05_vel_acc_polar_coordinates.pdf, id=2139, 490.84793pt x 695.70842pt>
+<Bilder/05_vel_acc_polar_coordinates.pdf, id=2154, 490.84793pt x 695.70842pt>
 File: Bilder/05_vel_acc_polar_coordinates.pdf Graphic file (type pdf)
 <use Bilder/05_vel_acc_polar_coordinates.pdf>
 Package pdftex.def Info: Bilder/05_vel_acc_polar_coordinates.pdf  used on input
  line 185.
 (pdftex.def)             Requested size: 205.96938pt x 291.93015pt.
 [9] [10 <./Bilder/05_vel_acc_polar_coordinates.pdf>]
-<Bilder/06_vel_acc_polar_coordinates_topView.pdf, id=2153, 496.34494pt x 316.94
+<Bilder/06_vel_acc_polar_coordinates_topView.pdf, id=2168, 496.34494pt x 316.94
 426pt>
 File: Bilder/06_vel_acc_polar_coordinates_topView.pdf Graphic file (type pdf)
 <use Bilder/06_vel_acc_polar_coordinates_topView.pdf>
@@ -1004,7 +1004,7 @@ Package pdftex.def Info: Bilder/06_vel_acc_polar_coordinates_topView.pdf  used
 on input line 198.
 (pdftex.def)             Requested size: 205.96938pt x 131.52457pt.
  [11 <./Bilder/06_vel_acc_polar_coordinates_topView.pdf>]
-<Bilder/07_UnitVector_Derivative_polar_coordinates.pdf, id=2169, 213.07991pt x 
+<Bilder/07_UnitVector_Derivative_polar_coordinates.pdf, id=2184, 213.07991pt x 
 259.92285pt>
 File: Bilder/07_UnitVector_Derivative_polar_coordinates.pdf Graphic file (type 
 pdf)
@@ -1013,21 +1013,21 @@ Package pdftex.def Info: Bilder/07_UnitVector_Derivative_polar_coordinates.pdf
  used on input line 233.
 (pdftex.def)             Requested size: 102.98468pt x 125.62218pt.
  [12 <./Bilder/07_UnitVector_Derivative_polar_coordinates.pdf>] [13]
-<Bilder/08_RotationProblem1.pdf, id=2192, 705.0499pt x 494.70537pt>
+<Bilder/08_RotationProblem1.pdf, id=2207, 705.0499pt x 494.70537pt>
 File: Bilder/08_RotationProblem1.pdf Graphic file (type pdf)
 <use Bilder/08_RotationProblem1.pdf>
 Package pdftex.def Info: Bilder/08_RotationProblem1.pdf  used on input line 296
 .
 (pdftex.def)             Requested size: 267.75768pt x 187.87675pt.
  [14 <./Bilder/08_RotationProblem1.pdf>] [15]
-<Bilder/08_RotationProblem2.pdf, id=2214, 705.0499pt x 494.70537pt>
+<Bilder/08_RotationProblem2.pdf, id=2229, 705.0499pt x 494.70537pt>
 File: Bilder/08_RotationProblem2.pdf Graphic file (type pdf)
 <use Bilder/08_RotationProblem2.pdf>
 Package pdftex.def Info: Bilder/08_RotationProblem2.pdf  used on input line 350
 .
 (pdftex.def)             Requested size: 267.75768pt x 187.87675pt.
  [16 <./Bilder/08_RotationProblem2.pdf>]
-<Bilder/08_RotationProblem3.pdf, id=2227, 474.53433pt x 354.17206pt>
+<Bilder/08_RotationProblem3.pdf, id=2242, 474.53433pt x 354.17206pt>
 File: Bilder/08_RotationProblem3.pdf Graphic file (type pdf)
 <use Bilder/08_RotationProblem3.pdf>
 Package pdftex.def Info: Bilder/08_RotationProblem3.pdf  used on input line 375
@@ -1046,7 +1046,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 404.
 
-<Bilder/14_timeDerivativeAngVeocity.pdf, id=2229, 412.85857pt x 386.0493pt>
+<Bilder/14_timeDerivativeAngVeocity.pdf, id=2244, 412.85857pt x 386.0493pt>
 File: Bilder/14_timeDerivativeAngVeocity.pdf Graphic file (type pdf)
 <use Bilder/14_timeDerivativeAngVeocity.pdf>
 Package pdftex.def Info: Bilder/14_timeDerivativeAngVeocity.pdf  used on input 
@@ -1061,19 +1061,19 @@ ty.pdf>]) (./chapters/part0_ch_2_ImpulsetorqueAM.tex [19] [20
 ]
 chapter 2.
 [21]
-<Bilder/09_ImpulseProblem.pdf, id=2271, 389.17726pt x 288.78838pt>
+<Bilder/09_ImpulseProblem.pdf, id=2287, 389.17726pt x 288.78838pt>
 File: Bilder/09_ImpulseProblem.pdf Graphic file (type pdf)
 <use Bilder/09_ImpulseProblem.pdf>
 Package pdftex.def Info: Bilder/09_ImpulseProblem.pdf  used on input line 32.
 (pdftex.def)             Requested size: 247.16577pt x 183.40941pt.
-<Bilder/10_MometumSystemOfParticles.pdf, id=2275, 436.20528pt x 315.10147pt>
+<Bilder/10_MometumSystemOfParticles.pdf, id=2291, 436.20528pt x 315.10147pt>
 File: Bilder/10_MometumSystemOfParticles.pdf Graphic file (type pdf)
 <use Bilder/10_MometumSystemOfParticles.pdf>
 Package pdftex.def Info: Bilder/10_MometumSystemOfParticles.pdf  used on input 
 line 65.
 (pdftex.def)             Requested size: 205.96938pt x 148.78525pt.
  [22 <./Bilder/09_ImpulseProblem.pdf>]
-<Bilder/11_AnularMomentumParticle.pdf, id=2293, 393.43906pt x 197.60657pt>
+<Bilder/11_AnularMomentumParticle.pdf, id=2308, 393.43906pt x 197.60657pt>
 File: Bilder/11_AnularMomentumParticle.pdf Graphic file (type pdf)
 <use Bilder/11_AnularMomentumParticle.pdf>
 Package pdftex.def Info: Bilder/11_AnularMomentumParticle.pdf  used on input li
@@ -1084,7 +1084,7 @@ ne 96.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [23 <./Bilder/10_MometumSystemOfParticles.pdf>]
-<Bilder/12_AnularMomentumParticle.pdf, id=2304, 413.1983pt x 193.10356pt>
+<Bilder/12_AnularMomentumParticle.pdf, id=2319, 413.1983pt x 193.10356pt>
 File: Bilder/12_AnularMomentumParticle.pdf Graphic file (type pdf)
 <use Bilder/12_AnularMomentumParticle.pdf>
 Package pdftex.def Info: Bilder/12_AnularMomentumParticle.pdf  used on input li
@@ -1097,28 +1097,28 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/12_AnularMomentumPa
 rticle.pdf): PDF inclusion: multiple pdfs with page group included in a single 
 page
 >]
-<Bilder/13_AngularMomentumProblem1.pdf, id=2330, 401.94287pt x 248.96277pt>
+<Bilder/13_AngularMomentumProblem1.pdf, id=2345, 401.94287pt x 248.96277pt>
 File: Bilder/13_AngularMomentumProblem1.pdf Graphic file (type pdf)
 <use Bilder/13_AngularMomentumProblem1.pdf>
 Package pdftex.def Info: Bilder/13_AngularMomentumProblem1.pdf  used on input l
 ine 168.
 (pdftex.def)             Requested size: 247.16577pt x 153.09409pt.
  [25] [26 <./Bilder/13_AngularMomentumProblem1.pdf>] [27]
-<Bilder/051_vel_acc_polar_coordinates.pdf, id=2369, 490.84793pt x 695.70842pt>
+<Bilder/051_vel_acc_polar_coordinates.pdf, id=2385, 490.84793pt x 695.70842pt>
 File: Bilder/051_vel_acc_polar_coordinates.pdf Graphic file (type pdf)
 <use Bilder/051_vel_acc_polar_coordinates.pdf>
 Package pdftex.def Info: Bilder/051_vel_acc_polar_coordinates.pdf  used on inpu
 t line 233.
 (pdftex.def)             Requested size: 205.96938pt x 291.93015pt.
  [28 <./Bilder/051_vel_acc_polar_coordinates.pdf>]
-<Bilder/052_vel_acc_polar_coordinates.pdf, id=2384, 535.36064pt x 695.70842pt>
+<Bilder/052_vel_acc_polar_coordinates.pdf, id=2399, 535.36064pt x 695.70842pt>
 File: Bilder/052_vel_acc_polar_coordinates.pdf Graphic file (type pdf)
 <use Bilder/052_vel_acc_polar_coordinates.pdf>
 Package pdftex.def Info: Bilder/052_vel_acc_polar_coordinates.pdf  used on inpu
 t line 255.
 (pdftex.def)             Requested size: 205.96938pt x 267.6628pt.
  [29 <./Bilder/052_vel_acc_polar_coordinates.pdf>]
-<Bilder/15_ExcersiceProblem.pdf, id=2399, 410.67273pt x 239.42604pt>
+<Bilder/15_ExcersiceProblem.pdf, id=2414, 410.67273pt x 239.42604pt>
 File: Bilder/15_ExcersiceProblem.pdf Graphic file (type pdf)
 <use Bilder/15_ExcersiceProblem.pdf>
 Package pdftex.def Info: Bilder/15_ExcersiceProblem.pdf  used on input line 309
@@ -1134,14 +1134,14 @@ chapter 3.
 [33
 
 ]
-<Bilder/16_FictitiousForces1.pdf, id=2442, 480.91148pt x 747.24422pt>
+<Bilder/16_FictitiousForces1.pdf, id=2457, 480.91148pt x 747.24422pt>
 File: Bilder/16_FictitiousForces1.pdf Graphic file (type pdf)
 <use Bilder/16_FictitiousForces1.pdf>
 Package pdftex.def Info: Bilder/16_FictitiousForces1.pdf  used on input line 18
 .
 (pdftex.def)             Requested size: 205.96938pt x 320.03172pt.
  [34 <./Bilder/16_FictitiousForces1.pdf>]
-<Bilder/16_FictitiousForces1_1.pdf, id=2456, 592.12563pt x 348.7517pt>
+<Bilder/16_FictitiousForces1_1.pdf, id=2471, 592.12563pt x 348.7517pt>
 File: Bilder/16_FictitiousForces1_1.pdf Graphic file (type pdf)
 <use Bilder/16_FictitiousForces1_1.pdf>
 Package pdftex.def Info: Bilder/16_FictitiousForces1_1.pdf  used on input line 
@@ -1153,7 +1153,7 @@ df>] [36
 
 ]
 chapter 4.
-<Bilder/17_PendulumExercise.pdf, id=2472, 373.61325pt x 347.91875pt>
+<Bilder/17_PendulumExercise.pdf, id=2488, 373.61325pt x 347.91875pt>
 File: Bilder/17_PendulumExercise.pdf Graphic file (type pdf)
 <use Bilder/17_PendulumExercise.pdf>
 Package pdftex.def Info: Bilder/17_PendulumExercise.pdf  used on input line 20.
@@ -1167,13 +1167,13 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 25.
 
 [37] [38 <./Bilder/17_PendulumExercise.pdf>]
-<Bilder/17_PendulumExercise_FBD_Bob.pdf, id=2501, 737.92638pt x 418.13824pt>
+<Bilder/17_PendulumExercise_FBD_Bob.pdf, id=2516, 737.92638pt x 418.13824pt>
 File: Bilder/17_PendulumExercise_FBD_Bob.pdf Graphic file (type pdf)
 <use Bilder/17_PendulumExercise_FBD_Bob.pdf>
 Package pdftex.def Info: Bilder/17_PendulumExercise_FBD_Bob.pdf  used on input 
 line 70.
 (pdftex.def)             Requested size: 164.77298pt x 93.36244pt.
-<Bilder/17_PendulumExercise_FBD_Rod.pdf, id=2502, 424.60245pt x 426.0996pt>
+<Bilder/17_PendulumExercise_FBD_Rod.pdf, id=2517, 424.60245pt x 426.0996pt>
 File: Bilder/17_PendulumExercise_FBD_Rod.pdf Graphic file (type pdf)
 <use Bilder/17_PendulumExercise_FBD_Rod.pdf>
 Package pdftex.def Info: Bilder/17_PendulumExercise_FBD_Rod.pdf  used on input 
@@ -1186,14 +1186,14 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/17_PendulumExercise
 _FBD_Rod.pdf): PDF inclusion: multiple pdfs with page group included in a singl
 e page
 >]
-<Bilder/18_TruckNRollProblem.pdf, id=2512, 595.8171pt x 260.10558pt>
+<Bilder/18_TruckNRollProblem.pdf, id=2527, 595.8171pt x 260.10558pt>
 File: Bilder/18_TruckNRollProblem.pdf Graphic file (type pdf)
 <use Bilder/18_TruckNRollProblem.pdf>
 Package pdftex.def Info: Bilder/18_TruckNRollProblem.pdf  used on input line 11
 3.
 (pdftex.def)             Requested size: 205.96938pt x 89.91512pt.
  [40 <./Bilder/18_TruckNRollProblem.pdf>]
-<Bilder/19_TwoMassesRodProblem.pdf, id=2524, 549.02423pt x 375.26683pt>
+<Bilder/19_TwoMassesRodProblem.pdf, id=2539, 549.02423pt x 375.26683pt>
 File: Bilder/19_TwoMassesRodProblem.pdf Graphic file (type pdf)
 <use Bilder/19_TwoMassesRodProblem.pdf>
 Package pdftex.def Info: Bilder/19_TwoMassesRodProblem.pdf  used on input line 
@@ -1204,13 +1204,13 @@ Package pdftex.def Info: Bilder/19_TwoMassesRodProblem.pdf  used on input line
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [41] [42 <./Bilder/19_TwoMassesRodProblem.pdf>]
-<Bilder/19_TwoMassesRodProblem_FBD_M1.pdf, id=2545, 478.0297pt x 335.34514pt>
+<Bilder/19_TwoMassesRodProblem_FBD_M1.pdf, id=2560, 478.0297pt x 335.34514pt>
 File: Bilder/19_TwoMassesRodProblem_FBD_M1.pdf Graphic file (type pdf)
 <use Bilder/19_TwoMassesRodProblem_FBD_M1.pdf>
 Package pdftex.def Info: Bilder/19_TwoMassesRodProblem_FBD_M1.pdf  used on inpu
 t line 205.
 (pdftex.def)             Requested size: 205.96938pt x 144.49237pt.
-<Bilder/19_TwoMassesRodProblem_FBD_M2.pdf, id=2546, 421.28381pt x 392.55891pt>
+<Bilder/19_TwoMassesRodProblem_FBD_M2.pdf, id=2561, 421.28381pt x 392.55891pt>
 File: Bilder/19_TwoMassesRodProblem_FBD_M2.pdf Graphic file (type pdf)
 <use Bilder/19_TwoMassesRodProblem_FBD_M2.pdf>
 Package pdftex.def Info: Bilder/19_TwoMassesRodProblem_FBD_M2.pdf  used on inpu
@@ -1223,21 +1223,21 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/19_TwoMassesRodProb
 lem_FBD_M2.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
 >]
-<Bilder/25_TwoMassSuspension.pdf, id=2557, 530.73282pt x 596.16997pt>
+<Bilder/25_TwoMassSuspension.pdf, id=2572, 530.73282pt x 596.16997pt>
 File: Bilder/25_TwoMassSuspension.pdf Graphic file (type pdf)
 <use Bilder/25_TwoMassSuspension.pdf>
 Package pdftex.def Info: Bilder/25_TwoMassSuspension.pdf  used on input line 24
 0.
 (pdftex.def)             Requested size: 205.96938pt x 231.36824pt.
  [44 <./Bilder/25_TwoMassSuspension.pdf>]
-<Bilder/25_TwoMassSuspension_FBD_Masses.pdf, id=2571, 418.92499pt x 222.04721pt
+<Bilder/25_TwoMassSuspension_FBD_Masses.pdf, id=2586, 418.92499pt x 222.04721pt
 >
 File: Bilder/25_TwoMassSuspension_FBD_Masses.pdf Graphic file (type pdf)
 <use Bilder/25_TwoMassSuspension_FBD_Masses.pdf>
 Package pdftex.def Info: Bilder/25_TwoMassSuspension_FBD_Masses.pdf  used on in
 put line 265.
 (pdftex.def)             Requested size: 205.96938pt x 109.17pt.
-<Bilder/25_TwoMassSuspension_FBD_Wheel.pdf, id=2573, 307.26347pt x 654.1543pt>
+<Bilder/25_TwoMassSuspension_FBD_Wheel.pdf, id=2588, 307.26347pt x 654.1543pt>
 File: Bilder/25_TwoMassSuspension_FBD_Wheel.pdf Graphic file (type pdf)
 <use Bilder/25_TwoMassSuspension_FBD_Wheel.pdf>
 Package pdftex.def Info: Bilder/25_TwoMassSuspension_FBD_Wheel.pdf  used on inp
@@ -1264,7 +1264,7 @@ nonnegative, or you can use `\delimiter <delimiter code>'.
 
 ) (./chapters/part0_ch_5_MassMomentOfInertia.tex [46]
 chapter 5.
-<Bilder/20_MMI_1.pdf, id=2592, 647.97766pt x 601.87335pt>
+<Bilder/20_MMI_1.pdf, id=2607, 647.97766pt x 601.87335pt>
 File: Bilder/20_MMI_1.pdf Graphic file (type pdf)
 <use Bilder/20_MMI_1.pdf>
 Package pdftex.def Info: Bilder/20_MMI_1.pdf  used on input line 15.
@@ -1272,31 +1272,31 @@ Package pdftex.def Info: Bilder/20_MMI_1.pdf  used on input line 15.
 [47
 
  <./Bilder/20_MMI_1.pdf>]
-<Bilder/21_MMI_2.pdf, id=2603, 442.09586pt x 541.02437pt>
+<Bilder/21_MMI_2.pdf, id=2618, 442.09586pt x 541.02437pt>
 File: Bilder/21_MMI_2.pdf Graphic file (type pdf)
 <use Bilder/21_MMI_2.pdf>
 Package pdftex.def Info: Bilder/21_MMI_2.pdf  used on input line 24.
 (pdftex.def)             Requested size: 247.16577pt x 302.468pt.
  [48 <./Bilder/21_MMI_2.pdf>]
-<Bilder/22_MMI3.pdf, id=2615, 711.94553pt x 608.7027pt>
+<Bilder/22_MMI3.pdf, id=2630, 711.94553pt x 608.7027pt>
 File: Bilder/22_MMI3.pdf Graphic file (type pdf)
 <use Bilder/22_MMI3.pdf>
 Package pdftex.def Info: Bilder/22_MMI3.pdf  used on input line 81.
 (pdftex.def)             Requested size: 164.77298pt x 140.87175pt.
  [49]
-<Bilder/27_ProdOfInertia.pdf, id=2625, 551.62122pt x 546.02768pt>
+<Bilder/27_ProdOfInertia.pdf, id=2640, 551.62122pt x 546.02768pt>
 File: Bilder/27_ProdOfInertia.pdf Graphic file (type pdf)
 <use Bilder/27_ProdOfInertia.pdf>
 Package pdftex.def Info: Bilder/27_ProdOfInertia.pdf  used on input line 118.
 (pdftex.def)             Requested size: 205.96938pt x 203.87671pt.
  [50 <./Bilder/22_MMI3.pdf>] [51 <./Bilder/27_ProdOfInertia.pdf>]
-<Bilder/27_ProdOfInertia_1.pdf, id=2646, 551.62122pt x 546.02768pt>
+<Bilder/27_ProdOfInertia_1.pdf, id=2661, 551.62122pt x 546.02768pt>
 File: Bilder/27_ProdOfInertia_1.pdf Graphic file (type pdf)
 <use Bilder/27_ProdOfInertia_1.pdf>
 Package pdftex.def Info: Bilder/27_ProdOfInertia_1.pdf  used on input line 153.
 
 (pdftex.def)             Requested size: 205.96938pt x 203.87671pt.
-<Bilder/28_CartWithPendulum.pdf, id=2649, 346.30423pt x 609.3015pt>
+<Bilder/28_CartWithPendulum.pdf, id=2664, 346.30423pt x 609.3015pt>
 File: Bilder/28_CartWithPendulum.pdf Graphic file (type pdf)
 <use Bilder/28_CartWithPendulum.pdf>
 Package pdftex.def Info: Bilder/28_CartWithPendulum.pdf  used on input line 164
@@ -1307,13 +1307,13 @@ Package pdftex.def Info: Bilder/28_CartWithPendulum.pdf  used on input line 164
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [52 <./Bilder/27_ProdOfInertia_1.pdf>] [53 <./Bilder/28_CartWithPendulum.pdf>]
-<Bilder/28_CartWithPendulum_FBD_Pend.pdf, id=2671, 354.17705pt x 703.5211pt>
+<Bilder/28_CartWithPendulum_FBD_Pend.pdf, id=2686, 354.17705pt x 703.5211pt>
 File: Bilder/28_CartWithPendulum_FBD_Pend.pdf Graphic file (type pdf)
 <use Bilder/28_CartWithPendulum_FBD_Pend.pdf>
 Package pdftex.def Info: Bilder/28_CartWithPendulum_FBD_Pend.pdf  used on input
  line 195.
 (pdftex.def)             Requested size: 144.18108pt x 286.39516pt.
-<Bilder/28_CartWithPendulum_FBD_Cart.pdf, id=2675, 296.81508pt x 299.61943pt>
+<Bilder/28_CartWithPendulum_FBD_Cart.pdf, id=2690, 296.81508pt x 299.61943pt>
 File: Bilder/28_CartWithPendulum_FBD_Cart.pdf Graphic file (type pdf)
 <use Bilder/28_CartWithPendulum_FBD_Cart.pdf>
 Package pdftex.def Info: Bilder/28_CartWithPendulum_FBD_Cart.pdf  used on input
@@ -1325,13 +1325,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [54 <./Bilder/28_CartWithPendulum_FBD_Pend.pdf>] [55 <./Bilder/28_CartWithPendu
 lum_FBD_Cart.pdf>] [56] [57]
-<Bilder/29_translatingMasses.pdf, id=2732, 734.23357pt x 271.88263pt>
+<Bilder/29_translatingMasses.pdf, id=2747, 734.23357pt x 271.88263pt>
 File: Bilder/29_translatingMasses.pdf Graphic file (type pdf)
 <use Bilder/29_translatingMasses.pdf>
 Package pdftex.def Info: Bilder/29_translatingMasses.pdf  used on input line 40
 8.
 (pdftex.def)             Requested size: 205.96938pt x 76.26765pt.
-<Bilder/29_translatingMasses_FBD.pdf, id=2735, 876.94576pt x 257.33928pt>
+<Bilder/29_translatingMasses_FBD.pdf, id=2750, 876.94576pt x 257.33928pt>
 File: Bilder/29_translatingMasses_FBD.pdf Graphic file (type pdf)
 <use Bilder/29_translatingMasses_FBD.pdf>
 Package pdftex.def Info: Bilder/29_translatingMasses_FBD.pdf  used on input lin
@@ -1351,7 +1351,7 @@ chapter 6.
 [63
 
 ] [64] [65] [66]
-<Bilder/Solutiion_of_LDE_4m_LT.png, id=2818, 1089.06876pt x 461.725pt>
+<Bilder/Solutiion_of_LDE_4m_LT.png, id=2833, 1089.06876pt x 461.725pt>
 File: Bilder/Solutiion_of_LDE_4m_LT.png Graphic file (type png)
 <use Bilder/Solutiion_of_LDE_4m_LT.png>
 Package pdftex.def Info: Bilder/Solutiion_of_LDE_4m_LT.png  used on input line 
@@ -1418,24 +1418,24 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 323.
 
-[72] [73] [74]) (./chapters/01_System_Modeling.tex [75] [76
-
-]
+[72] [73] [74] [75] [76]) (./chapters/01_System_Modeling.tex [77] [78]
 chapter 7.
-[77] [78]
+[79
+
+] [80]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 74.
 
-[79]
-<Bilder/Model_Verification_Validation.png, id=2987, 1071.00125pt x 318.18875pt>
+[81]
+<Bilder/Model_Verification_Validation.png, id=3030, 1071.00125pt x 318.18875pt>
 
 File: Bilder/Model_Verification_Validation.png Graphic file (type png)
 <use Bilder/Model_Verification_Validation.png>
 Package pdftex.def Info: Bilder/Model_Verification_Validation.png  used on inpu
 t line 121.
 (pdftex.def)             Requested size: 411.93877pt x 122.38408pt.
- [80 <./Bilder/Model_Verification_Validation.png>] [81] [82] [83]
+ [82 <./Bilder/Model_Verification_Validation.png>] [83] [84] [85]
 Package epstopdf Info: Source file: <Bilder/stepResponsez_02.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
 (epstopdf)                    size: 31288 bytes
@@ -1452,7 +1452,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/stepResponsez_02-ep
 s-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
-<Bilder/stepResponsez_02-eps-converted-to.pdf, id=3030, 562.1pt x 421.575pt>
+<Bilder/stepResponsez_02-eps-converted-to.pdf, id=3073, 562.1pt x 421.575pt>
 File: Bilder/stepResponsez_02-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/stepResponsez_02-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/stepResponsez_02-eps-converted-to.pdf  used on 
@@ -1474,7 +1474,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/stepResponsez_04-ep
 s-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
-<Bilder/stepResponsez_04-eps-converted-to.pdf, id=3031, 562.1pt x 421.575pt>
+<Bilder/stepResponsez_04-eps-converted-to.pdf, id=3074, 562.1pt x 421.575pt>
 File: Bilder/stepResponsez_04-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/stepResponsez_04-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/stepResponsez_04-eps-converted-to.pdf  used on 
@@ -1491,7 +1491,7 @@ df>
 s-converted-to.pdf Bilder/stepResponsez_08.eps>
 (epstopdf)             \includegraphics on input line 235.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/stepResponsez_08-eps-converted-to.pdf, id=3032, 562.1pt x 421.575pt>
+<Bilder/stepResponsez_08-eps-converted-to.pdf, id=3075, 562.1pt x 421.575pt>
 File: Bilder/stepResponsez_08-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/stepResponsez_08-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/stepResponsez_08-eps-converted-to.pdf  used on 
@@ -1503,7 +1503,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[84 <./Bilder/stepResponsez_02-eps-converted-to.pdf>] [85 <./Bilder/stepRespons
+[86 <./Bilder/stepResponsez_02-eps-converted-to.pdf>] [87 <./Bilder/stepRespons
 ez_04-eps-converted-to.pdf> <./Bilder/stepResponsez_08-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Bilder/MOR_E1_C1_step.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
@@ -1521,7 +1521,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/MOR_E1_C1_step-eps-
 converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<Bilder/MOR_E1_C1_step-eps-converted-to.pdf, id=3068, 562.1pt x 421.575pt>
+<Bilder/MOR_E1_C1_step-eps-converted-to.pdf, id=3112, 562.1pt x 421.575pt>
 File: Bilder/MOR_E1_C1_step-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/MOR_E1_C1_step-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/MOR_E1_C1_step-eps-converted-to.pdf  used on in
@@ -1538,13 +1538,13 @@ Package epstopdf Info: Source file: <Bilder/MOR_E1_C2_step.eps>
 converted-to.pdf Bilder/MOR_E1_C2_step.eps>
 (epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/MOR_E1_C2_step-eps-converted-to.pdf, id=3069, 562.1pt x 421.575pt>
+<Bilder/MOR_E1_C2_step-eps-converted-to.pdf, id=3113, 562.1pt x 421.575pt>
 File: Bilder/MOR_E1_C2_step-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/MOR_E1_C2_step-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/MOR_E1_C2_step-eps-converted-to.pdf  used on in
 put line 249.
 (pdftex.def)             Requested size: 288.35587pt x 216.26764pt.
-[86
+[88
 
  <./Bilder/MOR_E1_C1_step-eps-converted-to.pdf> <./Bilder/MOR_E1_C2_step-eps-co
 nverted-to.pdf>]
@@ -1559,21 +1559,21 @@ Package epstopdf Info: Source file: <Bilder/MOR_E1_S_step.eps>
 onverted-to.pdf Bilder/MOR_E1_S_step.eps>
 (epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/MOR_E1_S_step-eps-converted-to.pdf, id=3094, 562.1pt x 421.575pt>
+<Bilder/MOR_E1_S_step-eps-converted-to.pdf, id=3138, 562.1pt x 421.575pt>
 File: Bilder/MOR_E1_S_step-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/MOR_E1_S_step-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/MOR_E1_S_step-eps-converted-to.pdf  used on inp
 ut line 257.
 (pdftex.def)             Requested size: 288.35587pt x 216.26764pt.
- [87
+ [89
 
- <./Bilder/MOR_E1_S_step-eps-converted-to.pdf>] [88]
-<Bilder/Effect_of_Zeros_2.png, id=3122, 1086.0575pt x 816.04875pt>
+ <./Bilder/MOR_E1_S_step-eps-converted-to.pdf>] [90]
+<Bilder/Effect_of_Zeros_2.png, id=3165, 1086.0575pt x 816.04875pt>
 File: Bilder/Effect_of_Zeros_2.png Graphic file (type png)
 <use Bilder/Effect_of_Zeros_2.png>
 Package pdftex.def Info: Bilder/Effect_of_Zeros_2.png  used on input line 301.
 (pdftex.def)             Requested size: 411.93877pt x 309.52896pt.
-<Bilder/EffectOfZeros2_2.png, id=3125, 1086.0575pt x 816.04875pt>
+<Bilder/EffectOfZeros2_2.png, id=3168, 1086.0575pt x 816.04875pt>
 File: Bilder/EffectOfZeros2_2.png Graphic file (type png)
 <use Bilder/EffectOfZeros2_2.png>
 Package pdftex.def Info: Bilder/EffectOfZeros2_2.png  used on input line 308.
@@ -1582,31 +1582,31 @@ Package pdftex.def Info: Bilder/EffectOfZeros2_2.png  used on input line 308.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[89
+[91
 
- <./Bilder/Effect_of_Zeros_2.png>] [90 <./Bilder/EffectOfZeros2_2.png>]
-<Bilder/EffectOfZeros4.png, id=3136, 1086.0575pt x 816.04875pt>
+ <./Bilder/Effect_of_Zeros_2.png>] [92 <./Bilder/EffectOfZeros2_2.png>]
+<Bilder/EffectOfZeros4.png, id=3179, 1086.0575pt x 816.04875pt>
 File: Bilder/EffectOfZeros4.png Graphic file (type png)
 <use Bilder/EffectOfZeros4.png>
 Package pdftex.def Info: Bilder/EffectOfZeros4.png  used on input line 318.
 (pdftex.def)             Requested size: 411.93877pt x 309.52896pt.
 
-[91
+[93
 
- <./Bilder/EffectOfZeros4.png>]) (./chapters/02_Analysis.tex [92
+ <./Bilder/EffectOfZeros4.png>]) (./chapters/02_Analysis.tex [94
 
 ]
 chapter 8.
-[93
+[95
 
 ]
-<Bilder/ImpulseReponseFirstOrderSystem.pdf, id=3169, 421.575pt x 316.18124pt>
+<Bilder/ImpulseReponseFirstOrderSystem.pdf, id=3213, 421.575pt x 316.18124pt>
 File: Bilder/ImpulseReponseFirstOrderSystem.pdf Graphic file (type pdf)
 <use Bilder/ImpulseReponseFirstOrderSystem.pdf>
 Package pdftex.def Info: Bilder/ImpulseReponseFirstOrderSystem.pdf  used on inp
 ut line 50.
 (pdftex.def)             Requested size: 252.94695pt x 189.7102pt.
- [94] [95 <./Bilder/ImpulseReponseFirstOrderSystem.pdf>]
+ [96] [97 <./Bilder/ImpulseReponseFirstOrderSystem.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 75.
@@ -1620,14 +1620,15 @@ Overfull \hbox (22.3998pt too wide) in paragraph at lines 104--114
 [][] 
  []
 
-[96]
-<Bilder/firstOrderSystemStepResponse.pdf, id=3217, 421.575pt x 316.18124pt>
+[98]
+<Bilder/firstOrderSystemStepResponse.pdf, id=3260, 421.575pt x 316.18124pt>
 File: Bilder/firstOrderSystemStepResponse.pdf Graphic file (type pdf)
 <use Bilder/firstOrderSystemStepResponse.pdf>
 Package pdftex.def Info: Bilder/firstOrderSystemStepResponse.pdf  used on input
  line 134.
 (pdftex.def)             Requested size: 252.94695pt x 189.7102pt.
- [97 <./Bilder/firstOrderSystemStepResponse.pdf>] [98] [99] [100] [101]
+ [99 <./Bilder/firstOrderSystemStepResponse.pdf>] [100] [101] [102]
+[103]
 Package epstopdf Info: Source file: <Bilder/Neighborhood.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
 (epstopdf)                    size: 67103 bytes
@@ -1643,7 +1644,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/Neighborhood-eps-co
 nverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
-<Bilder/Neighborhood-eps-converted-to.pdf, id=3285, 312.16624pt x 328.22626pt>
+<Bilder/Neighborhood-eps-converted-to.pdf, id=3329, 312.16624pt x 328.22626pt>
 File: Bilder/Neighborhood-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/Neighborhood-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/Neighborhood-eps-converted-to.pdf  used on inpu
@@ -1660,7 +1661,7 @@ pdf>
 ps-converted-to.pdf Bilder/LagrangeStability.eps>
 (epstopdf)             \includegraphics on input line 333.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/LagrangeStability-eps-converted-to.pdf, id=3286, 664.4825pt x 223.83624
+<Bilder/LagrangeStability-eps-converted-to.pdf, id=3330, 664.4825pt x 223.83624
 pt>
 File: Bilder/LagrangeStability-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/LagrangeStability-eps-converted-to.pdf>
@@ -1670,7 +1671,7 @@ Package pdftex.def Info: Bilder/LagrangeStability-eps-converted-to.pdf  used on
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[102 <./Bilder/Neighborhood-eps-converted-to.pdf>]
+[104 <./Bilder/Neighborhood-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Bilder/LyaponovStability.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
 (epstopdf)                    size: 106006 bytes
@@ -1682,7 +1683,7 @@ pdf>
 ps-converted-to.pdf Bilder/LyaponovStability.eps>
 (epstopdf)             \includegraphics on input line 347.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/LyaponovStability-eps-converted-to.pdf, id=3301, 664.4825pt x 223.83624
+<Bilder/LyaponovStability-eps-converted-to.pdf, id=3345, 664.4825pt x 223.83624
 pt>
 File: Bilder/LyaponovStability-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/LyaponovStability-eps-converted-to.pdf>
@@ -1705,7 +1706,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/AsymptoticStability
 -eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
-<Bilder/AsymptoticStability-eps-converted-to.pdf, id=3302, 642.4pt x 200.75pt>
+<Bilder/AsymptoticStability-eps-converted-to.pdf, id=3346, 642.4pt x 200.75pt>
 File: Bilder/AsymptoticStability-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/AsymptoticStability-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/AsymptoticStability-eps-converted-to.pdf  used 
@@ -1714,9 +1715,9 @@ on input line 359.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[103 <./Bilder/LagrangeStability-eps-converted-to.pdf> <./Bilder/LyaponovStabil
+[105 <./Bilder/LagrangeStability-eps-converted-to.pdf> <./Bilder/LyaponovStabil
 ity-eps-converted-to.pdf>]
-<Bilder/Poles_PT2_system.png, id=3320, 1086.0575pt x 816.04875pt>
+<Bilder/Poles_PT2_system.png, id=3363, 1086.0575pt x 816.04875pt>
 File: Bilder/Poles_PT2_system.png Graphic file (type png)
 <use Bilder/Poles_PT2_system.png>
 Package pdftex.def Info: Bilder/Poles_PT2_system.png  used on input line 389.
@@ -1725,22 +1726,22 @@ Package pdftex.def Info: Bilder/Poles_PT2_system.png  used on input line 389.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Bilder/Sol_PT2.png, id=3322, 1086.0575pt x 816.04875pt>
+<Bilder/Sol_PT2.png, id=3365, 1086.0575pt x 816.04875pt>
 File: Bilder/Sol_PT2.png Graphic file (type png)
 <use Bilder/Sol_PT2.png>
 Package pdftex.def Info: Bilder/Sol_PT2.png  used on input line 398.
 (pdftex.def)             Requested size: 411.93877pt x 309.52896pt.
-[104 <./Bilder/AsymptoticStability-eps-converted-to.pdf>]
+[106 <./Bilder/AsymptoticStability-eps-converted-to.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[105 <./Bilder/Poles_PT2_system.png>] [106 <./Bilder/Sol_PT2.png>]
-<Bilder/Prop_PT2.png, id=3344, 1086.0575pt x 816.04875pt>
+[107 <./Bilder/Poles_PT2_system.png>] [108 <./Bilder/Sol_PT2.png>]
+<Bilder/Prop_PT2.png, id=3387, 1086.0575pt x 816.04875pt>
 File: Bilder/Prop_PT2.png Graphic file (type png)
 <use Bilder/Prop_PT2.png>
 Package pdftex.def Info: Bilder/Prop_PT2.png  used on input line 406.
 (pdftex.def)             Requested size: 411.93877pt x 309.52896pt.
-<Bilder/Delay_and_Rise_time_PT2.png, id=3349, 1086.0575pt x 816.04875pt>
+<Bilder/Delay_and_Rise_time_PT2.png, id=3392, 1086.0575pt x 816.04875pt>
 File: Bilder/Delay_and_Rise_time_PT2.png Graphic file (type png)
 <use Bilder/Delay_and_Rise_time_PT2.png>
 Package pdftex.def Info: Bilder/Delay_and_Rise_time_PT2.png  used on input line
@@ -1750,20 +1751,20 @@ Package pdftex.def Info: Bilder/Delay_and_Rise_time_PT2.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[107
+[109
 
- <./Bilder/Prop_PT2.png>] [108 <./Bilder/Delay_and_Rise_time_PT2.png>]
-<Bilder/Settling_time.png, id=3365, 1086.0575pt x 816.04875pt>
+ <./Bilder/Prop_PT2.png>] [110 <./Bilder/Delay_and_Rise_time_PT2.png>]
+<Bilder/Settling_time.png, id=3408, 1086.0575pt x 816.04875pt>
 File: Bilder/Settling_time.png Graphic file (type png)
 <use Bilder/Settling_time.png>
 Package pdftex.def Info: Bilder/Settling_time.png  used on input line 428.
 (pdftex.def)             Requested size: 411.93877pt x 309.52896pt.
-<Bilder/Peak_time_PT2.png, id=3366, 1086.0575pt x 816.04875pt>
+<Bilder/Peak_time_PT2.png, id=3409, 1086.0575pt x 816.04875pt>
 File: Bilder/Peak_time_PT2.png Graphic file (type png)
 <use Bilder/Peak_time_PT2.png>
 Package pdftex.def Info: Bilder/Peak_time_PT2.png  used on input line 435.
 (pdftex.def)             Requested size: 411.93877pt x 309.52896pt.
-<Bilder/Max_overshoot_PT2.png, id=3367, 1086.0575pt x 816.04875pt>
+<Bilder/Max_overshoot_PT2.png, id=3410, 1086.0575pt x 816.04875pt>
 File: Bilder/Max_overshoot_PT2.png Graphic file (type png)
 <use Bilder/Max_overshoot_PT2.png>
 Package pdftex.def Info: Bilder/Max_overshoot_PT2.png  used on input line 441.
@@ -1775,30 +1776,30 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[109
+[111
 
- <./Bilder/Settling_time.png>] [110 <./Bilder/Peak_time_PT2.png>] [111 <./Bilde
+ <./Bilder/Settling_time.png>] [112 <./Bilder/Peak_time_PT2.png>] [113 <./Bilde
 r/Max_overshoot_PT2.png>]
-<Bilder/PolesDetermineSysBehavior.png, id=3384, 1086.0575pt x 816.04875pt>
+<Bilder/PolesDetermineSysBehavior.png, id=3428, 1086.0575pt x 816.04875pt>
 File: Bilder/PolesDetermineSysBehavior.png Graphic file (type png)
 <use Bilder/PolesDetermineSysBehavior.png>
 Package pdftex.def Info: Bilder/PolesDetermineSysBehavior.png  used on input li
 ne 453.
 (pdftex.def)             Requested size: 411.93877pt x 309.52896pt.
- [112
+ [114
 
  <./Bilder/PolesDetermineSysBehavior.png>])
-(./chapters/02_2_IntroToControl.tex [113] [114
+(./chapters/02_2_IntroToControl.tex [115] [116
 
 ]
 chapter 9.
-<Bilder/OpenLoopControl.png, id=3418, 1086.0575pt x 816.04875pt>
+<Bilder/OpenLoopControl.png, id=3462, 1086.0575pt x 816.04875pt>
 File: Bilder/OpenLoopControl.png Graphic file (type png)
 <use Bilder/OpenLoopControl.png>
 Package pdftex.def Info: Bilder/OpenLoopControl.png  used on input line 12.
 (pdftex.def)             Requested size: 329.55226pt x 247.6182pt.
-[115 <./Bilder/OpenLoopControl.png>]
-<Bilder/ClosedLoopControl.png, id=3425, 1086.0575pt x 816.04875pt>
+[117 <./Bilder/OpenLoopControl.png>]
+<Bilder/ClosedLoopControl.png, id=3469, 1086.0575pt x 816.04875pt>
 File: Bilder/ClosedLoopControl.png Graphic file (type png)
 <use Bilder/ClosedLoopControl.png>
 Package pdftex.def Info: Bilder/ClosedLoopControl.png  used on input line 31.
@@ -1807,48 +1808,48 @@ Package pdftex.def Info: Bilder/ClosedLoopControl.png  used on input line 31.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[116
+[118
 
 ]
-<Bilder/Feedback_Use1.png, id=3432, 635.37375pt x 227.85126pt>
+<Bilder/Feedback_Use1.png, id=3476, 635.37375pt x 227.85126pt>
 File: Bilder/Feedback_Use1.png Graphic file (type png)
 <use Bilder/Feedback_Use1.png>
 Package pdftex.def Info: Bilder/Feedback_Use1.png  used on input line 43.
 (pdftex.def)             Requested size: 329.55226pt x 118.18433pt.
- [117 <./Bilder/ClosedLoopControl.png> <./Bilder/Feedback_Use1.png>]
-<Bilder/Feedback_Use2.png, id=3441, 979.66pt x 424.58624pt>
+ [119 <./Bilder/ClosedLoopControl.png> <./Bilder/Feedback_Use1.png>]
+<Bilder/Feedback_Use2.png, id=3485, 979.66pt x 424.58624pt>
 File: Bilder/Feedback_Use2.png Graphic file (type png)
 <use Bilder/Feedback_Use2.png>
 Package pdftex.def Info: Bilder/Feedback_Use2.png  used on input line 54.
 (pdftex.def)             Requested size: 329.55226pt x 142.82845pt.
-<Bilder/BDR_1.png, id=3444, 1086.0575pt x 816.04875pt>
+<Bilder/BDR_1.png, id=3488, 1086.0575pt x 816.04875pt>
 File: Bilder/BDR_1.png Graphic file (type png)
 <use Bilder/BDR_1.png>
 Package pdftex.def Info: Bilder/BDR_1.png  used on input line 79.
 (pdftex.def)             Requested size: 329.55226pt x 247.6182pt.
-<Bilder/BDR_2.png, id=3445, 1086.0575pt x 816.04875pt>
+<Bilder/BDR_2.png, id=3489, 1086.0575pt x 816.04875pt>
 File: Bilder/BDR_2.png Graphic file (type png)
 <use Bilder/BDR_2.png>
 Package pdftex.def Info: Bilder/BDR_2.png  used on input line 85.
 (pdftex.def)             Requested size: 329.55226pt x 247.6182pt.
-<Bilder/BDR_3.png, id=3446, 1086.0575pt x 816.04875pt>
+<Bilder/BDR_3.png, id=3490, 1086.0575pt x 816.04875pt>
 File: Bilder/BDR_3.png Graphic file (type png)
 <use Bilder/BDR_3.png>
 Package pdftex.def Info: Bilder/BDR_3.png  used on input line 91.
 (pdftex.def)             Requested size: 329.55226pt x 247.6182pt.
 
-[118 <./Bilder/Feedback_Use2.png>]
+[120 <./Bilder/Feedback_Use2.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[119 <./Bilder/BDR_1.png>] [120 <./Bilder/BDR_2.png> <./Bilder/BDR_3.png>]
-[121
+[121 <./Bilder/BDR_1.png>] [122 <./Bilder/BDR_2.png> <./Bilder/BDR_3.png>]
+[123
 
 ]
-<Bilder/Cruise_Control_P_Regulator.pdf, id=3485, 656.3511pt x 247.17383pt>
+<Bilder/Cruise_Control_P_Regulator.pdf, id=3528, 656.3511pt x 247.17383pt>
 File: Bilder/Cruise_Control_P_Regulator.pdf Graphic file (type pdf)
 <use Bilder/Cruise_Control_P_Regulator.pdf>
 Package pdftex.def Info: Bilder/Cruise_Control_P_Regulator.pdf  used on input l
@@ -1870,7 +1871,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/P_Reg_Tracking-eps-
 converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<Bilder/P_Reg_Tracking-eps-converted-to.pdf, id=3487, 562.1pt x 398.48875pt>
+<Bilder/P_Reg_Tracking-eps-converted-to.pdf, id=3530, 562.1pt x 398.48875pt>
 File: Bilder/P_Reg_Tracking-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/P_Reg_Tracking-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/P_Reg_Tracking-eps-converted-to.pdf  used on in
@@ -1893,21 +1894,21 @@ df>
 s-converted-to.pdf Bilder/P_Reg_with_Noise.eps>
 (epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/P_Reg_with_Noise-eps-converted-to.pdf, id=3490, 562.1pt x 398.48875pt>
+<Bilder/P_Reg_with_Noise-eps-converted-to.pdf, id=3533, 562.1pt x 398.48875pt>
 File: Bilder/P_Reg_with_Noise-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/P_Reg_with_Noise-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/P_Reg_with_Noise-eps-converted-to.pdf  used on 
 input line 168.
 (pdftex.def)             Requested size: 247.16577pt x 175.22006pt.
-[122]
+[124]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./chapters/05_EigenValueAnalysis.tex [123 <./Bilder/Cruise_Control_P_Regulat
-or.pdf> <./Bilder/P_Reg_Tracking-eps-converted-to.pdf>] [124 <./Bilder/P_Reg_wi
+) (./chapters/05_EigenValueAnalysis.tex [125 <./Bilder/Cruise_Control_P_Regulat
+or.pdf> <./Bilder/P_Reg_Tracking-eps-converted-to.pdf>] [126 <./Bilder/P_Reg_wi
 th_Noise-eps-converted-to.pdf>]
 chapter 10.
-<Bilder/EigenVectorPlot.pdf, id=3549, 411.52876pt x 370.83763pt>
+<Bilder/EigenVectorPlot.pdf, id=3593, 411.52876pt x 370.83763pt>
 File: Bilder/EigenVectorPlot.pdf Graphic file (type pdf)
 <use Bilder/EigenVectorPlot.pdf>
 Package pdftex.def Info: Bilder/EigenVectorPlot.pdf  used on input line 23.
@@ -1915,19 +1916,19 @@ Package pdftex.def Info: Bilder/EigenVectorPlot.pdf  used on input line 23.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[125
+[127
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126 <./Bilder/EigenVectorPlot.pdf>]) (./chapters/07_ControlSpecifications.tex
- [127]
-[128
+ [128 <./Bilder/EigenVectorPlot.pdf>]) (./chapters/07_ControlSpecifications.tex
+ [129]
+[130
 
 ]
 chapter 11.
-[129]
-<Bilder/Cruise_Control_PI_Control.pdf, id=3600, 643.45993pt x 249.09642pt>
+[131]
+<Bilder/Cruise_Control_PI_Control.pdf, id=3644, 643.45993pt x 249.09642pt>
 File: Bilder/Cruise_Control_PI_Control.pdf Graphic file (type pdf)
 <use Bilder/Cruise_Control_PI_Control.pdf>
 Package pdftex.def Info: Bilder/Cruise_Control_PI_Control.pdf  used on input li
@@ -1937,26 +1938,26 @@ ne 43.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[130] [131 <./Bilder/Cruise_Control_PI_Control.pdf>]
-<Bilder/PolePlacement_1.png, id=3636, 220.825pt x 158.5925pt>
+[132] [133 <./Bilder/Cruise_Control_PI_Control.pdf>]
+<Bilder/PolePlacement_1.png, id=3680, 220.825pt x 158.5925pt>
 File: Bilder/PolePlacement_1.png Graphic file (type png)
 <use Bilder/PolePlacement_1.png>
 Package pdftex.def Info: Bilder/PolePlacement_1.png  used on input line 70.
 (pdftex.def)             Requested size: 205.96938pt x 147.9299pt.
- [132 <./Bilder/PolePlacement_1.png>]
-<Bilder/CalculatingSSError.pdf, id=3649, 610.3733pt x 154.1757pt>
+ [134 <./Bilder/PolePlacement_1.png>]
+<Bilder/CalculatingSSError.pdf, id=3693, 610.3733pt x 154.1757pt>
 File: Bilder/CalculatingSSError.pdf Graphic file (type pdf)
 <use Bilder/CalculatingSSError.pdf>
 Package pdftex.def Info: Bilder/CalculatingSSError.pdf  used on input line 89.
 (pdftex.def)             Requested size: 411.93877pt x 104.05704pt.
- [133 <./Bilder/CalculatingSSError.pdf>]
+ [135 <./Bilder/CalculatingSSError.pdf>]
 Overfull \hbox (1.02682pt too wide) in paragraph at lines 119--121
 \T1/ptm/m/n/12 mul-ti-pli-ca-tion with Laplace term $\OML/cmm/m/it/12 s$ \T1/pt
 m/m/n/12 makes the dif-fer-en-ti-a-tion, there-fore $\OML/cmm/m/it/12 K[]sE\OT1
 /cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 )$ \T1/ptm/m/n/12 scales
  []
 
-<Bilder/Understanding_PID_Control.pdf, id=3679, 636.12411pt x 179.23381pt>
+<Bilder/Understanding_PID_Control.pdf, id=3723, 636.12411pt x 179.23381pt>
 File: Bilder/Understanding_PID_Control.pdf Graphic file (type pdf)
 <use Bilder/Understanding_PID_Control.pdf>
 Package pdftex.def Info: Bilder/Understanding_PID_Control.pdf  used on input li
@@ -1978,7 +1979,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/UnderstandingPID_P_
 smallK-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
-<Bilder/UnderstandingPID_P_smallK-eps-converted-to.pdf, id=3682, 562.1pt x 398.
+<Bilder/UnderstandingPID_P_smallK-eps-converted-to.pdf, id=3726, 562.1pt x 398.
 48875pt>
 File: Bilder/UnderstandingPID_P_smallK-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1989,7 +1990,7 @@ Package pdftex.def Info: Bilder/UnderstandingPID_P_smallK-eps-converted-to.pdf
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[134] [135 <./Bilder/Understanding_PID_Control.pdf> <./Bilder/UnderstandingPID_
+[136] [137 <./Bilder/Understanding_PID_Control.pdf> <./Bilder/UnderstandingPID_
 P_smallK-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Bilder/UnderstandingPID_P_bigK.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
@@ -2007,7 +2008,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/UnderstandingPID_P_
 bigK-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-<Bilder/UnderstandingPID_P_bigK-eps-converted-to.pdf, id=3732, 562.1pt x 398.48
+<Bilder/UnderstandingPID_P_bigK-eps-converted-to.pdf, id=3776, 562.1pt x 398.48
 875pt>
 File: Bilder/UnderstandingPID_P_bigK-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2018,7 +2019,7 @@ sed on input line 180.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[136] [137 <./Bilder/UnderstandingPID_P_bigK-eps-converted-to.pdf>]
+[138] [139 <./Bilder/UnderstandingPID_P_bigK-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Bilder/UnderstandingPID_D_Overshoot.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
 (epstopdf)                    size: 54315 bytes
@@ -2035,7 +2036,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/UnderstandingPID_D_
 Overshoot-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at
  most version <1.5> allowed
-<Bilder/UnderstandingPID_D_Overshoot-eps-converted-to.pdf, id=3772, 562.1pt x 3
+<Bilder/UnderstandingPID_D_Overshoot-eps-converted-to.pdf, id=3816, 562.1pt x 3
 98.48875pt>
 File: Bilder/UnderstandingPID_D_Overshoot-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2046,8 +2047,8 @@ df  used on input line 214.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[138]
-<Bilder/NoiseDerivativeControl.pdf, id=3783, 635.85106pt x 186.41846pt>
+[140]
+<Bilder/NoiseDerivativeControl.pdf, id=3827, 635.85106pt x 186.41846pt>
 File: Bilder/NoiseDerivativeControl.pdf Graphic file (type pdf)
 <use Bilder/NoiseDerivativeControl.pdf>
 Package pdftex.def Info: Bilder/NoiseDerivativeControl.pdf  used on input line 
@@ -2057,7 +2058,7 @@ Package pdftex.def Info: Bilder/NoiseDerivativeControl.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[139 <./Bilder/UnderstandingPID_D_Overshoot-eps-converted-to.pdf>]
+[141 <./Bilder/UnderstandingPID_D_Overshoot-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Bilder/NoiseAmplification_DerivativeContro
 l.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
@@ -2071,7 +2072,7 @@ DerivativeControl-eps-converted-to.pdf Bilder/NoiseAmplification_DerivativeCont
 rol.eps>
 (epstopdf)             \includegraphics on input line 246.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/NoiseAmplification_DerivativeControl-eps-converted-to.pdf, id=3802, 562
+<Bilder/NoiseAmplification_DerivativeControl-eps-converted-to.pdf, id=3846, 562
 .1pt x 398.48875pt>
 File: Bilder/NoiseAmplification_DerivativeControl-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2083,8 +2084,8 @@ ted-to.pdf  used on input line 246.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[140 <./Bilder/NoiseDerivativeControl.pdf>] [141 <./Bilder/NoiseAmplification_D
-erivativeControl-eps-converted-to.pdf>] [142]
+[142 <./Bilder/NoiseDerivativeControl.pdf>] [143 <./Bilder/NoiseAmplification_D
+erivativeControl-eps-converted-to.pdf>] [144]
 Underfull \hbox (badness 10000) in paragraph at lines 309--309
 []|\T1/ptm/m/n/12 Proportional ac-tion
  []
@@ -2134,7 +2135,7 @@ Underfull \hbox (badness 1552) in paragraph at lines 311--312
 \T1/ptm/m/n/12 the sys-tem slow
  []
 
-[143]
+[145]
 Underfull \hbox (badness 10000) in paragraph at lines 351--351
 []|\T1/ptm/b/n/12 Step in-put
  []
@@ -2159,31 +2160,31 @@ mr/m/n/12 ) = \OML/cmm/m/it/12 t$
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[144] [145] [146
+[146] [147] [148
 
 ]
 chapter 12.
-<Bilder/RootLocus_Def.png, id=3892, 563.10374pt x 291.0875pt>
+<Bilder/RootLocus_Def.png, id=3936, 563.10374pt x 291.0875pt>
 File: Bilder/RootLocus_Def.png Graphic file (type png)
 <use Bilder/RootLocus_Def.png>
 Package pdftex.def Info: Bilder/RootLocus_Def.png  used on input line 8.
 (pdftex.def)             Requested size: 247.16577pt x 127.76797pt.
-[147 <./Bilder/RootLocus_Def.png>]
-<Bilder/OL_Forward_CL_TF.png, id=3900, 633.36626pt x 199.74625pt>
+[149 <./Bilder/RootLocus_Def.png>]
+<Bilder/OL_Forward_CL_TF.png, id=3945, 633.36626pt x 199.74625pt>
 File: Bilder/OL_Forward_CL_TF.png Graphic file (type png)
 <use Bilder/OL_Forward_CL_TF.png>
 Package pdftex.def Info: Bilder/OL_Forward_CL_TF.png  used on input line 25.
 (pdftex.def)             Requested size: 247.16577pt x 77.94948pt.
- [148 <./Bilder/OL_Forward_CL_TF.png>]
-<Bilder/RootLocus_ConstraintPlot.png, id=3918, 290.08376pt x 203.76125pt>
+ [150 <./Bilder/OL_Forward_CL_TF.png>]
+<Bilder/RootLocus_ConstraintPlot.png, id=3962, 290.08376pt x 203.76125pt>
 File: Bilder/RootLocus_ConstraintPlot.png Graphic file (type png)
 <use Bilder/RootLocus_ConstraintPlot.png>
 Package pdftex.def Info: Bilder/RootLocus_ConstraintPlot.png  used on input lin
 e 79.
 (pdftex.def)             Requested size: 247.16577pt x 173.6176pt.
 
-[149] [150 <./Bilder/RootLocus_ConstraintPlot.png>] [151]
-<Bilder/RootLocus_Ex_1.pdf, id=3953, 618.40178pt x 154.59988pt>
+[151] [152 <./Bilder/RootLocus_ConstraintPlot.png>] [153]
+<Bilder/RootLocus_Ex_1.pdf, id=3996, 618.40178pt x 154.59988pt>
 File: Bilder/RootLocus_Ex_1.pdf Graphic file (type pdf)
 <use Bilder/RootLocus_Ex_1.pdf>
 Package pdftex.def Info: Bilder/RootLocus_Ex_1.pdf  used on input line 138.
@@ -2208,7 +2209,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/RootLocus_Ex_1_rLoc
 us-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Bilder/RootLocus_Ex_1_rLocus-eps-converted-to.pdf, id=3955, 562.1pt x 421.575p
+<Bilder/RootLocus_Ex_1_rLocus-eps-converted-to.pdf, id=3998, 562.1pt x 421.575p
 t>
 File: Bilder/RootLocus_Ex_1_rLocus-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2219,7 +2220,7 @@ d on input line 149.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[152]
+[154]
 Package epstopdf Info: Source file: <Bilder/RootLocus_Ex_1_Res_1.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
 (epstopdf)                    size: 25485 bytes
@@ -2231,7 +2232,7 @@ to.pdf>
 1-eps-converted-to.pdf Bilder/RootLocus_Ex_1_Res_1.eps>
 (epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/RootLocus_Ex_1_Res_1-eps-converted-to.pdf, id=3967, 562.1pt x 421.575pt
+<Bilder/RootLocus_Ex_1_Res_1-eps-converted-to.pdf, id=4011, 562.1pt x 421.575pt
 >
 File: Bilder/RootLocus_Ex_1_Res_1-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/RootLocus_Ex_1_Res_1-eps-converted-to.pdf>
@@ -2241,9 +2242,9 @@ Package pdftex.def Info: Bilder/RootLocus_Ex_1_Res_1-eps-converted-to.pdf  used
 
 Underfull \vbox (badness 1226) has occurred while \output is active []
 
- [153 <./Bilder/RootLocus_Ex_1.pdf> <./Bilder/RootLocus_Ex_1_rLocus-eps-convert
+ [155 <./Bilder/RootLocus_Ex_1.pdf> <./Bilder/RootLocus_Ex_1_rLocus-eps-convert
 ed-to.pdf>]
-[154 <./Bilder/RootLocus_Ex_1_Res_1-eps-converted-to.pdf>]
+[156 <./Bilder/RootLocus_Ex_1_Res_1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Bilder/RootLocus_Ex_1_Res_2.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
 (epstopdf)                    size: 25962 bytes
@@ -2255,15 +2256,15 @@ to.pdf>
 2-eps-converted-to.pdf Bilder/RootLocus_Ex_1_Res_2.eps>
 (epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/RootLocus_Ex_1_Res_2-eps-converted-to.pdf, id=4013, 562.1pt x 421.575pt
+<Bilder/RootLocus_Ex_1_Res_2-eps-converted-to.pdf, id=4057, 562.1pt x 421.575pt
 >
 File: Bilder/RootLocus_Ex_1_Res_2-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/RootLocus_Ex_1_Res_2-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/RootLocus_Ex_1_Res_2-eps-converted-to.pdf  used
  on input line 166.
 (pdftex.def)             Requested size: 288.35587pt x 216.26764pt.
- [155 <./Bilder/RootLocus_Ex_1_Res_2-eps-converted-to.pdf>]
-<Bilder/RootLocus_ControlDesign.pdf, id=4030, 594.53508pt x 149.82977pt>
+ [157 <./Bilder/RootLocus_Ex_1_Res_2-eps-converted-to.pdf>]
+<Bilder/RootLocus_ControlDesign.pdf, id=4074, 594.53508pt x 149.82977pt>
 File: Bilder/RootLocus_ControlDesign.pdf Graphic file (type pdf)
 <use Bilder/RootLocus_ControlDesign.pdf>
 Package pdftex.def Info: Bilder/RootLocus_ControlDesign.pdf  used on input line
@@ -2286,7 +2287,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/RootLocus_ControlDe
 sign_rLocus-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but 
 at most version <1.5> allowed
-<Bilder/RootLocus_ControlDesign_rLocus-eps-converted-to.pdf, id=4032, 1445.4pt 
+<Bilder/RootLocus_ControlDesign_rLocus-eps-converted-to.pdf, id=4076, 1445.4pt 
 x 745.78625pt>
 File: Bilder/RootLocus_ControlDesign_rLocus-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -2297,7 +2298,7 @@ Package pdftex.def Info: Bilder/RootLocus_ControlDesign_rLocus-eps-converted-to
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[156 <./Bilder/RootLocus_ControlDesign.pdf>]
+[158 <./Bilder/RootLocus_ControlDesign.pdf>]
 Package epstopdf Info: Source file: <Bilder/RootLocus_ControlDesign_PD1.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
 (epstopdf)                    size: 28504 bytes
@@ -2314,7 +2315,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/RootLocus_ControlDe
 sign_PD1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at 
 most version <1.5> allowed
-<Bilder/RootLocus_ControlDesign_PD1-eps-converted-to.pdf, id=4065, 1445.4pt x 7
+<Bilder/RootLocus_ControlDesign_PD1-eps-converted-to.pdf, id=4108, 1445.4pt x 7
 45.78625pt>
 File: Bilder/RootLocus_ControlDesign_PD1-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2325,7 +2326,7 @@ f  used on input line 214.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[157 <./Bilder/RootLocus_ControlDesign_rLocus-eps-converted-to.pdf>]
+[159 <./Bilder/RootLocus_ControlDesign_rLocus-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Bilder/RootLocus_ControlDesign_PD2.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
 (epstopdf)                    size: 28281 bytes
@@ -2342,7 +2343,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/RootLocus_ControlDe
 sign_PD2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at 
 most version <1.5> allowed
-<Bilder/RootLocus_ControlDesign_PD2-eps-converted-to.pdf, id=4081, 1445.4pt x 7
+<Bilder/RootLocus_ControlDesign_PD2-eps-converted-to.pdf, id=4124, 1445.4pt x 7
 45.78625pt>
 File: Bilder/RootLocus_ControlDesign_PD2-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2353,7 +2354,7 @@ f  used on input line 225.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[158 <./Bilder/RootLocus_ControlDesign_PD1-eps-converted-to.pdf>]
+[160 <./Bilder/RootLocus_ControlDesign_PD1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Bilder/RootLocus_ControlDesign_PD3.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
 (epstopdf)                    size: 31122 bytes
@@ -2370,7 +2371,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/RootLocus_ControlDe
 sign_PD3-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at 
 most version <1.5> allowed
-<Bilder/RootLocus_ControlDesign_PD3-eps-converted-to.pdf, id=4095, 562.1pt x 42
+<Bilder/RootLocus_ControlDesign_PD3-eps-converted-to.pdf, id=4139, 562.1pt x 42
 1.575pt>
 File: Bilder/RootLocus_ControlDesign_PD3-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2381,7 +2382,7 @@ f  used on input line 236.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[159 <./Bilder/RootLocus_ControlDesign_PD2-eps-converted-to.pdf>]
+[161 <./Bilder/RootLocus_ControlDesign_PD2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Bilder/RootLocus_ControlDesign_SysResp.eps
 >
 (epstopdf)                    date: 2020-09-02 20:12:52
@@ -2394,7 +2395,7 @@ Package epstopdf Info: Source file: <Bilder/RootLocus_ControlDesign_SysResp.eps
 sign_SysResp-eps-converted-to.pdf Bilder/RootLocus_ControlDesign_SysResp.eps>
 (epstopdf)             \includegraphics on input line 248.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/RootLocus_ControlDesign_SysResp-eps-converted-to.pdf, id=4110, 1445.4pt
+<Bilder/RootLocus_ControlDesign_SysResp-eps-converted-to.pdf, id=4154, 1445.4pt
  x 745.78625pt>
 File: Bilder/RootLocus_ControlDesign_SysResp-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2406,7 +2407,7 @@ o.pdf  used on input line 248.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[160 <./Bilder/RootLocus_ControlDesign_PD3-eps-converted-to.pdf>]
+[162 <./Bilder/RootLocus_ControlDesign_PD3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Bilder/RootLocus_ControlDesign_SysResp_C.e
 ps>
 (epstopdf)                    date: 2020-09-02 20:12:52
@@ -2425,7 +2426,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/RootLocus_ControlDe
 sign_SysResp_C-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, b
 ut at most version <1.5> allowed
-<Bilder/RootLocus_ControlDesign_SysResp_C-eps-converted-to.pdf, id=4127, 562.1p
+<Bilder/RootLocus_ControlDesign_SysResp_C-eps-converted-to.pdf, id=4171, 562.1p
 t x 421.575pt>
 File: Bilder/RootLocus_ControlDesign_SysResp_C-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2436,29 +2437,29 @@ Package pdftex.def Info: Bilder/RootLocus_ControlDesign_SysResp_C-eps-converted
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[161 <./Bilder/RootLocus_ControlDesign_SysResp-eps-converted-to.pdf>])
-(./chapters/09_Frequency_Response.tex [162 <./Bilder/RootLocus_ControlDesign_Sy
+[163 <./Bilder/RootLocus_ControlDesign_SysResp-eps-converted-to.pdf>])
+(./chapters/09_Frequency_Response.tex [164 <./Bilder/RootLocus_ControlDesign_Sy
 sResp_C-eps-converted-to.pdf>]
 chapter 13.
-<Bilder/FrequencyResponse_GraphicalSolution.png, id=4157, 835.12pt x 346.29375p
+<Bilder/FrequencyResponse_GraphicalSolution.png, id=4201, 835.12pt x 346.29375p
 t>
 File: Bilder/FrequencyResponse_GraphicalSolution.png Graphic file (type png)
 <use Bilder/FrequencyResponse_GraphicalSolution.png>
 Package pdftex.def Info: Bilder/FrequencyResponse_GraphicalSolution.png  used o
 n input line 6.
 (pdftex.def)             Requested size: 205.96938pt x 85.40546pt.
-[163
+[165
 
- <./Bilder/FrequencyResponse_GraphicalSolution.png>] [164] [165]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 114.
-
+ <./Bilder/FrequencyResponse_GraphicalSolution.png>] [166] [167]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 114.
 
-<Bilder/FreqResp_BodePlot_K.png, id=4191, 1084.05pt x 818.05624pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 114.
+
+<Bilder/FreqResp_BodePlot_K.png, id=4235, 1084.05pt x 818.05624pt>
 File: Bilder/FreqResp_BodePlot_K.png Graphic file (type png)
 <use Bilder/FreqResp_BodePlot_K.png>
 Package pdftex.def Info: Bilder/FreqResp_BodePlot_K.png  used on input line 119
@@ -2475,20 +2476,20 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 124.
 
-<Bilder/FreqResp_BodePlot_s.png, id=4194, 1084.05pt x 818.05624pt>
+<Bilder/FreqResp_BodePlot_s.png, id=4238, 1084.05pt x 818.05624pt>
 File: Bilder/FreqResp_BodePlot_s.png Graphic file (type png)
 <use Bilder/FreqResp_BodePlot_s.png>
 Package pdftex.def Info: Bilder/FreqResp_BodePlot_s.png  used on input line 129
 .
 (pdftex.def)             Requested size: 411.93877pt x 310.8646pt.
-[166]
+[168]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [167 <./Bilder/FreqResp_BodePlot_K.png>]
+ [169 <./Bilder/FreqResp_BodePlot_K.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 139.
@@ -2497,15 +2498,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 139.
 
-<Bilder/FreqResp_BodePlot_1s.png, id=4214, 1084.05pt x 818.05624pt>
+<Bilder/FreqResp_BodePlot_1s.png, id=4257, 1084.05pt x 818.05624pt>
 File: Bilder/FreqResp_BodePlot_1s.png Graphic file (type png)
 <use Bilder/FreqResp_BodePlot_1s.png>
 Package pdftex.def Info: Bilder/FreqResp_BodePlot_1s.png  used on input line 14
 8.
 (pdftex.def)             Requested size: 411.93877pt x 310.8646pt.
-[168 <./Bilder/FreqResp_BodePlot_s.png>] [169 <./Bilder/FreqResp_BodePlot_1s.pn
+[170 <./Bilder/FreqResp_BodePlot_s.png>] [171 <./Bilder/FreqResp_BodePlot_1s.pn
 g>]
-<Bilder/FreqResp_BodePlot_zero.png, id=4228, 1084.05pt x 818.05624pt>
+<Bilder/FreqResp_BodePlot_zero.png, id=4271, 1084.05pt x 818.05624pt>
 File: Bilder/FreqResp_BodePlot_zero.png Graphic file (type png)
 <use Bilder/FreqResp_BodePlot_zero.png>
 Package pdftex.def Info: Bilder/FreqResp_BodePlot_zero.png  used on input line 
@@ -2515,39 +2516,39 @@ Package pdftex.def Info: Bilder/FreqResp_BodePlot_zero.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Bilder/FreqResp_BodePlot_pole.png, id=4232, 1084.05pt x 818.05624pt>
+<Bilder/FreqResp_BodePlot_pole.png, id=4275, 1084.05pt x 818.05624pt>
 File: Bilder/FreqResp_BodePlot_pole.png Graphic file (type png)
 <use Bilder/FreqResp_BodePlot_pole.png>
 Package pdftex.def Info: Bilder/FreqResp_BodePlot_pole.png  used on input line 
 186.
 (pdftex.def)             Requested size: 411.93877pt x 310.8646pt.
-[170]
+[172]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[171 <./Bilder/FreqResp_BodePlot_zero.png>] [172 <./Bilder/FreqResp_BodePlot_po
+[173 <./Bilder/FreqResp_BodePlot_zero.png>] [174 <./Bilder/FreqResp_BodePlot_po
 le.png>]
-<Bilder/FrequencyResp_ClosedLoopSystem.png, id=4257, 728.7225pt x 263.98625pt>
+<Bilder/FrequencyResp_ClosedLoopSystem.png, id=4301, 728.7225pt x 263.98625pt>
 File: Bilder/FrequencyResp_ClosedLoopSystem.png Graphic file (type png)
 <use Bilder/FrequencyResp_ClosedLoopSystem.png>
 Package pdftex.def Info: Bilder/FrequencyResp_ClosedLoopSystem.png  used on inp
 ut line 218.
 (pdftex.def)             Requested size: 329.55226pt x 119.38081pt.
- [173 <./Bilder/FrequencyResp_ClosedLoopSystem.png>] [174]
-<Bilder/FrequencyResp_GainAndPahseMArgins.png, id=4272, 867.24pt x 497.86pt>
+ [175 <./Bilder/FrequencyResp_ClosedLoopSystem.png>] [176]
+<Bilder/FrequencyResp_GainAndPahseMArgins.png, id=4316, 867.24pt x 497.86pt>
 File: Bilder/FrequencyResp_GainAndPahseMArgins.png Graphic file (type png)
 <use Bilder/FrequencyResp_GainAndPahseMArgins.png>
 Package pdftex.def Info: Bilder/FrequencyResp_GainAndPahseMArgins.png  used on 
 input line 253.
 (pdftex.def)             Requested size: 411.93877pt x 236.48595pt.
- [175 <./Bilder/FrequencyResp_GainAndPahseMArgins.png>]
-<Bilder/FrequencyResp_K4Gm.png, id=4284, 870.25125pt x 496.85625pt>
+ [177 <./Bilder/FrequencyResp_GainAndPahseMArgins.png>]
+<Bilder/FrequencyResp_K4Gm.png, id=4327, 870.25125pt x 496.85625pt>
 File: Bilder/FrequencyResp_K4Gm.png Graphic file (type png)
 <use Bilder/FrequencyResp_K4Gm.png>
 Package pdftex.def Info: Bilder/FrequencyResp_K4Gm.png  used on input line 265.
 
 (pdftex.def)             Requested size: 411.93877pt x 235.19795pt.
-<Bilder/FrequencyResp_ExampleProb.png, id=4287, 1084.05pt x 818.05624pt>
+<Bilder/FrequencyResp_ExampleProb.png, id=4330, 1084.05pt x 818.05624pt>
 File: Bilder/FrequencyResp_ExampleProb.png Graphic file (type png)
 <use Bilder/FrequencyResp_ExampleProb.png>
 Package pdftex.def Info: Bilder/FrequencyResp_ExampleProb.png  used on input li
@@ -2557,17 +2558,17 @@ ne 276.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Bilder/FreqResp_Example2.png, id=4289, 1084.05pt x 818.05624pt>
+<Bilder/FreqResp_Example2.png, id=4332, 1084.05pt x 818.05624pt>
 File: Bilder/FreqResp_Example2.png Graphic file (type png)
 <use Bilder/FreqResp_Example2.png>
 Package pdftex.def Info: Bilder/FreqResp_Example2.png  used on input line 288.
 (pdftex.def)             Requested size: 411.93877pt x 310.8646pt.
-[176 <./Bilder/FrequencyResp_K4Gm.png>]
+[178 <./Bilder/FrequencyResp_K4Gm.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[177 <./Bilder/FrequencyResp_ExampleProb.png>] [178 <./Bilder/FreqResp_Example2
-.png>] [179]
+[179 <./Bilder/FrequencyResp_ExampleProb.png>] [180 <./Bilder/FreqResp_Example2
+.png>] [181]
 Package epstopdf Info: Source file: <Bilder/FrRes_NyquistEx1.eps>
 (epstopdf)                    date: 2020-09-02 20:12:51
 (epstopdf)                    size: 14492 bytes
@@ -2579,7 +2580,7 @@ df>
 s-converted-to.pdf Bilder/FrRes_NyquistEx1.eps>
 (epstopdf)             \includegraphics on input line 353.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/FrRes_NyquistEx1-eps-converted-to.pdf, id=4322, 562.1pt x 421.575pt>
+<Bilder/FrRes_NyquistEx1-eps-converted-to.pdf, id=4365, 562.1pt x 421.575pt>
 File: Bilder/FrRes_NyquistEx1-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/FrRes_NyquistEx1-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/FrRes_NyquistEx1-eps-converted-to.pdf  used on 
@@ -2589,8 +2590,8 @@ input line 353.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[180]) (./chapters/10_FrequencyResponseContollerDesign.tex [181 <./Bilder/FrRes
-_NyquistEx1-eps-converted-to.pdf>] [182
+[182]) (./chapters/10_FrequencyResponseContollerDesign.tex [183 <./Bilder/FrRes
+_NyquistEx1-eps-converted-to.pdf>] [184
 
 ]
 chapter 14.
@@ -2610,7 +2611,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/FreqCDesignStepResp
 onse-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-<Bilder/FreqCDesignStepResponse-eps-converted-to.pdf, id=4347, 562.1pt x 421.57
+<Bilder/FreqCDesignStepResponse-eps-converted-to.pdf, id=4391, 562.1pt x 421.57
 5pt>
 File: Bilder/FreqCDesignStepResponse-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2634,7 +2635,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/FreqCDesignFreqResp
 -eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
-<Bilder/FreqCDesignFreqResp-eps-converted-to.pdf, id=4348, 562.1pt x 421.575pt>
+<Bilder/FreqCDesignFreqResp-eps-converted-to.pdf, id=4392, 562.1pt x 421.575pt>
 
 File: Bilder/FreqCDesignFreqResp-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/FreqCDesignFreqResp-eps-converted-to.pdf>
@@ -2647,15 +2648,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[183]
+[185]
 Underfull \vbox (badness 1789) has occurred while \output is active []
 
- [184 <./Bilder/FreqCDesignStepResponse-eps-converted-to.pdf> <./Bilder/FreqCDe
+ [186 <./Bilder/FreqCDesignStepResponse-eps-converted-to.pdf> <./Bilder/FreqCDe
 signFreqResp-eps-converted-to.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Bilder/FreqCDRelationships.png, id=4379, 1084.05pt x 818.05624pt>
+<Bilder/FreqCDRelationships.png, id=4423, 1084.05pt x 818.05624pt>
 File: Bilder/FreqCDRelationships.png Graphic file (type png)
 <use Bilder/FreqCDRelationships.png>
 Package pdftex.def Info: Bilder/FreqCDRelationships.png  used on input line 59.
@@ -2664,7 +2665,7 @@ Package pdftex.def Info: Bilder/FreqCDRelationships.png  used on input line 59.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[185] [186 <./Bilder/FreqCDRelationships.png>] [187]
+[187] [188 <./Bilder/FreqCDRelationships.png>] [189]
 Package epstopdf Info: Source file: <Bilder/FreqCDLeadBode.eps>
 (epstopdf)                    date: 2020-09-02 20:12:51
 (epstopdf)                    size: 24800 bytes
@@ -2676,19 +2677,19 @@ Package epstopdf Info: Source file: <Bilder/FreqCDLeadBode.eps>
 converted-to.pdf Bilder/FreqCDLeadBode.eps>
 (epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/FreqCDLeadBode-eps-converted-to.pdf, id=4407, 562.1pt x 421.575pt>
+<Bilder/FreqCDLeadBode-eps-converted-to.pdf, id=4450, 562.1pt x 421.575pt>
 File: Bilder/FreqCDLeadBode-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/FreqCDLeadBode-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/FreqCDLeadBode-eps-converted-to.pdf  used on in
 put line 101.
 (pdftex.def)             Requested size: 329.55226pt x 247.16394pt.
- [188 <./Bilder/FreqCDLeadBode-eps-converted-to.pdf>]
-<Bilder/FreqCDLeadBodeSL.png, id=4422, 424.58624pt x 271.0125pt>
+ [190 <./Bilder/FreqCDLeadBode-eps-converted-to.pdf>]
+<Bilder/FreqCDLeadBodeSL.png, id=4466, 424.58624pt x 271.0125pt>
 File: Bilder/FreqCDLeadBodeSL.png Graphic file (type png)
 <use Bilder/FreqCDLeadBodeSL.png>
 Package pdftex.def Info: Bilder/FreqCDLeadBodeSL.png  used on input line 109.
 (pdftex.def)             Requested size: 329.55226pt x 210.36333pt.
- [189 <./Bilder/FreqCDLeadBodeSL.png>]
+ [191 <./Bilder/FreqCDLeadBodeSL.png>]
 Package epstopdf Info: Source file: <Bilder/FreqCDSysBode.eps>
 (epstopdf)                    date: 2020-09-02 20:12:51
 (epstopdf)                    size: 27380 bytes
@@ -2700,13 +2701,13 @@ Package epstopdf Info: Source file: <Bilder/FreqCDSysBode.eps>
 onverted-to.pdf Bilder/FreqCDSysBode.eps>
 (epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/FreqCDSysBode-eps-converted-to.pdf, id=4430, 562.1pt x 421.575pt>
+<Bilder/FreqCDSysBode-eps-converted-to.pdf, id=4474, 562.1pt x 421.575pt>
 File: Bilder/FreqCDSysBode-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/FreqCDSysBode-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/FreqCDSysBode-eps-converted-to.pdf  used on inp
 ut line 121.
 (pdftex.def)             Requested size: 329.55226pt x 247.16394pt.
- [190 <./Bilder/FreqCDSysBode-eps-converted-to.pdf>]
+ [192 <./Bilder/FreqCDSysBode-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Bilder/FreqCDTotBode.eps>
 (epstopdf)                    date: 2020-09-02 20:12:51
 (epstopdf)                    size: 36426 bytes
@@ -2718,7 +2719,7 @@ Package epstopdf Info: Source file: <Bilder/FreqCDTotBode.eps>
 onverted-to.pdf Bilder/FreqCDTotBode.eps>
 (epstopdf)             \includegraphics on input line 129.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/FreqCDTotBode-eps-converted-to.pdf, id=4445, 562.1pt x 421.575pt>
+<Bilder/FreqCDTotBode-eps-converted-to.pdf, id=4488, 562.1pt x 421.575pt>
 File: Bilder/FreqCDTotBode-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/FreqCDTotBode-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/FreqCDTotBode-eps-converted-to.pdf  used on inp
@@ -2739,7 +2740,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/FreqCDPDBode-eps-co
 nverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
-<Bilder/FreqCDPDBode-eps-converted-to.pdf, id=4449, 562.1pt x 421.575pt>
+<Bilder/FreqCDPDBode-eps-converted-to.pdf, id=4492, 562.1pt x 421.575pt>
 File: Bilder/FreqCDPDBode-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/FreqCDPDBode-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/FreqCDPDBode-eps-converted-to.pdf  used on inpu
@@ -2748,18 +2749,18 @@ t line 147.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[191 <./Bilder/FreqCDTotBode-eps-converted-to.pdf>]
+[193 <./Bilder/FreqCDTotBode-eps-converted-to.pdf>]
 Overfull \hbox (1.33621pt too wide) in paragraph at lines 160--161
 []\T1/ptm/m/n/12 ss-error in-for-ma-tion can-not be de-rived from time based de
 -sign (pole place-ments),
  []
 
-[192 <./Bilder/FreqCDPDBode-eps-converted-to.pdf>])
-(./chapters/11_IntroRobustControl.tex [193] [194
+[194 <./Bilder/FreqCDPDBode-eps-converted-to.pdf>])
+(./chapters/11_IntroRobustControl.tex [195] [196
 
 ]
 chapter 15.
-<Bilder/RC_MIMOsys.png, id=4490, 832.10875pt x 330.23375pt>
+<Bilder/RC_MIMOsys.png, id=4535, 832.10875pt x 330.23375pt>
 File: Bilder/RC_MIMOsys.png Graphic file (type png)
 <use Bilder/RC_MIMOsys.png>
 Package pdftex.def Info: Bilder/RC_MIMOsys.png  used on input line 18.
@@ -2767,49 +2768,49 @@ Package pdftex.def Info: Bilder/RC_MIMOsys.png  used on input line 18.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[195] [196 <./Bilder/RC_MIMOsys.png>]
-<Bilder/RC_ControlStr.png, id=4510, 764.8575pt x 276.03125pt>
+[197] [198 <./Bilder/RC_MIMOsys.png>]
+<Bilder/RC_ControlStr.png, id=4554, 764.8575pt x 276.03125pt>
 File: Bilder/RC_ControlStr.png Graphic file (type png)
 <use Bilder/RC_ControlStr.png>
 Package pdftex.def Info: Bilder/RC_ControlStr.png  used on input line 63.
 (pdftex.def)             Requested size: 329.55226pt x 118.9312pt.
- [197 <./Bilder/RC_ControlStr.png>]
-<Bilder/RC_TimeDelay_1.png, id=4517, 1002.74625pt x 812.03375pt>
+ [199 <./Bilder/RC_ControlStr.png>]
+<Bilder/RC_TimeDelay_1.png, id=4560, 1002.74625pt x 812.03375pt>
 File: Bilder/RC_TimeDelay_1.png Graphic file (type png)
 <use Bilder/RC_TimeDelay_1.png>
 Package pdftex.def Info: Bilder/RC_TimeDelay_1.png  used on input line 81.
 (pdftex.def)             Requested size: 329.55226pt x 266.8692pt.
 
-[198 <./Bilder/RC_TimeDelay_1.png>]
-<Bilder/RC_TimeDelay_2.png, id=4526, 1085.05376pt x 817.0525pt>
+[200 <./Bilder/RC_TimeDelay_1.png>]
+<Bilder/RC_TimeDelay_2.png, id=4569, 1085.05376pt x 817.0525pt>
 File: Bilder/RC_TimeDelay_2.png Graphic file (type png)
 <use Bilder/RC_TimeDelay_2.png>
 Package pdftex.def Info: Bilder/RC_TimeDelay_2.png  used on input line 92.
 (pdftex.def)             Requested size: 411.93877pt x 310.19644pt.
 )
-(./chapters/12_Fundamentals_ElectricCKTS.tex [199 <./Bilder/RC_TimeDelay_2.png>
-] [200
+(./chapters/12_Fundamentals_ElectricCKTS.tex [201 <./Bilder/RC_TimeDelay_2.png>
+] [202
 
 ]
 chapter 16.
-<Bilder/FundElk01.png, id=4538, 722.7pt x 350.30875pt>
+<Bilder/FundElk01.png, id=4582, 722.7pt x 350.30875pt>
 File: Bilder/FundElk01.png Graphic file (type png)
 <use Bilder/FundElk01.png>
 Package pdftex.def Info: Bilder/FundElk01.png  used on input line 10.
 (pdftex.def)             Requested size: 205.96938pt x 99.83902pt.
-<Bilder/FundElk02.png, id=4539, 722.7pt x 287.0725pt>
+<Bilder/FundElk02.png, id=4583, 722.7pt x 287.0725pt>
 File: Bilder/FundElk02.png Graphic file (type png)
 <use Bilder/FundElk02.png>
 Package pdftex.def Info: Bilder/FundElk02.png  used on input line 16.
 (pdftex.def)             Requested size: 205.96938pt x 81.8165pt.
-[201 <./Bilder/FundElk01.png> <./Bilder/FundElk02.png>] [202] [203]
-<Bilder/Fund_ELK_SeriesRest.png, id=4562, 722.7pt x 266.9975pt>
+[203 <./Bilder/FundElk01.png> <./Bilder/FundElk02.png>] [204] [205]
+<Bilder/Fund_ELK_SeriesRest.png, id=4605, 722.7pt x 266.9975pt>
 File: Bilder/Fund_ELK_SeriesRest.png Graphic file (type png)
 <use Bilder/Fund_ELK_SeriesRest.png>
 Package pdftex.def Info: Bilder/Fund_ELK_SeriesRest.png  used on input line 93.
 
 (pdftex.def)             Requested size: 308.95407pt x 114.14261pt.
-<Bilder/Fund_ELK_ParelRest.png, id=4563, 452.69125pt x 417.56pt>
+<Bilder/Fund_ELK_ParelRest.png, id=4606, 452.69125pt x 417.56pt>
 File: Bilder/Fund_ELK_ParelRest.png Graphic file (type png)
 <use Bilder/Fund_ELK_ParelRest.png>
 Package pdftex.def Info: Bilder/Fund_ELK_ParelRest.png  used on input line 102.
@@ -2819,30 +2820,30 @@ Package pdftex.def Info: Bilder/Fund_ELK_ParelRest.png  used on input line 102.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[204 <./Bilder/Fund_ELK_SeriesRest.png>]
+[206 <./Bilder/Fund_ELK_SeriesRest.png>]
 
-LaTeX Warning: Reference `label' on page 205 undefined on input line 120.
+LaTeX Warning: Reference `label' on page 207 undefined on input line 120.
 
-[205 <./Bilder/Fund_ELK_ParelRest.png>]
-<Bilder/Fund_ELK_Boost.png, id=4576, 635.37375pt x 360.34625pt>
+[207 <./Bilder/Fund_ELK_ParelRest.png>]
+<Bilder/Fund_ELK_Boost.png, id=4619, 635.37375pt x 360.34625pt>
 File: Bilder/Fund_ELK_Boost.png Graphic file (type png)
 <use Bilder/Fund_ELK_Boost.png>
 Package pdftex.def Info: Bilder/Fund_ELK_Boost.png  used on input line 124.
 (pdftex.def)             Requested size: 308.95407pt x 175.22409pt.
-<Bilder/Fund_ELK_Boost_ON.png, id=4577, 577.15625pt x 360.34625pt>
+<Bilder/Fund_ELK_Boost_ON.png, id=4620, 577.15625pt x 360.34625pt>
 File: Bilder/Fund_ELK_Boost_ON.png Graphic file (type png)
 <use Bilder/Fund_ELK_Boost_ON.png>
 Package pdftex.def Info: Bilder/Fund_ELK_Boost_ON.png  used on input line 133.
 (pdftex.def)             Requested size: 308.95407pt x 192.90155pt.
- [206 <./Bilder/Fund_ELK_Boost.png> <./Bilder/Fund_ELK_Boost_ON.png>]
-<Bilder/Fund_ELK_Boost_OFF.png, id=4586, 562.1pt x 360.34625pt>
+ [208 <./Bilder/Fund_ELK_Boost.png> <./Bilder/Fund_ELK_Boost_ON.png>]
+<Bilder/Fund_ELK_Boost_OFF.png, id=4631, 562.1pt x 360.34625pt>
 File: Bilder/Fund_ELK_Boost_OFF.png Graphic file (type png)
 <use Bilder/Fund_ELK_Boost_OFF.png>
 Package pdftex.def Info: Bilder/Fund_ELK_Boost_OFF.png  used on input line 160.
 
 (pdftex.def)             Requested size: 308.95407pt x 198.05908pt.
- [207 <./Bilder/Fund_ELK_Boost_OFF.png>]
-<Bilder/Fund_ELK_Boost_Perforance.png, id=4603, 617.30624pt x 511.9125pt>
+ [209 <./Bilder/Fund_ELK_Boost_OFF.png>]
+<Bilder/Fund_ELK_Boost_Perforance.png, id=4648, 617.30624pt x 511.9125pt>
 File: Bilder/Fund_ELK_Boost_Perforance.png Graphic file (type png)
 <use Bilder/Fund_ELK_Boost_Perforance.png>
 Package pdftex.def Info: Bilder/Fund_ELK_Boost_Perforance.png  used on input li
@@ -2852,7 +2853,7 @@ ne 208.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Bilder/Fund_ELK_Boost_Charging_f.png, id=4605, 724.7075pt x 436.63126pt>
+<Bilder/Fund_ELK_Boost_Charging_f.png, id=4650, 724.7075pt x 436.63126pt>
 File: Bilder/Fund_ELK_Boost_Charging_f.png Graphic file (type png)
 <use Bilder/Fund_ELK_Boost_Charging_f.png>
 Package pdftex.def Info: Bilder/Fund_ELK_Boost_Charging_f.png  used on input li
@@ -2861,8 +2862,8 @@ ne 216.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[208]
-<Bilder/Fund_ELK_Boost_Charging_Cycles.png, id=4613, 711.65875pt x 439.6425pt>
+[210]
+<Bilder/Fund_ELK_Boost_Charging_Cycles.png, id=4657, 711.65875pt x 439.6425pt>
 File: Bilder/Fund_ELK_Boost_Charging_Cycles.png Graphic file (type png)
 <use Bilder/Fund_ELK_Boost_Charging_Cycles.png>
 Package pdftex.def Info: Bilder/Fund_ELK_Boost_Charging_Cycles.png  used on inp
@@ -2875,17 +2876,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [209 <./Bilder/Fund_ELK_Boost_Perforance.png> <./Bilder/Fund_ELK_Boost_Chargin
+ [211 <./Bilder/Fund_ELK_Boost_Perforance.png> <./Bilder/Fund_ELK_Boost_Chargin
 g_f.png>]
-<Bilder/Fund_ELK_Voltage_DIvider.png, id=4621, 732.7375pt x 545.03625pt>
+<Bilder/Fund_ELK_Voltage_DIvider.png, id=4665, 732.7375pt x 545.03625pt>
 File: Bilder/Fund_ELK_Voltage_DIvider.png Graphic file (type png)
 <use Bilder/Fund_ELK_Voltage_DIvider.png>
 Package pdftex.def Info: Bilder/Fund_ELK_Voltage_DIvider.png  used on input lin
 e 263.
 (pdftex.def)             Requested size: 308.95407pt x 229.81186pt.
 
-[210 <./Bilder/Fund_ELK_Boost_Charging_Cycles.png>]
-<Bilder/Fund_ELK_Voltage_DIv_2.png, id=4633, 589.20125pt x 357.335pt>
+[212 <./Bilder/Fund_ELK_Boost_Charging_Cycles.png>]
+<Bilder/Fund_ELK_Voltage_DIv_2.png, id=4676, 589.20125pt x 357.335pt>
 File: Bilder/Fund_ELK_Voltage_DIv_2.png Graphic file (type png)
 <use Bilder/Fund_ELK_Voltage_DIv_2.png>
 Package pdftex.def Info: Bilder/Fund_ELK_Voltage_DIv_2.png  used on input line 
@@ -2895,22 +2896,22 @@ Package pdftex.def Info: Bilder/Fund_ELK_Voltage_DIv_2.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[211 <./Bilder/Fund_ELK_Voltage_DIvider.png>])
-(./chapters/14_AdvancedControlArchitectures.tex [212 <./Bilder/Fund_ELK_Voltage
+[213 <./Bilder/Fund_ELK_Voltage_DIvider.png>])
+(./chapters/14_AdvancedControlArchitectures.tex [214 <./Bilder/Fund_ELK_Voltage
 _DIv_2.png>]
 chapter 17.
-) (./chapters/Part2_Intro.tex [213
+) (./chapters/Part2_Intro.tex [215
 
-] [214
+] [216
 
 ]
 part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 1.
-[215] [216]
+[217] [218]
 chapter 18.
-<Bilder/ACC_OL.pdf, id=4668, 523.12462pt x 162.68259pt>
+<Bilder/ACC_OL.pdf, id=4711, 523.12462pt x 162.68259pt>
 File: Bilder/ACC_OL.pdf Graphic file (type pdf)
 <use Bilder/ACC_OL.pdf>
 Package pdftex.def Info: Bilder/ACC_OL.pdf  used on input line 43.
@@ -2931,7 +2932,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/ACC_OL_response-eps
 -converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
-<Bilder/ACC_OL_response-eps-converted-to.pdf, id=4671, 562.1pt x 398.48875pt>
+<Bilder/ACC_OL_response-eps-converted-to.pdf, id=4714, 562.1pt x 398.48875pt>
 File: Bilder/ACC_OL_response-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/ACC_OL_response-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/ACC_OL_response-eps-converted-to.pdf  used on i
@@ -2943,19 +2944,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[217
+[219
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [218 <./Bilder/ACC_OL.pdf> <./Bilder/ACC_OL_response-eps-converted-to.pdf>]
+ [220 <./Bilder/ACC_OL.pdf> <./Bilder/ACC_OL_response-eps-converted-to.pdf>]
 Overfull \hbox (13.24203pt too wide) in paragraph at lines 67--68
 []\T1/ptm/b/n/12 Quantitative ob-jec-tives\T1/ptm/m/n/12 : Ob-jec-tives that ar
 e well-defined such as achiev-
  []
 
-[219]
-<Bilder/StateSpaceMethodology.png, id=4736, 424.58624pt x 399.4925pt>
+[221]
+<Bilder/StateSpaceMethodology.png, id=4781, 424.58624pt x 399.4925pt>
 File: Bilder/StateSpaceMethodology.png Graphic file (type png)
 <use Bilder/StateSpaceMethodology.png>
 Package pdftex.def Info: Bilder/StateSpaceMethodology.png  used on input line 1
@@ -2965,12 +2966,12 @@ Package pdftex.def Info: Bilder/StateSpaceMethodology.png  used on input line 1
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[220] [221 <./Bilder/StateSpaceMethodology.png>])
-(./chapters/03_State_space_representation.tex [222]
+[222] [223 <./Bilder/StateSpaceMethodology.png>])
+(./chapters/03_State_space_representation.tex [224]
 chapter 19.
-[223
+[225
 
-] [224] [225] [226]
+] [226] [227] [228]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 208.
@@ -2987,17 +2988,17 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 208.
 
-) (./chapters/Part2_ModelingAutomotiveSystems.tex [227] [228
+) (./chapters/Part2_ModelingAutomotiveSystems.tex [229] [230
 
 ]
 chapter 20.
-<Bilder/ModelAutoSystems_Subs1.png, id=4843, 641.39626pt x 261.97874pt>
+<Bilder/ModelAutoSystems_Subs1.png, id=4886, 641.39626pt x 261.97874pt>
 File: Bilder/ModelAutoSystems_Subs1.png Graphic file (type png)
 <use Bilder/ModelAutoSystems_Subs1.png>
 Package pdftex.def Info: Bilder/ModelAutoSystems_Subs1.png  used on input line 
 13.
 (pdftex.def)             Requested size: 205.96938pt x 84.12672pt.
-<Bilder/ModelAutoSystems_Subs2.png, id=4844, 533.995pt x 354.32375pt>
+<Bilder/ModelAutoSystems_Subs2.png, id=4887, 533.995pt x 354.32375pt>
 File: Bilder/ModelAutoSystems_Subs2.png Graphic file (type png)
 <use Bilder/ModelAutoSystems_Subs2.png>
 Package pdftex.def Info: Bilder/ModelAutoSystems_Subs2.png  used on input line 
@@ -3006,7 +3007,7 @@ Package pdftex.def Info: Bilder/ModelAutoSystems_Subs2.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Bilder/ModelAutoSystems_Subs3.png, id=4845, 533.995pt x 530.98375pt>
+<Bilder/ModelAutoSystems_Subs3.png, id=4888, 533.995pt x 530.98375pt>
 File: Bilder/ModelAutoSystems_Subs3.png Graphic file (type png)
 <use Bilder/ModelAutoSystems_Subs3.png>
 Package pdftex.def Info: Bilder/ModelAutoSystems_Subs3.png  used on input line 
@@ -3015,22 +3016,22 @@ Package pdftex.def Info: Bilder/ModelAutoSystems_Subs3.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[229 <./Bilder/ModelAutoSystems_Subs1.png>] [230 <./Bilder/ModelAutoSystems_Sub
+[231 <./Bilder/ModelAutoSystems_Subs1.png>] [232 <./Bilder/ModelAutoSystems_Sub
 s2.png> <./Bilder/ModelAutoSystems_Subs3.png>]
-<Bilder/ModelAutoSystems_FBD.png, id=4872, 375.4025pt x 235.88126pt>
+<Bilder/ModelAutoSystems_FBD.png, id=4915, 375.4025pt x 235.88126pt>
 File: Bilder/ModelAutoSystems_FBD.png Graphic file (type png)
 <use Bilder/ModelAutoSystems_FBD.png>
 Package pdftex.def Info: Bilder/ModelAutoSystems_FBD.png  used on input line 73
 .
 (pdftex.def)             Requested size: 205.96938pt x 129.42195pt.
- [231 <./Bilder/ModelAutoSystems_FBD.png>]
-<Bilder/ModelingAutoSys_Drivetrain_1.png, id=4893, 553.06625pt x 596.2275pt>
+ [233 <./Bilder/ModelAutoSystems_FBD.png>]
+<Bilder/ModelingAutoSys_Drivetrain_1.png, id=4936, 553.06625pt x 596.2275pt>
 File: Bilder/ModelingAutoSys_Drivetrain_1.png Graphic file (type png)
 <use Bilder/ModelingAutoSys_Drivetrain_1.png>
 Package pdftex.def Info: Bilder/ModelingAutoSys_Drivetrain_1.png  used on input
  line 123.
 (pdftex.def)             Requested size: 247.16577pt x 266.45306pt.
- [232]
+ [234]
 File: Bilder/ModelingAutoSys_Drivetrain_1.png Graphic file (type png)
 <use Bilder/ModelingAutoSys_Drivetrain_1.png>
 Package pdftex.def Info: Bilder/ModelingAutoSys_Drivetrain_1.png  used on input
@@ -3040,18 +3041,18 @@ Package pdftex.def Info: Bilder/ModelingAutoSys_Drivetrain_1.png  used on input
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[233 <./Bilder/ModelingAutoSys_Drivetrain_1.png>] [234]
+[235 <./Bilder/ModelingAutoSys_Drivetrain_1.png>] [236]
 Overfull \hbox (0.98892pt too wide) in paragraph at lines 171--173
 \T1/ptm/m/n/12 the con-sti-tu-tive re-la-tion-ship for this sub-sys-tem de-scri
 bes how the out-put torque changes
  []
 
-[235] [236]
+[237] [238]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 267.
 
-<Bilder/ModelAutoSys_SuspensionModel.png, id=4956, 510.90875pt x 470.75874pt>
+<Bilder/ModelAutoSys_SuspensionModel.png, id=4999, 510.90875pt x 470.75874pt>
 File: Bilder/ModelAutoSys_SuspensionModel.png Graphic file (type png)
 <use Bilder/ModelAutoSys_SuspensionModel.png>
 Package pdftex.def Info: Bilder/ModelAutoSys_SuspensionModel.png  used on input
@@ -3060,17 +3061,17 @@ Package pdftex.def Info: Bilder/ModelAutoSys_SuspensionModel.png  used on input
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[237]
-<Bilder/ModelAutoSys_SuspensionModel_FBD.png, id=4968, 502.87875pt x 243.91125p
+[239]
+<Bilder/ModelAutoSys_SuspensionModel_FBD.png, id=5011, 502.87875pt x 243.91125p
 t>
 File: Bilder/ModelAutoSys_SuspensionModel_FBD.png Graphic file (type png)
 <use Bilder/ModelAutoSys_SuspensionModel_FBD.png>
 Package pdftex.def Info: Bilder/ModelAutoSys_SuspensionModel_FBD.png  used on i
 nput line 282.
 (pdftex.def)             Requested size: 308.95407pt x 149.85007pt.
- [238 <./Bilder/ModelAutoSys_SuspensionModel.png> <./Bilder/ModelAutoSys_Suspen
-sionModel_FBD.png>] [239]
-<Bilder/ModelAutoSys_SingleTrackMdoel.png, id=4996, 539.01375pt x 448.67625pt>
+ [240 <./Bilder/ModelAutoSys_SuspensionModel.png> <./Bilder/ModelAutoSys_Suspen
+sionModel_FBD.png>] [241]
+<Bilder/ModelAutoSys_SingleTrackMdoel.png, id=5038, 539.01375pt x 448.67625pt>
 File: Bilder/ModelAutoSys_SingleTrackMdoel.png Graphic file (type png)
 <use Bilder/ModelAutoSys_SingleTrackMdoel.png>
 Package pdftex.def Info: Bilder/ModelAutoSys_SingleTrackMdoel.png  used on inpu
@@ -3080,33 +3081,33 @@ t line 368.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[240]
-<Bilder/ModelAutoSys_SingleTrackMdoel_FBD.png, id=5008, 509.905pt x 205.76875pt
+[242]
+<Bilder/ModelAutoSys_SingleTrackMdoel_FBD.png, id=5050, 509.905pt x 205.76875pt
 >
 File: Bilder/ModelAutoSys_SingleTrackMdoel_FBD.png Graphic file (type png)
 <use Bilder/ModelAutoSys_SingleTrackMdoel_FBD.png>
 Package pdftex.def Info: Bilder/ModelAutoSys_SingleTrackMdoel_FBD.png  used on 
 input line 379.
 (pdftex.def)             Requested size: 411.93877pt x 166.24161pt.
- [241 <./Bilder/ModelAutoSys_SingleTrackMdoel.png> <./Bilder/ModelAutoSys_Singl
-eTrackMdoel_FBD.png>] [242]
+ [243 <./Bilder/ModelAutoSys_SingleTrackMdoel.png> <./Bilder/ModelAutoSys_Singl
+eTrackMdoel_FBD.png>] [244]
 
 LaTeX Warning: Reference `Fig_ModelAutoSys_singleTrack_NonlinearEqu' on page 24
-3 undefined on input line 452.
+5 undefined on input line 452.
 
-[243]
+[245]
 Overfull \hbox (48.15352pt too wide) detected at line 471
 []
  []
 
-[244] [245]
-<Bilder/DifferentialDriveRobot.pdf, id=5066, 619.62785pt x 439.85661pt>
+[246] [247]
+<Bilder/DifferentialDriveRobot.pdf, id=5108, 619.62785pt x 439.85661pt>
 File: Bilder/DifferentialDriveRobot.pdf Graphic file (type pdf)
 <use Bilder/DifferentialDriveRobot.pdf>
 Package pdftex.def Info: Bilder/DifferentialDriveRobot.pdf  used on input line 
 509.
 (pdftex.def)             Requested size: 205.96938pt x 146.20686pt.
-<Bilder/30_DifferentialRobot2.pdf, id=5068, 585.48737pt x 279.96342pt>
+<Bilder/30_DifferentialRobot2.pdf, id=5110, 585.48737pt x 279.96342pt>
 File: Bilder/30_DifferentialRobot2.pdf Graphic file (type pdf)
 <use Bilder/30_DifferentialRobot2.pdf>
 Package pdftex.def Info: Bilder/30_DifferentialRobot2.pdf  used on input line 5
@@ -3117,18 +3118,18 @@ File: Bilder/30_DifferentialRobot2.pdf Graphic file (type pdf)
 Package pdftex.def Info: Bilder/30_DifferentialRobot2.pdf  used on input line 5
 39.
 (pdftex.def)             Requested size: 164.77298pt x 78.7865pt.
- [246 <./Bilder/DifferentialDriveRobot.pdf> <./Bilder/30_DifferentialRobot2.pdf
+ [248 <./Bilder/DifferentialDriveRobot.pdf> <./Bilder/30_DifferentialRobot2.pdf
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/30_DifferentialRobo
 t2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 
->] [247]) (./chapters/04_Linearizing.tex [248]
+>] [249]) (./chapters/04_Linearizing.tex [250]
 chapter 21.
-[249
+[251
 
 ]
-<Bilder/Lin_OP_FeedBack.png, id=5123, 585.18625pt x 298.11375pt>
+<Bilder/Lin_OP_FeedBack.png, id=5166, 585.18625pt x 298.11375pt>
 File: Bilder/Lin_OP_FeedBack.png Graphic file (type png)
 <use Bilder/Lin_OP_FeedBack.png>
 Package pdftex.def Info: Bilder/Lin_OP_FeedBack.png  used on input line 63.
@@ -3137,8 +3138,8 @@ Package pdftex.def Info: Bilder/Lin_OP_FeedBack.png  used on input line 63.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[250] [251 <./Bilder/Lin_OP_FeedBack.png>])
-(./chapters/Part2_StateSpaceBehavior.tex [252]
+[252] [253 <./Bilder/Lin_OP_FeedBack.png>])
+(./chapters/Part2_StateSpaceBehavior.tex [254]
 chapter 22.
 
 Overfull \hbox (21.04956pt too wide) detected at line 12
@@ -3157,21 +3158,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 23.
 
-[253
+[255
 
-]) (./chapters/Part2_StateFeedbackDesign.tex [254]
+]) (./chapters/Part2_StateFeedbackDesign.tex [256]
 chapter 23.
-<Bilder/StSp_OL_Design.png, id=5181, 536.0025pt x 268.00125pt>
+<Bilder/StSp_OL_Design.png, id=5224, 536.0025pt x 268.00125pt>
 File: Bilder/StSp_OL_Design.png Graphic file (type png)
 <use Bilder/StSp_OL_Design.png>
 Package pdftex.def Info: Bilder/StSp_OL_Design.png  used on input line 23.
 (pdftex.def)             Requested size: 247.16577pt x 123.58058pt.
-<Bilder/StSp_CL_Design.png, id=5182, 686.565pt x 329.23pt>
+<Bilder/StSp_CL_Design.png, id=5225, 686.565pt x 329.23pt>
 File: Bilder/StSp_CL_Design.png Graphic file (type png)
 <use Bilder/StSp_CL_Design.png>
 Package pdftex.def Info: Bilder/StSp_CL_Design.png  used on input line 29.
 (pdftex.def)             Requested size: 247.16577pt x 118.5227pt.
-<Bilder/StSp_without_D.png, id=5183, 686.565pt x 268.00125pt>
+<Bilder/StSp_without_D.png, id=5226, 686.565pt x 268.00125pt>
 File: Bilder/StSp_without_D.png Graphic file (type png)
 <use Bilder/StSp_without_D.png>
 Package pdftex.def Info: Bilder/StSp_without_D.png  used on input line 35.
@@ -3185,11 +3186,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[255
+[257
 
-] [256 <./Bilder/StSp_OL_Design.png> <./Bilder/StSp_CL_Design.png> <./Bilder/St
-Sp_without_D.png>] [257] [258] [259]
-<Bilder/StSp_FD_Ex1.png, id=5253, 834.11626pt x 452.69125pt>
+] [258 <./Bilder/StSp_OL_Design.png> <./Bilder/StSp_CL_Design.png> <./Bilder/St
+Sp_without_D.png>] [259] [260] [261]
+<Bilder/StSp_FD_Ex1.png, id=5296, 834.11626pt x 452.69125pt>
 File: Bilder/StSp_FD_Ex1.png Graphic file (type png)
 <use Bilder/StSp_FD_Ex1.png>
 Package pdftex.def Info: Bilder/StSp_FD_Ex1.png  used on input line 221.
@@ -3205,7 +3206,7 @@ Package epstopdf Info: Source file: <Bilder/StSp_FD_Ex1_1.eps>
 onverted-to.pdf Bilder/StSp_FD_Ex1_1.eps>
 (epstopdf)             \includegraphics on input line 228.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/StSp_FD_Ex1_1-eps-converted-to.pdf, id=5255, 562.1pt x 398.48875pt>
+<Bilder/StSp_FD_Ex1_1-eps-converted-to.pdf, id=5298, 562.1pt x 398.48875pt>
 File: Bilder/StSp_FD_Ex1_1-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/StSp_FD_Ex1_1-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/StSp_FD_Ex1_1-eps-converted-to.pdf  used on inp
@@ -3215,7 +3216,7 @@ ut line 228.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[260 <./Bilder/StSp_FD_Ex1.png>]
+[262 <./Bilder/StSp_FD_Ex1.png>]
 Package epstopdf Info: Source file: <Bilder/StSp_FD_Ex1_2.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
 (epstopdf)                    size: 47051 bytes
@@ -3227,7 +3228,7 @@ Package epstopdf Info: Source file: <Bilder/StSp_FD_Ex1_2.eps>
 onverted-to.pdf Bilder/StSp_FD_Ex1_2.eps>
 (epstopdf)             \includegraphics on input line 236.
 Package epstopdf Info: Output file is already uptodate.
-<Bilder/StSp_FD_Ex1_2-eps-converted-to.pdf, id=5267, 562.1pt x 398.48875pt>
+<Bilder/StSp_FD_Ex1_2-eps-converted-to.pdf, id=5311, 562.1pt x 398.48875pt>
 File: Bilder/StSp_FD_Ex1_2-eps-converted-to.pdf Graphic file (type pdf)
 <use Bilder/StSp_FD_Ex1_2-eps-converted-to.pdf>
 Package pdftex.def Info: Bilder/StSp_FD_Ex1_2-eps-converted-to.pdf  used on inp
@@ -3236,17 +3237,17 @@ ut line 236.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [261 <./Bilder/StSp_FD_Ex1_1-eps-converted-to.pdf> <./Bilder/StSp_FD_Ex1_2-eps
--converted-to.pdf>]) (./chapters/Part2_Tuning.tex [262]
+ [263 <./Bilder/StSp_FD_Ex1_1-eps-converted-to.pdf> <./Bilder/StSp_FD_Ex1_2-eps
+-converted-to.pdf>]) (./chapters/Part2_Tuning.tex [264]
 chapter 24.
-[263
+[265
 
-] [264]
+] [266]
 Overfull \hbox (25.12263pt too wide) detected at line 94
 []
  []
 
-[265] [266] [267] [268]
+[267] [268] [269] [270]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 253.
@@ -3258,17 +3259,17 @@ Overfull \hbox (29.18744pt too wide) detected at line 287
 12 = []
  []
 
-[269] [270] [271]) (./chapters/Part2_Controllability_Observability.tex [272]
+[271] [272] [273]) (./chapters/Part2_Controllability_Observability.tex [274]
 chapter 25.
-[273
+[275
 
-] [274]
-<Bilder/SS1.png, id=5423, 488.82625pt x 287.0725pt>
+] [276]
+<Bilder/SS1.png, id=5465, 488.82625pt x 287.0725pt>
 File: Bilder/SS1.png Graphic file (type png)
 <use Bilder/SS1.png>
 Package pdftex.def Info: Bilder/SS1.png  used on input line 91.
 (pdftex.def)             Requested size: 205.96938pt x 120.95947pt.
-<Bilder/SS2.png, id=5425, 678.535pt x 474.77374pt>
+<Bilder/SS2.png, id=5467, 678.535pt x 474.77374pt>
 File: Bilder/SS2.png Graphic file (type png)
 <use Bilder/SS2.png>
 Package pdftex.def Info: Bilder/SS2.png  used on input line 98.
@@ -3284,8 +3285,8 @@ r/m/n/12 )) =
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[275]
-<Bilder/SS3.png, id=5434, 677.53125pt x 476.78125pt>
+[277]
+<Bilder/SS3.png, id=5476, 677.53125pt x 476.78125pt>
 File: Bilder/SS3.png Graphic file (type png)
 <use Bilder/SS3.png>
 Package pdftex.def Info: Bilder/SS3.png  used on input line 106.
@@ -3294,16 +3295,16 @@ Package pdftex.def Info: Bilder/SS3.png  used on input line 106.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[276 <./Bilder/SS1.png> <./Bilder/SS2.png>] [277 <./Bilder/SS3.png>] [278
+[278 <./Bilder/SS1.png> <./Bilder/SS2.png>] [279 <./Bilder/SS3.png>] [280
 
 ]
 chapter 26.
-<Bilder/SE_FB_Principle.png, id=5452, 652.4375pt x 297.11pt>
+<Bilder/SE_FB_Principle.png, id=5495, 652.4375pt x 297.11pt>
 File: Bilder/SE_FB_Principle.png Graphic file (type png)
 <use Bilder/SE_FB_Principle.png>
 Package pdftex.def Info: Bilder/SE_FB_Principle.png  used on input line 10.
 (pdftex.def)             Requested size: 247.16577pt x 112.55388pt.
-<Bilder/SE_Observer_PRinciple.png, id=5456, 513.92pt x 345.29pt>
+<Bilder/SE_Observer_PRinciple.png, id=5499, 513.92pt x 345.29pt>
 File: Bilder/SE_Observer_PRinciple.png Graphic file (type png)
 <use Bilder/SE_Observer_PRinciple.png>
 Package pdftex.def Info: Bilder/SE_Observer_PRinciple.png  used on input line 1
@@ -3315,26 +3316,26 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 4441) has occurred while \output is active []
 
- [279 <./Bilder/SE_FB_Principle.png>]
-<Bilder/SS4.png, id=5463, 922.44624pt x 414.54875pt>
+ [281 <./Bilder/SE_FB_Principle.png>]
+<Bilder/SS4.png, id=5507, 922.44624pt x 414.54875pt>
 File: Bilder/SS4.png Graphic file (type png)
 <use Bilder/SS4.png>
 Package pdftex.def Info: Bilder/SS4.png  used on input line 39.
 (pdftex.def)             Requested size: 205.96938pt x 92.56097pt.
- [280 <./Bilder/SE_Observer_PRinciple.png> <./Bilder/SS4.png>]
-<Bilder/ObserverDesgin1.png, id=5476, 781.92125pt x 458.71375pt>
+ [282 <./Bilder/SE_Observer_PRinciple.png> <./Bilder/SS4.png>]
+<Bilder/ObserverDesgin1.png, id=5519, 781.92125pt x 458.71375pt>
 File: Bilder/ObserverDesgin1.png Graphic file (type png)
 <use Bilder/ObserverDesgin1.png>
 Package pdftex.def Info: Bilder/ObserverDesgin1.png  used on input line 58.
 (pdftex.def)             Requested size: 247.16577pt x 144.99954pt.
- [281 <./Bilder/ObserverDesgin1.png>]
-<Bilder/ObserverDesign2.png, id=5487, 751.80875pt x 486.81876pt>
+ [283 <./Bilder/ObserverDesgin1.png>]
+<Bilder/ObserverDesign2.png, id=5530, 751.80875pt x 486.81876pt>
 File: Bilder/ObserverDesign2.png Graphic file (type png)
 <use Bilder/ObserverDesign2.png>
 Package pdftex.def Info: Bilder/ObserverDesign2.png  used on input line 78.
 (pdftex.def)             Requested size: 247.16577pt x 160.049pt.
- [282 <./Bilder/ObserverDesign2.png>] [283] [284] [285]
-<Bilder/ControlFromEstimatedStates.png, id=5540, 1311.90125pt x 760.8425pt>
+ [284 <./Bilder/ObserverDesign2.png>] [285] [286] [287]
+<Bilder/ControlFromEstimatedStates.png, id=5583, 1311.90125pt x 760.8425pt>
 File: Bilder/ControlFromEstimatedStates.png Graphic file (type png)
 <use Bilder/ControlFromEstimatedStates.png>
 Package pdftex.def Info: Bilder/ControlFromEstimatedStates.png  used on input l
@@ -3344,49 +3345,49 @@ ine 278.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[286] [287 <./Bilder/ControlFromEstimatedStates.png>]
+[288] [289 <./Bilder/ControlFromEstimatedStates.png>]
 Overfull \hbox (12.86555pt too wide) in paragraph at lines 335--336
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[288] [289]
+[290] [291]
 Overfull \hbox (11.04938pt too wide) in paragraph at lines 406--408
 []\T1/ptm/m/n/12 Estimate $\OML/cmm/m/it/12 x$ \T1/ptm/m/n/12 us-ing an ob-serv
 er (that now also con-tains u) Pre-vi-ously, in the Predictor-
  []
 
-<Bilder/SS5.png, id=5596, 664.4825pt x 370.38374pt>
+<Bilder/SS5.png, id=5639, 664.4825pt x 370.38374pt>
 File: Bilder/SS5.png Graphic file (type png)
 <use Bilder/SS5.png>
 Package pdftex.def Info: Bilder/SS5.png  used on input line 441.
 (pdftex.def)             Requested size: 267.75768pt x 149.24727pt.
-[290] [291 <./Bilder/SS5.png>]
+[292] [293 <./Bilder/SS5.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 477.
 
-[292]
+[294]
 Overfull \hbox (52.78462pt too wide) detected at line 555
 [][] [] \OT1/cmr/m/n/12 = [] [] + [] [] + [] + \OML/cmm/m/it/12 ^^Z[] [] [] \OT
 1/cmr/m/n/12 [1 0] []
  []
 
-[293]
-<Bilder/Gaussian_distrubution_v.PNG, id=5639, 583.17876pt x 373.395pt>
+[295]
+<Bilder/Gaussian_distrubution_v.PNG, id=5681, 583.17876pt x 373.395pt>
 File: Bilder/Gaussian_distrubution_v.PNG Graphic file (type png)
 <use Bilder/Gaussian_distrubution_v.PNG>
 Package pdftex.def Info: Bilder/Gaussian_distrubution_v.PNG  used on input line
  581.
 (pdftex.def)             Requested size: 205.96938pt x 131.87529pt.
- [294 <./Bilder/Gaussian_distrubution_v.PNG>]
-<Bilder/Probabiity_density_fcn.png, id=5652, 966.61125pt x 334.24875pt>
+ [296 <./Bilder/Gaussian_distrubution_v.PNG>]
+<Bilder/Probabiity_density_fcn.png, id=5694, 966.61125pt x 334.24875pt>
 File: Bilder/Probabiity_density_fcn.png Graphic file (type png)
 <use Bilder/Probabiity_density_fcn.png>
 Package pdftex.def Info: Bilder/Probabiity_density_fcn.png  used on input line 
 597.
 (pdftex.def)             Requested size: 411.93877pt x 142.444pt.
- [295 <./Bilder/Probabiity_density_fcn.png>]
-<Bilder/Px_covaraince_matrix.png, id=5668, 964.60374pt x 320.19624pt>
+ [297 <./Bilder/Probabiity_density_fcn.png>]
+<Bilder/Px_covaraince_matrix.png, id=5710, 964.60374pt x 320.19624pt>
 File: Bilder/Px_covaraince_matrix.png Graphic file (type png)
 <use Bilder/Px_covaraince_matrix.png>
 Package pdftex.def Info: Bilder/Px_covaraince_matrix.png  used on input line 64
@@ -3396,21 +3397,21 @@ Package pdftex.def Info: Bilder/Px_covaraince_matrix.png  used on input line 64
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[296]
-<Bilder/kalman_filter_rust_y.png, id=5683, 964.60374pt x 321.2pt>
+[298]
+<Bilder/kalman_filter_rust_y.png, id=5727, 964.60374pt x 321.2pt>
 File: Bilder/kalman_filter_rust_y.png Graphic file (type png)
 <use Bilder/kalman_filter_rust_y.png>
 Package pdftex.def Info: Bilder/kalman_filter_rust_y.png  used on input line 66
 1.
 (pdftex.def)             Requested size: 411.93877pt x 137.16739pt.
- [297 <./Bilder/Px_covaraince_matrix.png> <./Bilder/kalman_filter_rust_y.png>]
-<Bilder/kalman_filter_trust_x.png, id=5694, 964.60374pt x 321.2pt>
+ [299 <./Bilder/Px_covaraince_matrix.png> <./Bilder/kalman_filter_rust_y.png>]
+<Bilder/kalman_filter_trust_x.png, id=5737, 964.60374pt x 321.2pt>
 File: Bilder/kalman_filter_trust_x.png Graphic file (type png)
 <use Bilder/kalman_filter_trust_x.png>
 Package pdftex.def Info: Bilder/kalman_filter_trust_x.png  used on input line 6
 80.
 (pdftex.def)             Requested size: 411.93877pt x 137.16739pt.
-<Bilder/kalman_filter_sensor_fusion.png, id=5696, 964.60374pt x 321.2pt>
+<Bilder/kalman_filter_sensor_fusion.png, id=5739, 964.60374pt x 321.2pt>
 File: Bilder/kalman_filter_sensor_fusion.png Graphic file (type png)
 <use Bilder/kalman_filter_sensor_fusion.png>
 Package pdftex.def Info: Bilder/kalman_filter_sensor_fusion.png  used on input 
@@ -3420,17 +3421,17 @@ line 689.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[298 <./Bilder/kalman_filter_trust_x.png>] [299 <./Bilder/kalman_filter_sensor_
-fusion.png>]) (./chapters/Part2_ExamplesOfControlSystems.tex [300]
+[300 <./Bilder/kalman_filter_trust_x.png>] [301 <./Bilder/kalman_filter_sensor_
+fusion.png>]) (./chapters/Part2_ExamplesOfControlSystems.tex [302]
 chapter 27.
 Missing character: There is no Â in font cmr12!
-<Bilder/FE_coordinate_system_intro.png, id=5733, 1042.6152pt x 670.1838pt>
+<Bilder/FE_coordinate_system_intro.png, id=5774, 1042.6152pt x 670.1838pt>
 File: Bilder/FE_coordinate_system_intro.png Graphic file (type png)
 <use Bilder/FE_coordinate_system_intro.png>
 Package pdftex.def Info: Bilder/FE_coordinate_system_intro.png  used on input l
 ine 46.
 (pdftex.def)             Requested size: 288.35587pt x 185.34929pt.
-[301
+[303
 
 ]
 Overfull \hbox (50.85255pt too wide) in paragraph at lines 62--75
@@ -3440,40 +3441,40 @@ Overfull \hbox (50.85255pt too wide) in paragraph at lines 62--75
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[302 <./Bilder/FE_coordinate_system_intro.png>]
+[304 <./Bilder/FE_coordinate_system_intro.png>]
 Overfull \hbox (21.51642pt too wide) detected at line 104
 [][]\OML/cmm/m/it/12 A \OT1/cmr/m/n/12 = [][]
  []
 
-[303] [304]
+[305] [306]
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 152.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-[305]) (./chapters/Part3_RobustControl_1.tex [306]
+[307]) (./chapters/Part3_RobustControl_1.tex [308]
 chapter 28.
-<Bilder/RobustControlReasons1.png, id=5790, 670.505pt x 268.00125pt>
+<Bilder/RobustControlReasons1.png, id=5832, 670.505pt x 268.00125pt>
 File: Bilder/RobustControlReasons1.png Graphic file (type png)
 <use Bilder/RobustControlReasons1.png>
 Package pdftex.def Info: Bilder/RobustControlReasons1.png  used on input line 1
 0.
 (pdftex.def)             Requested size: 247.16577pt x 98.79086pt.
-<Bilder/RobustControlSystemReason2.png, id=5793, 1038.88126pt x 295.1025pt>
+<Bilder/RobustControlSystemReason2.png, id=5835, 1038.88126pt x 295.1025pt>
 File: Bilder/RobustControlSystemReason2.png Graphic file (type png)
 <use Bilder/RobustControlSystemReason2.png>
 Package pdftex.def Info: Bilder/RobustControlSystemReason2.png  used on input l
 ine 17.
 (pdftex.def)             Requested size: 247.16577pt x 70.20914pt.
-<Bilder/RobustControlSystem_Reasons3.png, id=5795, 935.495pt x 276.03125pt>
+<Bilder/RobustControlSystem_Reasons3.png, id=5837, 935.495pt x 276.03125pt>
 File: Bilder/RobustControlSystem_Reasons3.png Graphic file (type png)
 <use Bilder/RobustControlSystem_Reasons3.png>
 Package pdftex.def Info: Bilder/RobustControlSystem_Reasons3.png  used on input
  line 24.
 (pdftex.def)             Requested size: 247.16577pt x 72.92891pt.
-[307
+[309
 
  <./Bilder/RobustControlReasons1.png> <./Bilder/RobustControlSystemReason2.png>
-] [308 <./Bilder/RobustControlSystem_Reasons3.png>]
+] [310 <./Bilder/RobustControlSystem_Reasons3.png>]
 Package epstopdf Info: Source file: <Bilder/Matlab_RobustControl_Intro_1.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
 (epstopdf)                    size: 116745 bytes
@@ -3490,7 +3491,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/Matlab_RobustContro
 l_Intro_1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at
  most version <1.5> allowed
-<Bilder/Matlab_RobustControl_Intro_1-eps-converted-to.pdf, id=5813, 1445.4pt x 
+<Bilder/Matlab_RobustControl_Intro_1-eps-converted-to.pdf, id=5856, 1445.4pt x 
 807.015pt>
 File: Bilder/Matlab_RobustControl_Intro_1-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -3506,7 +3507,7 @@ Overfull \hbox (82.38649pt too wide) in paragraph at lines 47--48
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[309]
+[311]
 Package epstopdf Info: Source file: <Bilder/Matlab_RobustControl_Intro_2.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
 (epstopdf)                    size: 51631 bytes
@@ -3523,7 +3524,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/Matlab_RobustContro
 l_Intro_2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at
  most version <1.5> allowed
-<Bilder/Matlab_RobustControl_Intro_2-eps-converted-to.pdf, id=5823, 562.1pt x 4
+<Bilder/Matlab_RobustControl_Intro_2-eps-converted-to.pdf, id=5865, 562.1pt x 4
 21.575pt>
 File: Bilder/Matlab_RobustControl_Intro_2-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -3534,7 +3535,7 @@ df  used on input line 55.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[310 <./Bilder/Matlab_RobustControl_Intro_1-eps-converted-to.pdf>]
+[312 <./Bilder/Matlab_RobustControl_Intro_1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Bilder/Matlab_RobustControl_Intro_3.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
 (epstopdf)                    size: 56868 bytes
@@ -3551,7 +3552,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/Matlab_RobustContro
 l_Intro_3-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at
  most version <1.5> allowed
-<Bilder/Matlab_RobustControl_Intro_3-eps-converted-to.pdf, id=5839, 562.1pt x 4
+<Bilder/Matlab_RobustControl_Intro_3-eps-converted-to.pdf, id=5880, 562.1pt x 4
 21.575pt>
 File: Bilder/Matlab_RobustControl_Intro_3-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -3559,7 +3560,7 @@ pe pdf)
 Package pdftex.def Info: Bilder/Matlab_RobustControl_Intro_3-eps-converted-to.p
 df  used on input line 63.
 (pdftex.def)             Requested size: 308.95407pt x 231.71257pt.
-[311 <./Bilder/Matlab_RobustControl_Intro_2-eps-converted-to.pdf> <./Bilder/Mat
+[313 <./Bilder/Matlab_RobustControl_Intro_2-eps-converted-to.pdf> <./Bilder/Mat
 lab_RobustControl_Intro_3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Bilder/Matlab_RobustControl_Intro_4.eps>
 (epstopdf)                    date: 2020-09-02 20:12:52
@@ -3577,7 +3578,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/Matlab_RobustContro
 l_Intro_4-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at
  most version <1.5> allowed
-<Bilder/Matlab_RobustControl_Intro_4-eps-converted-to.pdf, id=5863, 562.1pt x 4
+<Bilder/Matlab_RobustControl_Intro_4-eps-converted-to.pdf, id=5904, 562.1pt x 4
 21.575pt>
 File: Bilder/Matlab_RobustControl_Intro_4-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -3601,7 +3602,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Bilder/Matlab_RobustContro
 l_Intro_5-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at
  most version <1.5> allowed
-<Bilder/Matlab_RobustControl_Intro_5-eps-converted-to.pdf, id=5864, 562.1pt x 4
+<Bilder/Matlab_RobustControl_Intro_5-eps-converted-to.pdf, id=5905, 562.1pt x 4
 21.575pt>
 File: Bilder/Matlab_RobustControl_Intro_5-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -3612,10 +3613,10 @@ df  used on input line 89.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[312 <./Bilder/Matlab_RobustControl_Intro_4-eps-converted-to.pdf>]
+[314 <./Bilder/Matlab_RobustControl_Intro_4-eps-converted-to.pdf>]
 Underfull \vbox (badness 1308) has occurred while \output is active []
 
- [313 <./Bilder/Matlab_RobustControl_Intro_5-eps-converted-to.pdf>]) [314] (./m
+ [315 <./Bilder/Matlab_RobustControl_Intro_5-eps-converted-to.pdf>]) [316] (./m
 aster.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 43--48
 \T1/pcr/m/n/12 php ? example = Introduction & section = SystemModeling$[]\T1/pt
@@ -3640,7 +3641,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 5B0AA15CFD6AF605EAA30B523A57883D;24993.
+(rerunfilecheck)             Checksum: FB66119D826A961DAC96ED48FD4FD6C4;25252.
 
 
 LaTeX Warning: There were undefined references.
@@ -3648,10 +3649,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 18974 strings out of 492649
- 343660 string characters out of 6129621
- 637102 words of memory out of 5000000
- 20415 multiletter control sequences out of 15000+600000
+ 18997 strings out of 492649
+ 344005 string characters out of 6129621
+ 637350 words of memory out of 5000000
+ 20422 multiletter control sequences out of 15000+600000
  53474 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,20n,82p,9100b,1006s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3678,10 +3679,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on master.pdf (337 pages, 16209303 bytes).
+Output written on master.pdf (339 pages, 16218118 bytes).
 PDF statistics:
- 6392 PDF objects out of 7423 (max. 8388607)
- 5496 compressed objects within 55 object streams
- 1847 named destinations out of 2073 (max. 500000)
- 3391 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6437 PDF objects out of 7423 (max. 8388607)
+ 5538 compressed objects within 56 object streams
+ 1863 named destinations out of 2073 (max. 500000)
+ 3415 words of extra memory for PDF output out of 10000 (max. 10000000)
 
