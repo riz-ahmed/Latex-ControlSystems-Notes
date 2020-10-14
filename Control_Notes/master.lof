@@ -1,214 +1,214 @@
 \babel@toc {english}{}
 \babel@toc {english}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Geometry of two points using vectors}}{4}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Vector of a point represented from body frame to global frame}}{5}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Rotation of unit vectors}}{6}{figure.1.3}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Vectors in moving frames}}{8}{figure.1.4}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces 2 DOF motion problem stated in polar coordinates}}{10}{figure.1.5}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Top view of 2 DOF motion problem stated in polar coordinates}}{11}{figure.1.6}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Taking time-derivative of unit vector in polar coordinates}}{12}{figure.1.7}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Rotation Problem 1}}{14}{figure.1.8}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Rotation problem 2}}{16}{figure.1.9}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Rotation Problem 3}}{17}{figure.1.10}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Anglar velocity with zero tilt angle}}{18}{figure.1.11}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Geometry of two points using vectors}}{4}{figure.1.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Vector of a point represented from body frame to global frame}}{5}{figure.1.2}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Rotation of unit vectors}}{6}{figure.1.3}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Vectors in moving frames}}{8}{figure.1.4}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces 2 DOF motion problem stated in polar coordinates}}{10}{figure.1.5}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Top view of 2 DOF motion problem stated in polar coordinates}}{11}{figure.1.6}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Taking time-derivative of unit vector in polar coordinates}}{12}{figure.1.7}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Rotation Problem 1}}{14}{figure.1.8}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Rotation problem 2}}{16}{figure.1.9}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Rotation Problem 3}}{17}{figure.1.10}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Anglar velocity with zero tilt angle}}{18}{figure.1.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Impulse - Momentum Problem}}{22}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Momentum problem on system of particles}}{23}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Angular momentum of B w.r.t O}}{24}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Angular momentum of B w.r.t A}}{24}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Angular momentum problem}}{26}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Problem 2 on Torque and Angular Momentum}}{28}{figure.2.6}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Problem 2 on Torque and Angular Momentum, case 2}}{29}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Exercise Problem on Inclined plane and polar coordinates}}{31}{figure.2.8}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Impulse - Momentum Problem}}{22}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Momentum problem on system of particles}}{23}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Angular momentum of B w.r.t O}}{24}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Angular momentum of B w.r.t A}}{24}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Angular momentum problem}}{26}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Problem 2 on Torque and Angular Momentum}}{28}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Problem 2 on Torque and Angular Momentum, case 2}}{29}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Exercise Problem on Inclined plane and polar coordinates}}{31}{figure.2.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Rotation problem to describe fictitious forces}}{34}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Naming fictitious forces using FBD's}}{35}{figure.3.2}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Rotation problem to describe fictitious forces}}{34}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Naming fictitious forces using FBD's}}{35}{figure.3.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Pendulum attached to a torsional spring}}{38}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces FBD for pendulum BOB}}{39}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces FBD for pendulum Link}}{39}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces FBD for pendulum Link}}{40}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Two sliding masses}}{42}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces FBD mass 1}}{43}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces FBD mass 2}}{43}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Two mass suspension system}}{44}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces FBD of two mass}}{45}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces FBD of wheel}}{45}{figure.4.10}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Pendulum attached to a torsional spring}}{38}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces FBD for pendulum BOB}}{39}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces FBD for pendulum Link}}{39}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces FBD for pendulum Link}}{40}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Two sliding masses}}{42}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces FBD mass 1}}{43}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces FBD mass 2}}{43}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Two mass suspension system}}{44}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces FBD of two mass}}{45}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces FBD of wheel}}{45}{figure.4.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Finding mass moment of inertia (MMI)}}{47}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Similar problem on finding MMI}}{48}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Axis of symmetry for rotating objects}}{50}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Mass placed asymmetrically about the rotating axis}}{51}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Products of inertia results in $\mathbf {H}_{/A}$ on non-rotating axis}}{52}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Cart and pendulum}}{53}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces FBD of pendulum}}{54}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces FBD of cart}}{55}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Translating masses}}{58}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces FBD of mass 1}}{59}{figure.5.10}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Finding mass moment of inertia (MMI)}}{47}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Similar problem on finding MMI}}{48}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Axis of symmetry for rotating objects}}{50}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Mass placed asymmetrically about the rotating axis}}{51}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Products of inertia results in $\mathbf {H}_{/A}$ on non-rotating axis}}{52}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Cart and pendulum}}{53}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces FBD of pendulum}}{54}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces FBD of cart}}{55}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Translating masses}}{58}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces FBD of mass 1}}{59}{figure.5.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Flow of solution to LDE to and from Laplace Transforms}}{67}{figure.6.1}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Flow of solution to LDE to and from Laplace Transforms}}{67}{figure.6.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Model verification and validation definition}}{82}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Step response at $\zeta = 0.2$}}{86}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Step response at $\zeta = 0.4$}}{87}{figure.7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Step response at $\zeta = 0.8$}}{87}{figure.7.4}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Step response for pole at $s = -2$}}{88}{figure.7.5}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Step response for pole at $s = -10$}}{88}{figure.7.6}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Step response for whole system with both the poles at $\{ -2,-10 \}$}}{89}{figure.7.7}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Zeros increase the overshoot of the system}}{91}{figure.7.8}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Zeros increase the overshoot of the system}}{92}{figure.7.9}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Zeros which are close to poles cancel them}}{93}{figure.7.10}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Model verification and validation definition}}{82}{figure.7.1}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Step response at $\zeta = 0.2$}}{86}{figure.7.2}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Step response at $\zeta = 0.4$}}{87}{figure.7.3}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Step response at $\zeta = 0.8$}}{87}{figure.7.4}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Step response for pole at $s = -2$}}{88}{figure.7.5}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Step response for pole at $s = -10$}}{88}{figure.7.6}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Step response for whole system with both the poles at $\{ -2,-10 \}$}}{89}{figure.7.7}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Zeros increase the overshoot of the system}}{91}{figure.7.8}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Zeros increase the overshoot of the system}}{92}{figure.7.9}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Zeros which are close to poles cancel them}}{93}{figure.7.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Impulse response of a first order system}}{97}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Step response of a first order system}}{99}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Neighborhood of a non-linear system stability}}{104}{figure.8.3}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Lagrange Stability}}{105}{figure.8.4}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Lyaponov Stability}}{105}{figure.8.5}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Asymptotic stability}}{106}{figure.8.6}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Poles in the PT2 system}}{107}{figure.8.7}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Solution to PT-2 system with step input using Laplace transform}}{108}{figure.8.8}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Important behvarial propertial seen in PT-2 systems}}{109}{figure.8.9}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Delay and Rise times seen in PT-2 systems}}{110}{figure.8.10}
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Settling time seen in PT-2 systems}}{111}{figure.8.11}
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Peak time seen in PT-2 systems}}{112}{figure.8.12}
-\contentsline {figure}{\numberline {8.13}{\ignorespaces Maximun overshoot seen in PT-2 systems}}{113}{figure.8.13}
-\contentsline {figure}{\numberline {8.14}{\ignorespaces Poles determine the system behavior}}{114}{figure.8.14}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Impulse response of a first order system}}{97}{figure.8.1}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Step response of a first order system}}{99}{figure.8.2}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Neighborhood of a non-linear system stability}}{104}{figure.8.3}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Lagrange Stability}}{105}{figure.8.4}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Lyaponov Stability}}{105}{figure.8.5}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Asymptotic stability}}{106}{figure.8.6}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Poles in the PT2 system}}{107}{figure.8.7}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Solution to PT-2 system with step input using Laplace transform}}{108}{figure.8.8}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Important behvarial propertial seen in PT-2 systems}}{109}{figure.8.9}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Delay and Rise times seen in PT-2 systems}}{110}{figure.8.10}%
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Settling time seen in PT-2 systems}}{111}{figure.8.11}%
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Peak time seen in PT-2 systems}}{112}{figure.8.12}%
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Maximun overshoot seen in PT-2 systems}}{113}{figure.8.13}%
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Poles determine the system behavior}}{114}{figure.8.14}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Open Loop Control Architecture}}{117}{figure.9.1}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Closed Loop Control Architecture}}{119}{figure.9.2}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Use of Feedback}}{119}{figure.9.3}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Use of Feedback: Making the system robust}}{120}{figure.9.4}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Block diagram reduction: Algebraic}}{121}{figure.9.5}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Block diagram reduction: Memorizing rules}}{122}{figure.9.6}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Block diagram reduction: Series and Parallel}}{122}{figure.9.7}
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Block diagram of Cruise controller with P-type regulator}}{125}{figure.9.8}
-\contentsline {figure}{\numberline {9.9}{\ignorespaces Tracking achieved by Hight Propotional controller gain}}{125}{figure.9.9}
-\contentsline {figure}{\numberline {9.10}{\ignorespaces Tracking failed by high Proportional controller gain with noise}}{126}{figure.9.10}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Open Loop Control Architecture}}{117}{figure.9.1}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Closed Loop Control Architecture}}{119}{figure.9.2}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Use of Feedback}}{119}{figure.9.3}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Use of Feedback: Making the system robust}}{120}{figure.9.4}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Block diagram reduction: Algebraic}}{121}{figure.9.5}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Block diagram reduction: Memorizing rules}}{122}{figure.9.6}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Block diagram reduction: Series and Parallel}}{122}{figure.9.7}%
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Block diagram of Cruise controller with P-type regulator}}{125}{figure.9.8}%
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Tracking achieved by Hight Propotional controller gain}}{125}{figure.9.9}%
+\contentsline {figure}{\numberline {9.10}{\ignorespaces Tracking failed by high Proportional controller gain with noise}}{126}{figure.9.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Plot of Eigenvectors and the matrix A evolution along Eigenvectors}}{128}{figure.10.1}
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Plot of Eigenvectors and the matrix A evolution along Eigenvectors}}{128}{figure.10.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces PI Controller for Automatic Cruise Control}}{133}{figure.11.1}
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Pole location of the roots given in equations \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {Eq_RealPole}\unskip \@@italiccorr )}} and \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {Eq_ImPole}\unskip \@@italiccorr )}}}}{134}{figure.11.2}
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Example calculating SS error}}{135}{figure.11.3}
-\contentsline {figure}{\numberline {11.4}{\ignorespaces PT-2 canonical system with P-Control}}{137}{figure.11.4}
-\contentsline {figure}{\numberline {11.5}{\ignorespaces Steady-state error with P-Control}}{137}{figure.11.5}
-\contentsline {figure}{\numberline {11.6}{\ignorespaces Reduced Steady-state error with P-Control}}{139}{figure.11.6}
-\contentsline {figure}{\numberline {11.7}{\ignorespaces Overshoot elimination using derivative control}}{141}{figure.11.7}
-\contentsline {figure}{\numberline {11.8}{\ignorespaces Performance of Derivative Control with noise}}{142}{figure.11.8}
-\contentsline {figure}{\numberline {11.9}{\ignorespaces Noise amplification of derivative control into the system}}{143}{figure.11.9}
+\contentsline {figure}{\numberline {11.1}{\ignorespaces PI Controller for Automatic Cruise Control}}{133}{figure.11.1}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Pole location of the roots given in equations \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {Eq_RealPole}\unskip \@@italiccorr )}} and \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {Eq_ImPole}\unskip \@@italiccorr )}}}}{134}{figure.11.2}%
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Example calculating SS error}}{135}{figure.11.3}%
+\contentsline {figure}{\numberline {11.4}{\ignorespaces PT-2 canonical system with P-Control}}{137}{figure.11.4}%
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Steady-state error with P-Control}}{137}{figure.11.5}%
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Reduced Steady-state error with P-Control}}{139}{figure.11.6}%
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Overshoot elimination using derivative control}}{141}{figure.11.7}%
+\contentsline {figure}{\numberline {11.8}{\ignorespaces Performance of Derivative Control with noise}}{142}{figure.11.8}%
+\contentsline {figure}{\numberline {11.9}{\ignorespaces Noise amplification of derivative control into the system}}{143}{figure.11.9}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Root locus definition}}{149}{figure.12.1}
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Root locus definition}}{150}{figure.12.2}
-\contentsline {figure}{\numberline {12.3}{\ignorespaces Root locus constraint ratio plot on the complex plane}}{152}{figure.12.3}
-\contentsline {figure}{\numberline {12.4}{\ignorespaces Control design using root locus (non-canonical systems)}}{155}{figure.12.4}
-\contentsline {figure}{\numberline {12.5}{\ignorespaces Control design using root locus (non-canonical systems)}}{155}{figure.12.5}
-\contentsline {figure}{\numberline {12.6}{\ignorespaces System response for $K = 4.07$}}{156}{figure.12.6}
-\contentsline {figure}{\numberline {12.7}{\ignorespaces System response for $K = 5.46$}}{157}{figure.12.7}
-\contentsline {figure}{\numberline {12.8}{\ignorespaces Example using root locus altering for this system}}{158}{figure.12.8}
-\contentsline {figure}{\numberline {12.9}{\ignorespaces Root locus with area of control interest enveloped between semi-circle and angled lines}}{159}{figure.12.9}
-\contentsline {figure}{\numberline {12.10}{\ignorespaces Altering root locus by placing a zero to the left of two poles}}{160}{figure.12.10}
-\contentsline {figure}{\numberline {12.11}{\ignorespaces Altering root locus by placing a zero in-between two poles}}{161}{figure.12.11}
-\contentsline {figure}{\numberline {12.12}{\ignorespaces Altering root locus by placing a zero in-between two poles}}{162}{figure.12.12}
-\contentsline {figure}{\numberline {12.13}{\ignorespaces Altering root locus by placing a zero in-between two poles}}{163}{figure.12.13}
-\contentsline {figure}{\numberline {12.14}{\ignorespaces Altering root locus by placing a zero in-between two poles}}{164}{figure.12.14}
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Root locus definition}}{149}{figure.12.1}%
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Root locus definition}}{150}{figure.12.2}%
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Root locus constraint ratio plot on the complex plane}}{152}{figure.12.3}%
+\contentsline {figure}{\numberline {12.4}{\ignorespaces Control design using root locus (non-canonical systems)}}{155}{figure.12.4}%
+\contentsline {figure}{\numberline {12.5}{\ignorespaces Control design using root locus (non-canonical systems)}}{155}{figure.12.5}%
+\contentsline {figure}{\numberline {12.6}{\ignorespaces System response for $K = 4.07$}}{156}{figure.12.6}%
+\contentsline {figure}{\numberline {12.7}{\ignorespaces System response for $K = 5.46$}}{157}{figure.12.7}%
+\contentsline {figure}{\numberline {12.8}{\ignorespaces Example using root locus altering for this system}}{158}{figure.12.8}%
+\contentsline {figure}{\numberline {12.9}{\ignorespaces Root locus with area of control interest enveloped between semi-circle and angled lines}}{159}{figure.12.9}%
+\contentsline {figure}{\numberline {12.10}{\ignorespaces Altering root locus by placing a zero to the left of two poles}}{160}{figure.12.10}%
+\contentsline {figure}{\numberline {12.11}{\ignorespaces Altering root locus by placing a zero in-between two poles}}{161}{figure.12.11}%
+\contentsline {figure}{\numberline {12.12}{\ignorespaces Altering root locus by placing a zero in-between two poles}}{162}{figure.12.12}%
+\contentsline {figure}{\numberline {12.13}{\ignorespaces Altering root locus by placing a zero in-between two poles}}{163}{figure.12.13}%
+\contentsline {figure}{\numberline {12.14}{\ignorespaces Altering root locus by placing a zero in-between two poles}}{164}{figure.12.14}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {13.1}{\ignorespaces Graphical Represenataion of the Analytical frequency response}}{165}{figure.13.1}
-\contentsline {figure}{\numberline {13.2}{\ignorespaces Bode plot of gain $K$}}{169}{figure.13.2}
-\contentsline {figure}{\numberline {13.3}{\ignorespaces Bode plot of Differentiator $s$}}{170}{figure.13.3}
-\contentsline {figure}{\numberline {13.4}{\ignorespaces Bode plot of Integrator $1/s$}}{171}{figure.13.4}
-\contentsline {figure}{\numberline {13.5}{\ignorespaces Bode plot of simple zero $(Ts + 1)$}}{173}{figure.13.5}
-\contentsline {figure}{\numberline {13.6}{\ignorespaces Bode plot of simple pole $1/(Ts + 1)$}}{174}{figure.13.6}
-\contentsline {figure}{\numberline {13.7}{\ignorespaces A Closed-loop system with input as frequency}}{175}{figure.13.7}
-\contentsline {figure}{\numberline {13.8}{\ignorespaces Gain and phase margins on Bode plot}}{177}{figure.13.8}
-\contentsline {figure}{\numberline {13.9}{\ignorespaces Effect of $K$ on relative stability}}{178}{figure.13.9}
-\contentsline {figure}{\numberline {13.10}{\ignorespaces Determining Magnitude and Phase using Bode Plots}}{179}{figure.13.10}
-\contentsline {figure}{\numberline {13.11}{\ignorespaces system Identification using Bode Plot}}{180}{figure.13.11}
-\contentsline {figure}{\numberline {13.12}{\ignorespaces Plotting example of complex numbers in Nyquist plot}}{183}{figure.13.12}
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Graphical Represenataion of the Analytical frequency response}}{165}{figure.13.1}%
+\contentsline {figure}{\numberline {13.2}{\ignorespaces Bode plot of gain $K$}}{169}{figure.13.2}%
+\contentsline {figure}{\numberline {13.3}{\ignorespaces Bode plot of Differentiator $s$}}{170}{figure.13.3}%
+\contentsline {figure}{\numberline {13.4}{\ignorespaces Bode plot of Integrator $1/s$}}{171}{figure.13.4}%
+\contentsline {figure}{\numberline {13.5}{\ignorespaces Bode plot of simple zero $(Ts + 1)$}}{173}{figure.13.5}%
+\contentsline {figure}{\numberline {13.6}{\ignorespaces Bode plot of simple pole $1/(Ts + 1)$}}{174}{figure.13.6}%
+\contentsline {figure}{\numberline {13.7}{\ignorespaces A Closed-loop system with input as frequency}}{175}{figure.13.7}%
+\contentsline {figure}{\numberline {13.8}{\ignorespaces Gain and phase margins on Bode plot}}{177}{figure.13.8}%
+\contentsline {figure}{\numberline {13.9}{\ignorespaces Effect of $K$ on relative stability}}{178}{figure.13.9}%
+\contentsline {figure}{\numberline {13.10}{\ignorespaces Determining Magnitude and Phase using Bode Plots}}{179}{figure.13.10}%
+\contentsline {figure}{\numberline {13.11}{\ignorespaces system Identification using Bode Plot}}{180}{figure.13.11}%
+\contentsline {figure}{\numberline {13.12}{\ignorespaces Plotting example of complex numbers in Nyquist plot}}{183}{figure.13.12}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {14.1}{\ignorespaces Step Response}}{186}{figure.14.1}
-\contentsline {figure}{\numberline {14.2}{\ignorespaces Frequency Response}}{186}{figure.14.2}
-\contentsline {figure}{\numberline {14.3}{\ignorespaces Overview of time and frequency relationships}}{188}{figure.14.3}
-\contentsline {figure}{\numberline {14.4}{\ignorespaces Bode plot of the lead compensator}}{190}{figure.14.4}
-\contentsline {figure}{\numberline {14.5}{\ignorespaces Bode plot of the lead compensator}}{191}{figure.14.5}
-\contentsline {figure}{\numberline {14.6}{\ignorespaces Bode plot of the lead compensator and plant}}{192}{figure.14.6}
-\contentsline {figure}{\numberline {14.7}{\ignorespaces Bode plot of plant with LC}}{193}{figure.14.7}
-\contentsline {figure}{\numberline {14.8}{\ignorespaces Bode plot of plant with LC}}{194}{figure.14.8}
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Step Response}}{186}{figure.14.1}%
+\contentsline {figure}{\numberline {14.2}{\ignorespaces Frequency Response}}{186}{figure.14.2}%
+\contentsline {figure}{\numberline {14.3}{\ignorespaces Overview of time and frequency relationships}}{188}{figure.14.3}%
+\contentsline {figure}{\numberline {14.4}{\ignorespaces Bode plot of the lead compensator}}{190}{figure.14.4}%
+\contentsline {figure}{\numberline {14.5}{\ignorespaces Bode plot of the lead compensator}}{191}{figure.14.5}%
+\contentsline {figure}{\numberline {14.6}{\ignorespaces Bode plot of the lead compensator and plant}}{192}{figure.14.6}%
+\contentsline {figure}{\numberline {14.7}{\ignorespaces Bode plot of plant with LC}}{193}{figure.14.7}%
+\contentsline {figure}{\numberline {14.8}{\ignorespaces Bode plot of plant with LC}}{194}{figure.14.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {15.1}{\ignorespaces MIMO system with noise and disturbance}}{198}{figure.15.1}
-\contentsline {figure}{\numberline {15.2}{\ignorespaces Control strategy for noise and disturbance attenuation}}{199}{figure.15.2}
-\contentsline {figure}{\numberline {15.3}{\ignorespaces Time Delay theory 1}}{200}{figure.15.3}
-\contentsline {figure}{\numberline {15.4}{\ignorespaces Time Delay theory 2}}{201}{figure.15.4}
+\contentsline {figure}{\numberline {15.1}{\ignorespaces MIMO system with noise and disturbance}}{198}{figure.15.1}%
+\contentsline {figure}{\numberline {15.2}{\ignorespaces Control strategy for noise and disturbance attenuation}}{199}{figure.15.2}%
+\contentsline {figure}{\numberline {15.3}{\ignorespaces Time Delay theory 1}}{200}{figure.15.3}%
+\contentsline {figure}{\numberline {15.4}{\ignorespaces Time Delay theory 2}}{201}{figure.15.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {16.1}{\ignorespaces Charged particles creates electric fields}}{203}{figure.16.1}
-\contentsline {figure}{\numberline {16.2}{\ignorespaces Electric fields exert force on charged particles}}{203}{figure.16.2}
-\contentsline {figure}{\numberline {16.3}{\ignorespaces Resistors in series}}{206}{figure.16.3}
-\contentsline {figure}{\numberline {16.4}{\ignorespaces Resistors in parallel}}{207}{figure.16.4}
-\contentsline {figure}{\numberline {16.5}{\ignorespaces Schematic of a boost converter}}{208}{figure.16.5}
-\contentsline {figure}{\numberline {16.6}{\ignorespaces Boost converter CKT in ON mode}}{208}{figure.16.6}
-\contentsline {figure}{\numberline {16.7}{\ignorespaces Boost converter CKT in OFF mode}}{209}{figure.16.7}
-\contentsline {figure}{\numberline {16.8}{\ignorespaces Performance of boost converter}}{211}{figure.16.8}
-\contentsline {figure}{\numberline {16.9}{\ignorespaces Charging frequency of the boost converter}}{211}{figure.16.9}
-\contentsline {figure}{\numberline {16.10}{\ignorespaces Boost converter charging cycles}}{212}{figure.16.10}
-\contentsline {figure}{\numberline {16.11}{\ignorespaces Example for circuit modeling using TF}}{213}{figure.16.11}
-\contentsline {figure}{\numberline {16.12}{\ignorespaces System modeled in the form representing a voltage divider}}{214}{figure.16.12}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {18.1}{\ignorespaces ACC in OL control}}{220}{figure.18.1}
-\contentsline {figure}{\numberline {18.2}{\ignorespaces ACC in OL control}}{220}{figure.18.2}
-\contentsline {figure}{\numberline {18.3}{\ignorespaces Visualizing state space modeling}}{223}{figure.18.3}
+\contentsline {figure}{\numberline {16.1}{\ignorespaces Charged particles creates electric fields}}{203}{figure.16.1}%
+\contentsline {figure}{\numberline {16.2}{\ignorespaces Electric fields exert force on charged particles}}{203}{figure.16.2}%
+\contentsline {figure}{\numberline {16.3}{\ignorespaces Resistors in series}}{206}{figure.16.3}%
+\contentsline {figure}{\numberline {16.4}{\ignorespaces Resistors in parallel}}{207}{figure.16.4}%
+\contentsline {figure}{\numberline {16.5}{\ignorespaces Schematic of a boost converter}}{208}{figure.16.5}%
+\contentsline {figure}{\numberline {16.6}{\ignorespaces Boost converter CKT in ON mode}}{208}{figure.16.6}%
+\contentsline {figure}{\numberline {16.7}{\ignorespaces Boost converter CKT in OFF mode}}{209}{figure.16.7}%
+\contentsline {figure}{\numberline {16.8}{\ignorespaces Performance of boost converter}}{211}{figure.16.8}%
+\contentsline {figure}{\numberline {16.9}{\ignorespaces Charging frequency of the boost converter}}{211}{figure.16.9}%
+\contentsline {figure}{\numberline {16.10}{\ignorespaces Boost converter charging cycles}}{212}{figure.16.10}%
+\contentsline {figure}{\numberline {16.11}{\ignorespaces Example for circuit modeling using TF}}{213}{figure.16.11}%
+\contentsline {figure}{\numberline {16.12}{\ignorespaces System modeled in the form representing a voltage divider}}{214}{figure.16.12}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {20.1}{\ignorespaces Subsystems of entire vehicle model}}{231}{figure.20.1}
-\contentsline {figure}{\numberline {20.2}{\ignorespaces Subsystems of entire vehicle model}}{232}{figure.20.2}
-\contentsline {figure}{\numberline {20.3}{\ignorespaces Further Subsystems of vehicle model}}{232}{figure.20.3}
-\contentsline {figure}{\numberline {20.4}{\ignorespaces Free body diagram chassis model}}{233}{figure.20.4}
-\contentsline {figure}{\numberline {20.5}{\ignorespaces Detailed subsystems of drivetrain}}{235}{figure.20.5}
-\contentsline {figure}{\numberline {20.6}{\ignorespaces FBD of subsystems of drivetrain}}{236}{figure.20.6}
-\contentsline {figure}{\numberline {20.7}{\ignorespaces Suspension model}}{240}{figure.20.7}
-\contentsline {figure}{\numberline {20.8}{\ignorespaces Suspension model}}{240}{figure.20.8}
-\contentsline {figure}{\numberline {20.9}{\ignorespaces Single track model}}{243}{figure.20.9}
-\contentsline {figure}{\numberline {20.10}{\ignorespaces Single track model}}{243}{figure.20.10}
-\contentsline {figure}{\numberline {20.11}{\ignorespaces Differential drive robot}}{248}{figure.20.11}
-\contentsline {figure}{\numberline {20.12}{\ignorespaces Kinematic configuration with $v_r \not =0$ and $v_l = 0$}}{248}{figure.20.12}
-\contentsline {figure}{\numberline {20.13}{\ignorespaces Kinematic configuration with $v_r = 0$ and $v_l \not =0$}}{249}{figure.20.13}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {21.1}{\ignorespaces Adding and subtracting OP's in feedback loop}}{253}{figure.21.1}
+\contentsline {figure}{\numberline {18.1}{\ignorespaces ACC in OL control}}{220}{figure.18.1}%
+\contentsline {figure}{\numberline {18.2}{\ignorespaces ACC in OL control}}{220}{figure.18.2}%
+\contentsline {figure}{\numberline {18.3}{\ignorespaces Visualizing state space modeling}}{223}{figure.18.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {23.1}{\ignorespaces Block diagram of state-space model}}{258}{figure.23.1}
-\contentsline {figure}{\numberline {23.2}{\ignorespaces Block diagram of state feedback model}}{258}{figure.23.2}
-\contentsline {figure}{\numberline {23.3}{\ignorespaces Block diagram of state feedback model without D}}{258}{figure.23.3}
-\contentsline {figure}{\numberline {23.4}{\ignorespaces Simulation results for different design parameters}}{262}{figure.23.4}
-\contentsline {figure}{\numberline {23.5}{\ignorespaces Simulation results for sinusoidal trajectory}}{263}{figure.23.5}
-\contentsline {figure}{\numberline {23.6}{\ignorespaces Simulation results for sinusoidal trajectory with better tracking}}{263}{figure.23.6}
+\contentsline {figure}{\numberline {20.1}{\ignorespaces Subsystems of entire vehicle model}}{231}{figure.20.1}%
+\contentsline {figure}{\numberline {20.2}{\ignorespaces Subsystems of entire vehicle model}}{232}{figure.20.2}%
+\contentsline {figure}{\numberline {20.3}{\ignorespaces Further Subsystems of vehicle model}}{232}{figure.20.3}%
+\contentsline {figure}{\numberline {20.4}{\ignorespaces Free body diagram chassis model}}{233}{figure.20.4}%
+\contentsline {figure}{\numberline {20.5}{\ignorespaces Detailed subsystems of drivetrain}}{235}{figure.20.5}%
+\contentsline {figure}{\numberline {20.6}{\ignorespaces FBD of subsystems of drivetrain}}{236}{figure.20.6}%
+\contentsline {figure}{\numberline {20.7}{\ignorespaces Suspension model}}{240}{figure.20.7}%
+\contentsline {figure}{\numberline {20.8}{\ignorespaces Suspension model}}{240}{figure.20.8}%
+\contentsline {figure}{\numberline {20.9}{\ignorespaces Single track model}}{243}{figure.20.9}%
+\contentsline {figure}{\numberline {20.10}{\ignorespaces Single track model}}{243}{figure.20.10}%
+\contentsline {figure}{\numberline {20.11}{\ignorespaces Differential drive robot}}{248}{figure.20.11}%
+\contentsline {figure}{\numberline {20.12}{\ignorespaces Kinematic configuration with $v_r \neq 0$ and $v_l = 0$}}{248}{figure.20.12}%
+\contentsline {figure}{\numberline {20.13}{\ignorespaces Kinematic configuration with $v_r = 0$ and $v_l \neq 0$}}{249}{figure.20.13}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {21.1}{\ignorespaces Adding and subtracting OP's in feedback loop}}{253}{figure.21.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {25.1}{\ignorespaces A model for trajectory vs Controllability}}{278}{figure.25.1}
-\contentsline {figure}{\numberline {25.2}{\ignorespaces Non possible trajectory}}{278}{figure.25.2}
-\contentsline {figure}{\numberline {25.3}{\ignorespaces Possible trajectory}}{279}{figure.25.3}
+\contentsline {figure}{\numberline {23.1}{\ignorespaces Block diagram of state-space model}}{258}{figure.23.1}%
+\contentsline {figure}{\numberline {23.2}{\ignorespaces Block diagram of state feedback model}}{258}{figure.23.2}%
+\contentsline {figure}{\numberline {23.3}{\ignorespaces Block diagram of state feedback model without D}}{258}{figure.23.3}%
+\contentsline {figure}{\numberline {23.4}{\ignorespaces Simulation results for different design parameters}}{262}{figure.23.4}%
+\contentsline {figure}{\numberline {23.5}{\ignorespaces Simulation results for sinusoidal trajectory}}{263}{figure.23.5}%
+\contentsline {figure}{\numberline {23.6}{\ignorespaces Simulation results for sinusoidal trajectory with better tracking}}{263}{figure.23.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {26.1}{\ignorespaces State-feedback control design principle}}{281}{figure.26.1}
-\contentsline {figure}{\numberline {26.2}{\ignorespaces State estimation principle with observer design}}{282}{figure.26.2}
-\contentsline {figure}{\numberline {26.3}{\ignorespaces Generic Observer Design}}{282}{figure.26.3}
-\contentsline {figure}{\numberline {26.4}{\ignorespaces Open-loop observer design}}{283}{figure.26.4}
-\contentsline {figure}{\numberline {26.5}{\ignorespaces Closed-loop observer design}}{284}{figure.26.5}
-\contentsline {figure}{\numberline {26.6}{\ignorespaces Control algorithm using estimated states}}{289}{figure.26.6}
-\contentsline {figure}{\numberline {26.7}{\ignorespaces Poles of controller and observer}}{293}{figure.26.7}
-\contentsline {figure}{\numberline {26.8}{\ignorespaces Gaussian distribution of sensor disturbances $v$}}{296}{figure.26.8}
-\contentsline {figure}{\numberline {26.9}{\ignorespaces Understanding Kalman filter optimization using graph}}{297}{figure.26.9}
-\contentsline {figure}{\numberline {26.10}{\ignorespaces Definition of $P^{-}_{k}$}}{299}{figure.26.10}
-\contentsline {figure}{\numberline {26.11}{\ignorespaces Definition of $P^{-}_{k}$}}{299}{figure.26.11}
-\contentsline {figure}{\numberline {26.12}{\ignorespaces Definition of $P^{-}_{k}$}}{300}{figure.26.12}
-\contentsline {figure}{\numberline {26.13}{\ignorespaces Definition of $P^{-}_{k}$}}{301}{figure.26.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {27.1}{\ignorespaces Global coordinate system for single track model}}{304}{figure.27.1}
+\contentsline {figure}{\numberline {25.1}{\ignorespaces A model for trajectory vs Controllability}}{278}{figure.25.1}%
+\contentsline {figure}{\numberline {25.2}{\ignorespaces Non possible trajectory}}{278}{figure.25.2}%
+\contentsline {figure}{\numberline {25.3}{\ignorespaces Possible trajectory}}{279}{figure.25.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {28.1}{\ignorespaces Input/Output model of a plant}}{309}{figure.28.1}
-\contentsline {figure}{\numberline {28.2}{\ignorespaces Control system developed using the measurements from the input/output model}}{309}{figure.28.2}
-\contentsline {figure}{\numberline {28.3}{\ignorespaces Control system developed using the measurements from the input/output model}}{310}{figure.28.3}
-\contentsline {figure}{\numberline {28.4}{\ignorespaces open-loop margins of an example system}}{312}{figure.28.4}
-\contentsline {figure}{\numberline {28.5}{\ignorespaces adding gain to the example system}}{313}{figure.28.5}
-\contentsline {figure}{\numberline {28.6}{\ignorespaces adding phase to the example system}}{313}{figure.28.6}
-\contentsline {figure}{\numberline {28.7}{\ignorespaces adding phase to the example system}}{314}{figure.28.7}
-\contentsline {figure}{\numberline {28.8}{\ignorespaces adding phase to the example system}}{315}{figure.28.8}
+\contentsline {figure}{\numberline {26.1}{\ignorespaces State-feedback control design principle}}{281}{figure.26.1}%
+\contentsline {figure}{\numberline {26.2}{\ignorespaces State estimation principle with observer design}}{282}{figure.26.2}%
+\contentsline {figure}{\numberline {26.3}{\ignorespaces Generic Observer Design}}{282}{figure.26.3}%
+\contentsline {figure}{\numberline {26.4}{\ignorespaces Open-loop observer design}}{283}{figure.26.4}%
+\contentsline {figure}{\numberline {26.5}{\ignorespaces Closed-loop observer design}}{284}{figure.26.5}%
+\contentsline {figure}{\numberline {26.6}{\ignorespaces Control algorithm using estimated states}}{289}{figure.26.6}%
+\contentsline {figure}{\numberline {26.7}{\ignorespaces Poles of controller and observer}}{293}{figure.26.7}%
+\contentsline {figure}{\numberline {26.8}{\ignorespaces Gaussian distribution of sensor disturbances $v$}}{296}{figure.26.8}%
+\contentsline {figure}{\numberline {26.9}{\ignorespaces Understanding Kalman filter optimization using graph}}{297}{figure.26.9}%
+\contentsline {figure}{\numberline {26.10}{\ignorespaces Definition of $P^{-}_{k}$}}{299}{figure.26.10}%
+\contentsline {figure}{\numberline {26.11}{\ignorespaces Definition of $P^{-}_{k}$}}{300}{figure.26.11}%
+\contentsline {figure}{\numberline {26.12}{\ignorespaces Definition of $P^{-}_{k}$}}{300}{figure.26.12}%
+\contentsline {figure}{\numberline {26.13}{\ignorespaces Definition of $P^{-}_{k}$}}{301}{figure.26.13}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {27.1}{\ignorespaces Global coordinate system for single track model}}{304}{figure.27.1}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {28.1}{\ignorespaces Input/Output model of a plant}}{309}{figure.28.1}%
+\contentsline {figure}{\numberline {28.2}{\ignorespaces Control system developed using the measurements from the input/output model}}{309}{figure.28.2}%
+\contentsline {figure}{\numberline {28.3}{\ignorespaces Control system developed using the measurements from the input/output model}}{310}{figure.28.3}%
+\contentsline {figure}{\numberline {28.4}{\ignorespaces open-loop margins of an example system}}{312}{figure.28.4}%
+\contentsline {figure}{\numberline {28.5}{\ignorespaces adding gain to the example system}}{313}{figure.28.5}%
+\contentsline {figure}{\numberline {28.6}{\ignorespaces adding phase to the example system}}{313}{figure.28.6}%
+\contentsline {figure}{\numberline {28.7}{\ignorespaces adding phase to the example system}}{314}{figure.28.7}%
+\contentsline {figure}{\numberline {28.8}{\ignorespaces adding phase to the example system}}{315}{figure.28.8}%

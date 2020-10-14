@@ -411,7 +411,7 @@ Note*** In general, a matrix coordinate transforms a vector and a scalar scales 
 Note*** here $\xi$ is a special vector where this relationship is true that $A \xi = \lambda \xi$, this is possible for a limited special case, not every time.
 
 Lets denote a vector $T$ which contains all the $\xi$ such that $T = \xi$ and expressed as
-$$T = [\xi_1 \quad \xi_2 \quad \xi_3 \quad ... \xi_n]$$ and consider another $D$ which is a diagonal matrix of $\lambda$ such that
+$$T = [\xi_1 \quad \xi_2 \quad \xi_3 \quad ... \quad \xi_n]$$ and consider another $D$ which is a diagonal matrix of $\lambda$ such that
 $$\begin{bmatrix}
 \lambda_{1} & 0 & 0 \\ 0 & \lambda_{2} & 0 \\ 0 & 0 & \lambda_{3}
 \end{bmatrix}$$
@@ -452,7 +452,7 @@ The solution of this diagonal matrix is a special case in mathematics as each of
 		e^{\lambda_{1} t} & 0 & 0 & ... & 0 \\ 0 & e^{\lambda_{2} t} & 0 & ... & 0 \\ 0 & 0 & e^{\lambda_{4} t} & ... & 0 \\ . \\. \\. \\ 0 & 0 & 0 & ... & e^{\lambda_{n} t}
 	\end{bmatrix}z(0)
 \end{equation}
-such a solution is quite straight forward and simple compared to the solution of $e^{At}$ where the solution was given by a Taylor's series expansion. Using Matlab'S fucntion \textbf{\textit{[T,D] = eig(A);}} the transformation matrix $T$ and the diagonal matrix $D$ can be determined.
+such a solution is quite straight forward and simple compared to the solution of $e^{At}$ where the solution was given by a Taylor's series expansion. Using Matlab'S function \textbf{\textit{[T,D] = eig(A);}} the transformation matrix $T$ and the diagonal matrix $D$ can be determined.
 
 \subsection{Mapping matrix exponential to diagonal exponential}
 
@@ -468,6 +468,13 @@ substituting this result in the Taylors expansion series
 \begin{equation}
 	e^{At} = T e^{Dt} T^{-1}
 \end{equation}
+
+Substituting the above result in the solution of the original ODE $\dot{x} = e^{At}x(0)$
+\begin{align*}
+	\dot{x} &= T e^{Dt} T^{-1} x(0) \\
+	\dot{x}	&= T e^{Dt} z(0) && \text{the transofrmation matrix transforms x to z} \\
+	\dot{x} &= T \dot{z} && \text{T is therefore used to map from }\dot{x} \text{ to } \dot{z}
+\end{align*}
 
 \section{Newton's Law's for rotating bodies}
 

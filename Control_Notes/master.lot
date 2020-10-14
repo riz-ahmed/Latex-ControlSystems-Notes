@@ -8,20 +8,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Table summarizing PT-1 response for non-zero initial conditions}}{98}{table.8.1}
-\contentsline {table}{\numberline {8.2}{\ignorespaces Table summarizing step response of PT-1 system}}{100}{table.8.2}
-\contentsline {table}{\numberline {8.3}{\ignorespaces Table summarizing response of PT-1 due to step input and IC}}{101}{table.8.3}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Table summarizing PT-1 response for non-zero initial conditions}}{98}{table.8.1}%
+\contentsline {table}{\numberline {8.2}{\ignorespaces Table summarizing step response of PT-1 system}}{100}{table.8.2}%
+\contentsline {table}{\numberline {8.3}{\ignorespaces Table summarizing response of PT-1 due to step input and IC}}{101}{table.8.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {11.1}{\ignorespaces Table summarizing standard system types with standard input types}}{147}{table.11.1}
+\contentsline {table}{\numberline {11.1}{\ignorespaces Table summarizing standard system types with standard input types}}{147}{table.11.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {13.1}{\ignorespaces Table showing $G(j\omega )$ calculation for Nyquist plot}}{182}{table.13.1}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {13.1}{\ignorespaces Table showing $G(j\omega )$ calculation for Nyquist plot}}{182}{table.13.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -32,5 +28,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {27.1}{\ignorespaces Single track model parameters}}{305}{table.27.1}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {27.1}{\ignorespaces Single track model parameters}}{305}{table.27.1}%
 \addvspace {10\p@ }

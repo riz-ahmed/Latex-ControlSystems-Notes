@@ -282,7 +282,7 @@ A $k_{dc} = 1$ will produce a steady-state value of $G(0) = 1$ for the system. T
 
 \subsection{Effect of zeros}
 
-\textbf{Zeros} are the values of $s$ that make the numerator of the transfer function $G(s)$ go to zero. They are the counterparts of poles. There effect on the poles can be studied using partial fraction expansion in Matlab using the command \textcolor{mygray}{[C,p] = residue(20,[1 12 20])}. 
+\textbf{Zeros} are the values of $s$ that make the numerator of the transfer function $G(s)$ go to zero. They are the counterparts of poles. There effect on the poles can be studied using partial fraction expansion in Matlab using the command \textbf{\textit{[C,p] = residue(20,[1 12 20]);}}. 
 \subsubsection{Effect 1: Contribution of each pole to the transfer function}
 Consider the original system with no zeros and its partial fraction expansion:
 \begin{equation}
