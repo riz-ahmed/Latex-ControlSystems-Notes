@@ -312,4 +312,5 @@
 \contentsline {subsection}{\numberline {27.2.4}Estimator design using Kalman Filter}{308}{subsection.27.2.4}%
 \contentsline {chapter}{\numberline {28}Robust Control}{309}{chapter.28}%
 \contentsline {section}{\numberline {28.1}Reason for a Robust control}{309}{section.28.1}%
+\contentsline {chapter}{\numberline {29}Model Predictive Control}{317}{chapter.29}%
 \contentsline {chapter}{Bibliography}{A}{chapter*.9}%
